@@ -662,6 +662,10 @@ a {
     justify-content: center;
 }
 
+.content-home .thumbnail {
+    min-width: 300px;
+}
+
 .content-home .thumbnail img {
     height: 300px;
     width: auto;
@@ -669,6 +673,11 @@ a {
 
 .content-home .entry-header {
     position: absolute;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*--------------------------------------------------------------
