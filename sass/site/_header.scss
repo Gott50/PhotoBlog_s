@@ -3,7 +3,7 @@
     position: absolute;
     z-index: -100;
     width: 100%;
-    height: 50vh;
+    height: $height__header;
     overflow: hidden;
 
     img {
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: $height__header;
 
     .custom-logo-link {
       height: 50%;
