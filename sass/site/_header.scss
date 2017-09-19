@@ -1,13 +1,13 @@
 .site-header {
-  .wp-custom-header {
+  .custom-header {
     position: absolute;
     z-index: -100;
     width: 100%;
     height: $height__header;
     overflow: hidden;
 
-    img {
-      min-height: 100%;
+    div, img {
+      min-height: $height__header;
       min-width: 100%;
       max-width: unset;
       width: auto;
