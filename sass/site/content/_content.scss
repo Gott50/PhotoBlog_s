@@ -5,6 +5,7 @@
 
   .thumbnail {
     min-width: 300px;
+    height: 300px;
     img {
       height: 300px;
       width: auto;
@@ -17,5 +18,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  article {
+    margin: 0;
   }
 }
