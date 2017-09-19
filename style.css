@@ -601,7 +601,7 @@ a {
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
-#masthead .custom-header-media {
+.site-header .custom-header-media {
   position: absolute;
     z-index: -100;
     width: 100%;
@@ -609,9 +609,10 @@ a {
     overflow: hidden;
 }
 
-#masthead .custom-header-media img {
+.site-header .custom-header-media img {
     width: 100%; }
-#masthead .site-branding {
+
+.site-header .site-branding {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -619,16 +620,16 @@ a {
     height: 50vh;
 }
 
-#masthead .site-branding .custom-logo-link {
+.site-header .site-branding .custom-logo-link {
     height: 50%;
 }
 
-#masthead .site-branding .custom-logo-link img {
+.site-header .site-branding .custom-logo-link img {
     height: 100%;
     width: auto;
 }
 
-#masthead .site-branding a {
+.site-header .site-branding a {
     color: #404040;
     text-decoration: none;
 }
