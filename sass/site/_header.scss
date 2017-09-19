@@ -1,9 +1,29 @@
-.custom-header-media{
-  position: absolute;
-  z-index: -100;
-
-  img {
-    position: fixed;
+#masthead {
+  .custom-header-media {
+    position: absolute;
+    z-index: -100;
     width: 100%;
+    height: 50vh;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .site-branding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+    .custom-logo-link {
+      height: 50%;
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
   }
 }
