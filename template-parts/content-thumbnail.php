@@ -9,12 +9,12 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?> thumbnail" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if ( has_post_thumbnail() ):
 		$urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) );
 	endif; ?>
 
-    <header class="entry-header" style="background-image: url(<?php echo $urlImg; ?>);">
+    <header class="entry-header thumbnail" style="background-image: url(<?php echo $urlImg; ?>);">
 		<?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
