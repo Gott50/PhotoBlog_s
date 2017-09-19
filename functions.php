@@ -61,7 +61,7 @@ if ( ! function_exists( 'photoblog_s_setup' ) ) :
 
 		// Set up the WordPress core custom background feature.
 		add_theme_support( 'custom-background', apply_filters( 'photoblog_s_custom_background_args', array(
-			'default-color' => 'ffffff',
+			'default-color' => '000000',
 			'default-image' => '',
 		) ) );
 
