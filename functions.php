@@ -79,6 +79,13 @@ if ( ! function_exists( 'photoblog_s_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+
+		/**
+		 * Add support for Post Formats
+		 *
+		 * @link https://developer.wordpress.org/themes/functionality/post-formats/
+		 */
+		add_theme_support( 'post-formats', array( 'gallery', 'audio' ) );
 	}
 endif;
 add_action( 'after_setup_theme', 'photoblog_s_setup' );
