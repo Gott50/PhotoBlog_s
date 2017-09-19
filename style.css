@@ -610,8 +610,11 @@ a {
 }
 
 .site-header .custom-header-media img {
-    width: 100%; }
-
+    min-height: 50vh;
+    min-width: 100%;
+    max-width: unset;
+    width: auto;
+}
 .site-header .site-branding {
     display: flex;
     flex-direction: column;
