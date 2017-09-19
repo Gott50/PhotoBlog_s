@@ -162,3 +162,11 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+/**
+ * Head function
+ */
+function photoblog_s_remove_version() {
+	return '';
+}
+add_filter('the_generator', 'photoblog_s_remove_version');
