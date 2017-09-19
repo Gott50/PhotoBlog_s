@@ -34,6 +34,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Clearings
 # Widgets
 # Site
+    
 	## Posts and pages
 	## Comments
 # Infinite scroll
@@ -597,6 +598,9 @@ a {
   clear: both;
   width: 100%; }
 
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
