@@ -22,6 +22,6 @@
 		endif; ?>
     </header><!-- .entry-header -->
     <div class="thumbnail">
-		<?php echo get_the_post_thumbnail(); ?>
+	    <?php the_post_thumbnail(); ?>
     </div><!-- .thumbnail -->
 </article><!-- #post-<?php the_ID(); ?> -->
