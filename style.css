@@ -33,7 +33,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Alignments
 # Clearings
 # Widgets
-# Content
+# Site
 	## Posts and pages
 	## Comments
 # Infinite scroll
@@ -578,7 +578,7 @@ a {
     max-width: 100%; }
 
 /*--------------------------------------------------------------
-# Content
+# Site
 --------------------------------------------------------------*/
 .content-area {
   float: left;
