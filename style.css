@@ -637,6 +637,10 @@ a {
     text-decoration: none;
 }
 
+.site-header .site-branding h1, .site-header .site-branding p {
+    margin: 0;
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
