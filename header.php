@@ -28,6 +28,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'photoblog_s' ); ?></a>
 
 	<header id="masthead" class="site-header">
+        <?php the_custom_header_markup(); ?>
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -43,7 +44,6 @@
 				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 			<?php
 			endif; ?>
-            <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
