@@ -613,7 +613,7 @@ a {
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
-.site-header .wp-custom-header {
+.site-header .custom-header {
   position: absolute;
     z-index: -100;
     width: 100%;
@@ -621,8 +621,8 @@ a {
     overflow: hidden;
 }
 
-.site-header .wp-custom-header img {
-    min-height: 100%;
+.site-header .custom-header div, .site-header .custom-header img {
+    min-height: 50vh;
     min-width: 100%;
     max-width: unset;
     width: auto;
@@ -656,12 +656,19 @@ a {
 /*--------------------------------------------------------------
 ## Content
 --------------------------------------------------------------*/
-.home {
+.content-home {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.home .thumbnail {
-    width: 300px;
+.content-home .thumbnail img {
+    height: 300px;
+    width: auto;
+}
+
+.content-home .entry-header {
+    position: absolute;
 }
 
 /*--------------------------------------------------------------

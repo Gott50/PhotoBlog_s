@@ -1,7 +1,15 @@
-.home {
+.content-home {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
   .thumbnail {
-    width: 300px;
+    img {
+      height: 300px;
+      width: auto;
+    }
+  }
+  .entry-header {
+    position: absolute;
   }
 }
