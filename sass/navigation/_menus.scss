@@ -3,6 +3,14 @@
 	display: block;
 	float: left;
 	width: 100%;
+  background-color: $color__background-nav;
+  .nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    a:not(:hover) {
+      color: $color__text-main;
+    }
+  }
 
 	ul {
 		display: none;

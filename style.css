@@ -433,7 +433,18 @@ a {
   clear: both;
   display: block;
   float: left;
-  width: 100%; }
+    width: 100%;
+    background-color: grey;
+}
+
+.main-navigation .nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-navigation .nav-menu a:not(:hover) {
+    color: #404040;
+}
   .main-navigation ul {
     display: none;
     list-style: none;
