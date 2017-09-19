@@ -28,9 +28,7 @@
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'photoblog_s' ); ?></a>
 
     <header id="masthead" class="site-header">
-        <div class="custom-header-media">
-			<?php the_custom_header_markup(); ?>
-        </div>
+	    <?php the_custom_header_markup(); ?>
         <div class="site-branding">
 			<?php
 			the_custom_logo();

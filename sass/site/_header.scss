@@ -1,5 +1,5 @@
 .site-header {
-  .custom-header-media {
+  .wp-custom-header {
     position: absolute;
     z-index: -100;
     width: 100%;
@@ -7,7 +7,7 @@
     overflow: hidden;
 
     img {
-      min-height: 50vh;
+      min-height: 100%;
       min-width: 100%;
       max-width: unset;
       width: auto;
