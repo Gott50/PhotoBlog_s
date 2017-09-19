@@ -25,5 +25,9 @@
         width: auto;
       }
     }
+    a {
+      color: $color__text-main;
+      text-decoration: none;
+    }
   }
 }

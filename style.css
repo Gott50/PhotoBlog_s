@@ -611,7 +611,6 @@ a {
 
 #masthead .custom-header-media img {
     width: 100%; }
-
 #masthead .site-branding {
     display: flex;
     flex-direction: column;
@@ -627,6 +626,11 @@ a {
 #masthead .site-branding .custom-logo-link img {
     height: 100%;
     width: auto;
+}
+
+#masthead .site-branding a {
+    color: #404040;
+    text-decoration: none;
 }
 
 /*--------------------------------------------------------------
