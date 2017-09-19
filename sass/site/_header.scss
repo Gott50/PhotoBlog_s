@@ -1,0 +1,9 @@
+.custom-header-media{
+  position: absolute;
+  z-index: -100;
+
+  img {
+    position: fixed;
+    width: 100%;
+  }
+}

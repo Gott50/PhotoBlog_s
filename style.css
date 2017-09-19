@@ -34,7 +34,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Clearings
 # Widgets
 # Site
-    
+    ## Header
 	## Posts and pages
 	## Comments
 # Infinite scroll
@@ -601,6 +601,13 @@ a {
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
+.custom-header-media {
+  position: absolute;
+  z-index: -100; }
+  .custom-header-media img {
+    position: fixed;
+    width: 100%; }
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
