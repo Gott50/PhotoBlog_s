@@ -675,7 +675,6 @@ a {
 .content-home article .thumbnail img {
     min-width: 100%;
     max-width: unset;
-    z-index: -10;
 }
 
 .content-home article .entry-header {
@@ -685,7 +684,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 10;
 }
 
 /*--------------------------------------------------------------
