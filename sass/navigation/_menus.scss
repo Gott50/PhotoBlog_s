@@ -4,13 +4,9 @@
 	float: left;
 	width: 100%;
   background-color: $color__background-nav;
-  .nav-menu {
-    display: flex;
-    justify-content: space-evenly;
     a:not(:hover) {
       color: $color__text-main;
     }
-  }
 
 	ul {
 		display: none;
@@ -81,7 +77,8 @@
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -89,7 +86,8 @@
 		display: none;
 	}
 	.main-navigation ul {
-		display: block;
+      display: flex;
+      justify-content: space-evenly;
 	}
 }
 
