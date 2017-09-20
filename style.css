@@ -663,13 +663,11 @@ a {
 }
 
 .content-home .thumbnail {
-    min-width: 300px;
-    height: 300px;
+    min-height: 300px;
 }
 
 .content-home .thumbnail img {
-    height: 300px;
-    width: auto;
+    min-width: 100%;
 }
 
 .content-home .entry-header {
@@ -683,6 +681,7 @@ a {
 
 .content-home article {
     margin: 0;
+    flex: 1 0 300px;
 }
 
 /*--------------------------------------------------------------

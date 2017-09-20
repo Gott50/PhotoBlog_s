@@ -4,11 +4,9 @@
   justify-content: center;
 
   .thumbnail {
-    min-width: 300px;
-    height: 300px;
+    min-height: 300px;
     img {
-      height: 300px;
-      width: auto;
+      min-width: 100%;
     }
   }
   .entry-header {
@@ -22,5 +20,6 @@
 
   article {
     margin: 0;
+    flex: 1 0 300px;
   }
 }
