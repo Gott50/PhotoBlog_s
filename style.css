@@ -662,6 +662,14 @@ a {
   color: white;
 }
 
+.site-header .site-branding h1 {
+  font-size: 4em;
+}
+
+.site-header .site-branding p {
+  font-size: 2em;
+}
+
 /*--------------------------------------------------------------
 ## Content
 --------------------------------------------------------------*/
