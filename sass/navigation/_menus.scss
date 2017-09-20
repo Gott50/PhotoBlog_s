@@ -5,9 +5,9 @@
 	width: 100%;
 
   .menu {
-    background-color: #aad4c6;
+	  background-color: $color__nav-primary;
     font-size: 1.5em;
-    border: 10px #088A85;
+	  border: 10px $color__nav-secondary;
     border-top-style: solid;
     border-bottom-style: solid;
     a:not(:hover) {
