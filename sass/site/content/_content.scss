@@ -6,10 +6,10 @@
   article {
     position: relative;
     margin: 0;
-    flex: 1 0 300px;
+    flex: 1 0 $size__thumbnail;
 
     .thumbnail {
-      min-height: 300px;
+      min-height: $size__thumbnail;
       img {
         min-width: 100%;
         max-width: unset;
