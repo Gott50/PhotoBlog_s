@@ -596,7 +596,9 @@ a {
     .widget-area .widget a:hover {
       color: #088A85; }
     .widget-area .widget ul {
-      margin-left: 0; }
+      margin-left: 0;
+      list-style: none;
+    }
     .widget-area .widget .widget-title {
       margin-bottom: 0; }
 
