@@ -434,7 +434,7 @@ a {
   clear: both;
   display: block;
   float: left;
-    width: 100%;
+  width: 100%;
 }
 
 .main-navigation .menu {
@@ -442,11 +442,11 @@ a {
     font-size: 1.5em;
     border: 10px #088A85;
     border-top-style: solid;
-    border-bottom-style: solid;
+  border-bottom-style: solid;
 }
 
 .main-navigation .menu a:not(:hover) {
-    color: #404040;
+  color: #404040;
 }
   .main-navigation ul {
     display: none;
@@ -481,7 +481,7 @@ a {
 .menu-toggle,
 .main-navigation.toggled ul {
   display: flex;
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -490,7 +490,7 @@ a {
 
   .main-navigation ul {
     display: flex;
-      justify-content: space-evenly;
+    justify-content: space-evenly;
   }
 }
 .site-main .comment-navigation,
@@ -625,41 +625,41 @@ a {
   z-index: -100;
   width: 100%;
   height: 50vh;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .site-header .custom-header div, .site-header .custom-header img {
     min-height: 50vh;
     min-width: 100%;
     max-width: unset;
-    width: auto;
+  width: auto;
 }
 .site-header .site-branding {
   display: flex;
   flex-direction: column;
   align-items: center;
-    height: 50vh;
-    padding-top: 10vh;
-    text-shadow: 2px 2px 2px black;
+  height: 50vh;
+  padding-top: 10vh;
+  text-shadow: 2px 2px 2px black;
 }
 
 .site-header .site-branding .custom-logo-link {
-    height: 50%;
+  height: 50%;
 }
 
 .site-header .site-branding .custom-logo-link img {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
 
 .site-header .site-branding a {
     color: white;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .site-header .site-branding h1, .site-header .site-branding p {
     margin: 0;
-    color: white;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -668,31 +668,38 @@ a {
 .content-home {
   display: flex;
   flex-wrap: wrap;
-    justify-content: center;
+  justify-content: center;
 }
 
 .content-home article {
     position: relative;
     margin: 0;
-    flex: 1 0 300px;
+  flex: 1 0 300px;
 }
 
 .content-home article .thumbnail {
-    min-height: 300px;
+  min-height: 300px;
 }
 
 .content-home article .thumbnail img {
-    min-width: 100%;
-    max-width: unset;
+  min-width: 100%;
+  max-width: unset;
 }
 
 .content-home article .entry-header {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-home article .entry-header a {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px black;
 }
 
 /*--------------------------------------------------------------
