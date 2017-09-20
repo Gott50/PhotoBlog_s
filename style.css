@@ -668,6 +668,7 @@ a {
 
 .content-home .thumbnail img {
     min-width: 100%;
+    max-width: unset;
 }
 
 .content-home .entry-header {
