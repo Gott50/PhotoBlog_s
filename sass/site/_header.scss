@@ -17,9 +17,9 @@
   .site-branding {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: $height__header;
+    padding-top: 10vh;
 
     .custom-logo-link {
       height: 50%;
@@ -28,12 +28,14 @@
         width: auto;
       }
     }
+    text-shadow: 2px 2px 2px black;
     a {
-      color: $color__text-main;
+      color: white;
       text-decoration: none;
     }
     h1, p {
       margin: 0;
+      color: white;
     }
   }
 }

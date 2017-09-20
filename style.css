@@ -637,9 +637,10 @@ a {
 .site-header .site-branding {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
     height: 50vh;
+    padding-top: 10vh;
+    text-shadow: 2px 2px 2px black;
 }
 
 .site-header .site-branding .custom-logo-link {
@@ -652,12 +653,13 @@ a {
 }
 
 .site-header .site-branding a {
-    color: #404040;
+    color: white;
     text-decoration: none;
 }
 
 .site-header .site-branding h1, .site-header .site-branding p {
     margin: 0;
+    color: white;
 }
 
 /*--------------------------------------------------------------
