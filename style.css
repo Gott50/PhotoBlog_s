@@ -662,27 +662,30 @@ a {
     justify-content: center;
 }
 
-.content-home .thumbnail {
+.content-home article {
+    position: relative;
+    margin: 0;
+    flex: 1 0 300px;
+}
+
+.content-home article .thumbnail {
     min-height: 300px;
 }
 
-.content-home .thumbnail img {
+.content-home article .thumbnail img {
     min-width: 100%;
     max-width: unset;
+    z-index: -10;
 }
 
-.content-home .entry-header {
+.content-home article .entry-header {
     position: absolute;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.content-home article {
-    margin: 0;
-    flex: 1 0 300px;
+    z-index: 10;
 }
 
 /*--------------------------------------------------------------

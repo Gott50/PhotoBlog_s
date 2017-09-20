@@ -3,24 +3,27 @@
   flex-wrap: wrap;
   justify-content: center;
 
-  .thumbnail {
-    min-height: 300px;
-    img {
-      min-width: 100%;
-      max-width: unset;
-    }
-  }
-  .entry-header {
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   article {
+    position: relative;
     margin: 0;
     flex: 1 0 300px;
+
+    .thumbnail {
+      min-height: 300px;
+      img {
+        min-width: 100%;
+        max-width: unset;
+        z-index: -10;
+      }
+    }
+    .entry-header {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+    }
   }
 }
