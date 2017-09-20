@@ -674,7 +674,7 @@ a {
       min-height: 300px; }
       .content-home article .thumbnail img {
         min-width: 100%;
-        max-width: unset; }
+      }
     .content-home article .entry-header {
       position: absolute;
       height: 100%;
