@@ -18,12 +18,12 @@
  */
 function photoblog_s_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'photoblog_s_custom_header_args', array(
-		'default-image'          => '',
-		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
-		'flex-height'            => true,
-		'wp-head-callback'       => 'photoblog_s_header_style',
+		'default-image'      => '',
+		'default-text-color' => '000000',
+		'width'              => 2000,
+		'height'             => 600,
+		'flex-height'        => true,
+		'wp-head-callback'   => 'photoblog_s_header_style',
 	) ) );
 }
 add_action( 'after_setup_theme', 'photoblog_s_custom_header_setup' );
