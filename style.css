@@ -227,7 +227,7 @@ input,
 select,
 optgroup,
 textarea {
-  color: #404040;
+  color: #ccc;
   font-family: sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -591,11 +591,18 @@ a {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-.widget {
+.widget-area {
+  padding: 10px;
+}
+
+.widget-area .widget {
   margin: 0 0 1.5em;
-  /* Make sure select elements fit in widgets. */ }
-  .widget select {
-    max-width: 100%; }
+  /* Make sure select elements fit in widgets. */
+}
+
+.widget-area .widget select {
+  max-width: 100%;
+}
 
 /*--------------------------------------------------------------
 # Site
