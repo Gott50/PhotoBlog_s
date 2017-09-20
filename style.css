@@ -434,11 +434,18 @@ a {
   clear: both;
   display: block;
   float: left;
-  width: 100%;
-    background-color: grey;
+    width: 100%;
 }
 
-.main-navigation a:not(:hover) {
+.main-navigation .menu {
+    background-color: #aad4c6;
+    font-size: 1.5em;
+    border: 10px #088A85;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.main-navigation .menu a:not(:hover) {
     color: #404040;
 }
   .main-navigation ul {

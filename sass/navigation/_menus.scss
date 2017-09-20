@@ -3,10 +3,17 @@
 	display: block;
 	float: left;
 	width: 100%;
-  background-color: $color__background-nav;
+
+  .menu {
+    background-color: #aad4c6;
+    font-size: 1.5em;
+    border: 10px #088A85;
+    border-top-style: solid;
+    border-bottom-style: solid;
     a:not(:hover) {
       color: $color__text-main;
     }
+  }
 
 	ul {
 		display: none;
