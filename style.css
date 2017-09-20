@@ -440,7 +440,9 @@ a {
     font-size: 1.5em;
     border: 10px #088A85;
     border-top-style: solid;
-    border-bottom-style: solid; }
+    border-bottom-style: solid;
+    text-align: center;
+  }
     .main-navigation .menu a:not(:hover) {
       color: #404040; }
   .main-navigation ul {
@@ -642,6 +644,7 @@ a {
   align-items: center;
   height: 50vh;
   padding-top: 10vh;
+  text-align: center;
   text-shadow: 2px 2px 2px black; }
   .site-header .site-branding .custom-logo-link {
     height: 50%; }
@@ -681,7 +684,9 @@ a {
       width: 100%;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      text-align: center;
+    }
       .content-home article .entry-header a {
         font-size: 2em;
         color: white;

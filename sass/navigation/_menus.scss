@@ -10,6 +10,7 @@
     border: 10px $color__nav-secondary;
     border-top-style: solid;
     border-bottom-style: solid;
+    text-align: center;
     a:not(:hover) {
       color: $color__text-nav;
     }
