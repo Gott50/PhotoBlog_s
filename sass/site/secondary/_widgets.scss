@@ -1,19 +1,19 @@
 .widget-area {
-	padding: 10px;
+  padding: 10px;
 
-	.widget {
-	margin: 0 0 1.5em;
+  .widget {
+    margin: 0 0 1.5em;
 
-	/* Make sure select elements fit in widgets. */
-	select {
-		max-width: 100%;
-	}
-      a {
-        color: $color__text-main;
-        text-decoration: none;
-      }
-      a:hover {
-        color: #088A85;
-      }
-	}
+    /* Make sure select elements fit in widgets. */
+    select {
+      max-width: 100%;
+    }
+    a {
+      color: $color__text-main;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #088A85;
+    }
+  }
 }
