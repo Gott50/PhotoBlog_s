@@ -604,6 +604,15 @@ a {
   max-width: 100%;
 }
 
+.widget-area .widget a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.widget-area .widget a:hover {
+  color: #088A85;
+}
+
 /*--------------------------------------------------------------
 # Site
 --------------------------------------------------------------*/
