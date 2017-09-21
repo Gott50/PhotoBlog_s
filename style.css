@@ -441,7 +441,7 @@ a {
     border: 10px #088A85;
     border-top-style: solid;
     border-bottom-style: solid;
-    text-align: center;
+      text-align: center;
   }
     .main-navigation .menu a:not(:hover) {
       color: #404040; }
@@ -599,7 +599,7 @@ a {
       color: #088A85; }
     .widget-area .widget ul {
       margin-left: 0;
-      list-style: none;
+        list-style: none;
     }
     .widget-area .widget .widget-title {
       margin-bottom: 0; }
@@ -614,7 +614,7 @@ a {
 
 .site-main {
   margin: 0 25% 0 0;
-  margin-left: 10%;
+    margin-left: 10%;
 }
 
 .site-content .widget-area {
@@ -678,7 +678,7 @@ a {
     .content-home article .thumbnail {
       min-height: 300px; }
       .content-home article .thumbnail img {
-        min-width: 100%;
+          min-width: 100%;
       }
     .content-home article .entry-header {
       position: absolute;
@@ -687,7 +687,7 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: center;
+        text-align: center;
     }
       .content-home article .entry-header a {
         font-size: 2em;
