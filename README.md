@@ -10,10 +10,10 @@ The WordPress theme for Blogging Photographers
 ## Development Recommendations
 - [XAMPP](https://www.apachefriends.org)
 
-## Tasks
+## TODOs
 ### Design (CSS / SCSS)
-- Colors for Text 
+- add Colors for Text 
 
 ### Structure (PHP / HTML)
-- Menu for SocialLinks (Facebook, Instagram, etc.)
-- Footer Menu
+- add Menu for SocialLinks (Facebook, Instagram, etc.)
+- add Footer Menu
