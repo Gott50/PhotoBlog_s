@@ -8,7 +8,7 @@ The WordPress theme for Blogging Photographers
 - WordPress
 
 ## Development Recommendations
-- ![XAMPP](https://www.apachefriends.org)
+- [XAMPP](https://www.apachefriends.org)
 
 ## Tasks
 ### Design (CSS / SCSS)
