@@ -586,7 +586,8 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget-area {
-  padding: 10px; }
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7); }
   .widget-area .widget {
     margin: 0 0 1.5em;
     /* Make sure select elements fit in widgets. */ }
@@ -717,7 +718,8 @@ a {
   margin-left: 0; }
 
 .site-main {
-  margin-left: 10%; }
+  margin-left: 10%;
+  background-color: rgba(0, 0, 0, 0.7); }
 
 /*--------------------------------------------------------------
 ## Comments
