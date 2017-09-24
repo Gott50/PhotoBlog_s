@@ -31,25 +31,29 @@
         <div class="custom-header">
 		    <?php the_custom_header_markup(); ?>
         </div>
-        <div class="site-branding">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-                <?php
-                the_custom_logo();
-                if ( is_front_page() && is_home() ) : ?>
-                    <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-                <?php else : ?>
-                    <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"
-                                             rel="home"><?php bloginfo( 'name' ); ?></p>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            <div class="site-branding">
                     <?php
-                endif;
+                    if ( is_front_page() && is_home() ) :
+                        $custom_logo_id = get_theme_mod( 'custom_logo' );
+                        $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+                        if ( has_custom_logo() ):?>
+                            <img class="custom-logo" src="<?php echo esc_url( $logo[0] ) ?>">
+                        <?php else : ?>
+                            <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+                        <?php endif; ?>
+                    <?php else : ?>
+                        <p class="site-title"><?php bloginfo( 'name' ); ?></p>
+                    <?php
+                    endif;
 
-                $description = get_bloginfo( 'description', 'display' );
-                if ( $description || is_customize_preview() ) : ?>
-                    <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-                    <?php
-                endif; ?>
-            </a>
-        </div><!-- .site-branding -->
+                    $description = get_bloginfo( 'description', 'display' );
+                    if ( $description || is_customize_preview() ) : ?>
+                        <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+                        <?php
+                    endif; ?>
+            </div><!-- .site-branding -->
+        </a>
 
         <nav id="site-navigation" class="main-navigation">
             <button class="menu-toggle" aria-controls="primary-menu"
