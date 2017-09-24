@@ -228,11 +228,12 @@ input,
 select,
 optgroup,
 textarea {
-  color: #ccc;
-  font-family: sans-serif;
+  color: #eee;
+  font-family: "Merriweather", serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 1.5;
+  text-shadow: 1px 1px 10px #111; }
 
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
@@ -594,7 +595,7 @@ a {
     .widget-area .widget select {
       max-width: 100%; }
     .widget-area .widget a {
-      color: #ccc;
+      color: #eee;
       text-decoration: none; }
     .widget-area .widget a:hover {
       color: #088A85; }
@@ -685,9 +686,13 @@ a {
         align-items: center;
         text-align: center;
         font-size: 2em;
-        color: white;
+        color: #eee;
         text-decoration: none;
-        text-shadow: 2px 2px 2px black; }
+        text-transform: uppercase;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 4px;
+        line-height: 135%; }
     .content-home article .thumbnail {
       min-height: 300px; }
       .content-home article .thumbnail img {
