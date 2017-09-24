@@ -5,22 +5,7 @@
 
   article {
     position: relative;
-    //margin: 0;
     flex: 1 0 $size__thumbnail;
-
-    .thumbnail {
-      min-height: $size__thumbnail;
-      img {
-        min-width: 100%;
-      }
-    }
-    .entry-header {
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
 
     a {
       font-size: 2em;
@@ -33,6 +18,21 @@
       position: absolute;
       right: 0;
       top: 0;
+
+      .entry-header {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    }
+
+    .thumbnail {
+      min-height: $size__thumbnail;
+      img {
+        min-width: 100%;
+      }
     }
   }
 }

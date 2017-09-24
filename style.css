@@ -678,16 +678,6 @@ a {
   .content-home article {
     position: relative;
     flex: 1 0 300px; }
-    .content-home article .thumbnail {
-      min-height: 300px; }
-      .content-home article .thumbnail img {
-        min-width: 100%; }
-    .content-home article .entry-header {
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center; }
     .content-home article a {
       font-size: 2em;
       color: white;
@@ -698,6 +688,16 @@ a {
       position: absolute;
       right: 0;
       top: 0; }
+      .content-home article a .entry-header {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+    .content-home article .thumbnail {
+      min-height: 300px; }
+      .content-home article .thumbnail img {
+        min-width: 100%; }
 
 /*--------------------------------------------------------------
 ## Posts and pages
