@@ -34,16 +34,12 @@
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <div class="site-branding">
                     <?php
-                    if ( is_front_page() && is_home() ) :
-                        $custom_logo_id = get_theme_mod( 'custom_logo' );
-                        $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-                        if ( has_custom_logo() ):?>
-                            <img class="custom-logo" src="<?php echo esc_url( $logo[0] ) ?>">
-                        <?php else : ?>
-                            <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-                        <?php endif; ?>
+                    $custom_logo_id = get_theme_mod( 'custom_logo' );
+                    $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+                    if ( has_custom_logo() ):?>
+                        <img class="custom-logo" src="<?php echo esc_url( $logo[0] ) ?>">
                     <?php else : ?>
-                        <p class="site-title"><?php bloginfo( 'name' ); ?></p>
+                        <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
                     <?php
                     endif;
 
