@@ -48,10 +48,20 @@
                         <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
                         <?php
                     endif;
-                    wp_nav_menu(array(
-                        'theme_location'=>'social',
-                        'menu_id'        => 'social-menu',));
-                    ?>
+
+                    if ( has_nav_menu( 'social' ) ) : ?>
+                        <nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'photoblog_s' ); ?>">
+                            <?php
+                            wp_nav_menu( array(
+                                'theme_location' => 'social',
+                                'menu_class'     => 'social-links-menu',
+                                'depth'          => 1,
+                                'link_before'    => '<span class="screen-reader-text">',
+                                'link_after'     => '</span>' . photoblog_s_get_svg( array( 'icon' => 'chain' ) ),
+                            ) );
+                            ?>
+                        </nav><!-- .social-navigation -->
+                    <?php endif;?>
             </div><!-- .site-branding -->
         </a>
 

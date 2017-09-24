@@ -46,7 +46,7 @@ if ( ! function_exists( 'photoblog_s_setup' ) ) :
 		register_nav_menus( array(
 			'primary' => esc_html__( 'Primary Header Navigation', 'photoblog_s' ),
 			'footer' => esc_html__( 'Footer Navigation', 'photoblog_s' ),
-			'social' => esc_html__( 'Social Links', 'photoblog_s' ),
+			'social' => esc_html__( 'Social Links Menu', 'photoblog_s' ),
 		) );
 
 		/*
@@ -179,3 +179,8 @@ function photoblog_s_remove_version() {
 	return '';
 }
 add_filter('the_generator', 'photoblog_s_remove_version');
+
+/**
+ * SVG icons functions and filters.
+ */
+require get_parent_theme_file_path( '/inc/icon-functions.php' );

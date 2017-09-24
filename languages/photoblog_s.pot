@@ -64,8 +64,9 @@ msgid "Footer Navigation"
 msgstr "Footer Navigation"
 
 #: functions.php:49
-msgid "Social Links"
-msgstr "Social Links"
+#: header.php:53
+msgid "Social Links Menu"
+msgstr "Social Links Menu"
 
 #: functions.php:105
 msgid "Sidebar"
@@ -192,3 +193,11 @@ msgstr "von %s"
 msgctxt "list item separator"
 msgid ", "
 msgstr ", "
+
+#: inc/icon-functions.php: 37
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-functions.php: 42
+msgid "Please define an SVG icon filename."
+msgstr ""
