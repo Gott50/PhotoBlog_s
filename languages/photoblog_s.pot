@@ -63,6 +63,10 @@ msgstr "Primäre Header Navigation"
 msgid "Footer Navigation"
 msgstr "Footer Navigation"
 
+#: functions.php:49
+msgid "Social Links"
+msgstr "Social Links"
+
 #: functions.php:105
 msgid "Sidebar"
 msgstr "Sidebar"

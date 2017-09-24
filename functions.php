@@ -46,6 +46,7 @@ if ( ! function_exists( 'photoblog_s_setup' ) ) :
 		register_nav_menus( array(
 			'primary' => esc_html__( 'Primary Header Navigation', 'photoblog_s' ),
 			'footer' => esc_html__( 'Footer Navigation', 'photoblog_s' ),
+			'social' => esc_html__( 'Social Links', 'photoblog_s' ),
 		) );
 
 		/*

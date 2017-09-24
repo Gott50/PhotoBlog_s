@@ -47,7 +47,11 @@
                     if ( $description || is_customize_preview() ) : ?>
                         <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
                         <?php
-                    endif; ?>
+                    endif;
+                    wp_nav_menu(array(
+                        'theme_location'=>'social',
+                        'menu_id'        => 'social-menu',));
+                    ?>
             </div><!-- .site-branding -->
         </a>
 
