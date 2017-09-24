@@ -183,4 +183,4 @@ add_filter('the_generator', 'photoblog_s_remove_version');
 /**
  * SVG icons functions and filters.
  */
-require get_parent_theme_file_path( '/inc/icon-functions.php' );
+require get_template_directory() . '/inc/icon-functions.php';

@@ -60,7 +60,7 @@ function photoblog_s_get_svg( $args = array() ) {
 	$aria_labelledby = '';
 
 	/*
-	 * Twenty Seventeen doesn't use the SVG title or description attributes; non-decorative icons are described with .screen-reader-text.
+	 * PhotoBlog_s doesn't use the SVG title or description attributes; non-decorative icons are described with .screen-reader-text.
 	 *
 	 * However, child themes can use the title and description to add information to non-decorative SVG icons to improve accessibility.
 	 *
@@ -139,28 +139,6 @@ function photoblog_s_nav_menu_social_icons( $item_output, $item, $depth, $args )
 add_filter( 'walker_nav_menu_start_el', 'photoblog_s_nav_menu_social_icons', 10, 4 );
 
 /**
- * Add dropdown icon if menu item has children.
- *
- * @param  string $title The menu item's title.
- * @param  object $item  The current menu item.
- * @param  array  $args  An array of wp_nav_menu() arguments.
- * @param  int    $depth Depth of menu item. Used for padding.
- * @return string $title The menu item's title with dropdown icon.
- */
-function photoblog_s_dropdown_icon_to_menu_link( $title, $item, $args, $depth ) {
-	if ( 'top' === $args->theme_location ) {
-		foreach ( $item->classes as $value ) {
-			if ( 'menu-item-has-children' === $value || 'page_item_has_children' === $value ) {
-				$title = $title . photoblog_s_get_svg( array( 'icon' => 'angle-down' ) );
-			}
-		}
-	}
-
-	return $title;
-}
-add_filter( 'nav_menu_item_title', 'photoblog_s_dropdown_icon_to_menu_link', 10, 4 );
-
-/**
  * Returns an array of supported social links (URL and icon name).
  *
  * @return array $social_links_icons
@@ -206,7 +184,7 @@ function photoblog_s_social_links_icons() {
 	);
 
 	/**
-	 * photoblog_s social links icons.
+	 * Filter PhotoBlog_s social links icons.
 	 *
 	 * @param array $social_links_icons Array of social links icons.
 	 */
