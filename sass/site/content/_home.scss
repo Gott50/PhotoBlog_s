@@ -19,9 +19,13 @@
         align-items: center;
         text-align: center;
         font-size: 2em;
-        color: white;
+        color: $color__text-main;
         text-decoration: none;
-        text-shadow: 2px 2px 2px black;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 4px;
+        line-height: 135%;
       }
     }
 
