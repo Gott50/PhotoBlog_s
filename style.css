@@ -683,12 +683,11 @@ a {
       height: 100%;
       width: 100%; }
       .content-home article .entry-header a {
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 100%;
-        width: 100%;
         font-size: 2em;
         color: white;
         text-decoration: none;
