@@ -677,25 +677,27 @@ a {
   justify-content: center; }
   .content-home article {
     position: relative;
-    margin: 0;
     flex: 1 0 300px; }
     .content-home article .thumbnail {
       min-height: 300px; }
       .content-home article .thumbnail img {
         min-width: 100%; }
     .content-home article .entry-header {
-      position: absolute;
       height: 100%;
-      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center; }
-      .content-home article .entry-header a {
-        font-size: 2em;
-        color: white;
-        text-decoration: none;
-        text-shadow: 2px 2px 2px black; }
+    .content-home article a {
+      font-size: 2em;
+      color: white;
+      text-decoration: none;
+      text-shadow: 2px 2px 2px black;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0; }
 
 /*--------------------------------------------------------------
 ## Posts and pages
