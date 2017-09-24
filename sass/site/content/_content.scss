@@ -1,34 +1,4 @@
-.content-home {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  article {
-    position: relative;
-    margin: 0;
-    flex: 1 0 $size__thumbnail;
-
-    .thumbnail {
-      min-height: $size__thumbnail;
-      img {
-        min-width: 100%;
-      }
-    }
-    .entry-header {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-
-      a {
-        font-size: 2em;
-        color: white;
-        text-decoration: none;
-        text-shadow: 2px 2px 2px black;
-      }
-    }
-  }
-}
+/*--------------------------------------------------------------
+### Home
+--------------------------------------------------------------*/
+@import "home";
