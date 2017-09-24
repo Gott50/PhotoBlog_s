@@ -25,6 +25,7 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'photoblog_s' ), 'photoblog_s', '<a href="https://Gott50.github.io">Gott50</a>' );
 			?>
 		</div><!-- .site-info -->
+        <?php wp_nav_menu(array('theme_location'=>'secondary')); ?>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

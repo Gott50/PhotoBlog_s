@@ -44,7 +44,8 @@ if ( ! function_exists( 'photoblog_s_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'photoblog_s' ),
+			'primary' => esc_html__( 'Primary Header Navigation', 'photoblog_s' ),
+			'secondary' => esc_html__( 'Footer Navigation', 'photoblog_s' ),
 		) );
 
 		/*

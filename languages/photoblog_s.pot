@@ -56,8 +56,12 @@ msgid "Theme: %1$s by %2$s."
 msgstr "Theme: %1$s von %2$s."
 
 #: functions.php:47
-msgid "Primary"
-msgstr "Primär"
+msgid "Primary Header Navigation"
+msgstr "Primäre Header Navigation"
+
+#: functions.php:48
+msgid "Footer Navigation"
+msgstr "Footer Navigation"
 
 #: functions.php:105
 msgid "Sidebar"
