@@ -6,7 +6,6 @@
 
 .site-main {
   margin: 0 $size__site-sidebar 0 0;
-  margin-left: 10%;
 }
 
 .site-content .widget-area {
@@ -18,8 +17,4 @@
 .site-footer {
   clear: both;
   width: $size__site-main;
-}
-
-.home .site-main{
-    margin-left: 0;
 }
