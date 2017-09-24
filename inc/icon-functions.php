@@ -206,9 +206,7 @@ function photoblog_s_social_links_icons() {
 	);
 
 	/**
-	 * Filter Twenty Seventeen social links icons.
-	 *
-	 * @since Twenty Seventeen 1.0
+	 * photoblog_s social links icons.
 	 *
 	 * @param array $social_links_icons Array of social links icons.
 	 */
