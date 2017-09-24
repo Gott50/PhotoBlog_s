@@ -654,9 +654,7 @@ a {
       height: 100%;
       width: auto; }
   .site-header .site-branding h1, .site-header .site-branding p {
-    margin: 0;
-    color: white;
-    text-shadow: 2px 2px 2px black; }
+    margin: 0; }
   .site-header .site-branding h1 {
     font-size: 4em; }
   .site-header .site-branding p {
