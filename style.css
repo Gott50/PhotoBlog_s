@@ -419,11 +419,11 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue; }
+  color: #eee; }
   a:visited {
-    color: purple; }
+    color: #666; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: royalblue; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
