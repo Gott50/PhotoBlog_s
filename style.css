@@ -229,7 +229,7 @@ select,
 optgroup,
 textarea {
   color: #eee;
-  font-family: "Merriweather", serif;
+  font-family: sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
