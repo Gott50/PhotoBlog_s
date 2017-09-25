@@ -443,7 +443,8 @@ a {
     border: 10px #088A85;
     border-top-style: solid;
     border-bottom-style: solid;
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
     .main-navigation .menu a:not(:hover) {
       color: #404040; }
   .main-navigation ul {
