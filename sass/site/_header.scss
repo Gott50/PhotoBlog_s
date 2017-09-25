@@ -19,10 +19,16 @@
     color: white;
     text-decoration: none;
   }
-  .site-branding {
+  .site-branding-wrapper {
     height: $height__header;
     text-align: center;
     padding-top: 10vh;
+
+    .site-branding {
+      background: #1d1d1d;
+      display: inline-block;
+      padding: 1.7em;
+    }
 
     .custom-logo {
       height: 50%;

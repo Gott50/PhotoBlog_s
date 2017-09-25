@@ -32,36 +32,38 @@
 		    <?php the_custom_header_markup(); ?>
         </div>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-            <div class="site-branding">
-                    <?php
-                    $custom_logo_id = get_theme_mod( 'custom_logo' );
-                    $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-                    if ( has_custom_logo() ):?>
-                        <img class="custom-logo" src="<?php echo esc_url( $logo[0] ) ?>">
-                    <?php else : ?>
-                        <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-                    <?php
-                    endif;
-
-                    $description = get_bloginfo( 'description', 'display' );
-                    if ( $description || is_customize_preview() ) : ?>
-                        <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+            <div class="site-branding-wrapper">
+                <div class="site-branding">
                         <?php
-                    endif;
+                        $custom_logo_id = get_theme_mod( 'custom_logo' );
+                        $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+                        if ( has_custom_logo() ):?>
+                            <img class="custom-logo" src="<?php echo esc_url( $logo[0] ) ?>">
+                        <?php else : ?>
+                            <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+                        <?php
+                        endif;
 
-                    if ( has_nav_menu( 'social' ) ) : ?>
-                        <nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'photoblog_s' ); ?>">
+                        $description = get_bloginfo( 'description', 'display' );
+                        if ( $description || is_customize_preview() ) : ?>
+                            <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
                             <?php
-                            wp_nav_menu( array(
-                                'theme_location' => 'social',
-                                'menu_class'     => 'social-links-menu',
-                                'link_before'    => '<span class="screen-reader-text">',
-                                'link_after'     => '</span>' . photoblog_s_get_svg( array( 'icon' => 'chain' ) ),
-                            ) );
-                            ?>
-                        </nav><!-- .social-navigation -->
-                    <?php endif;?>
-            </div><!-- .site-branding -->
+                        endif;
+
+                        if ( has_nav_menu( 'social' ) ) : ?>
+                            <nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'photoblog_s' ); ?>">
+                                <?php
+                                wp_nav_menu( array(
+                                    'theme_location' => 'social',
+                                    'menu_class'     => 'social-links-menu',
+                                    'link_before'    => '<span class="screen-reader-text">',
+                                    'link_after'     => '</span>' . photoblog_s_get_svg( array( 'icon' => 'chain' ) ),
+                                ) );
+                                ?>
+                            </nav><!-- .social-navigation -->
+                        <?php endif;?>
+                </div><!-- .site-branding -->
+            </div><!-- .site-branding-wrapper -->
         </a>
 
         <?php if ( has_nav_menu( 'primary' ) ) : ?>

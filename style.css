@@ -645,20 +645,24 @@ a {
   height: 100%;
   color: white;
   text-decoration: none; }
-.site-header .site-branding {
+.site-header .site-branding-wrapper {
   height: 50vh;
   text-align: center;
   padding-top: 10vh; }
-  .site-header .site-branding .custom-logo {
+  .site-header .site-branding-wrapper .site-branding {
+    background: #1d1d1d;
+    display: inline-block;
+    padding: 1.7em; }
+  .site-header .site-branding-wrapper .custom-logo {
     height: 50%; }
-    .site-header .site-branding .custom-logo img {
+    .site-header .site-branding-wrapper .custom-logo img {
       height: 100%;
       width: auto; }
-  .site-header .site-branding h1, .site-header .site-branding p {
+  .site-header .site-branding-wrapper h1, .site-header .site-branding-wrapper p {
     margin: 0; }
-  .site-header .site-branding h1 {
+  .site-header .site-branding-wrapper h1 {
     font-size: 4em; }
-  .site-header .site-branding p {
+  .site-header .site-branding-wrapper p {
     font-size: 2em; }
 
 /*--------------------------------------------------------------
