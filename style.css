@@ -687,6 +687,13 @@ a {
       padding: 5px;
       margin: 0;
   }
+
+.content-home article a {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 15px;
+    color: #a8abad;
+}
     .content-home article .entry-header {
         background: #1d1e1f;
         display: block;
@@ -699,12 +706,6 @@ a {
         -webkit-box-sizing: border-box;
         border: 1px solid;
     }
-      .content-home article .entry-header a {
-        text-decoration: none;
-          font-size: 13px;
-          line-height: 15px;
-          color: #a8abad;
-      }
 
 .content-home article .thumbnail {
     margin-bottom: -10px;
