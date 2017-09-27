@@ -1,5 +1,6 @@
 $color__background-body: black;
 $color__background-content: white;
+$color__background-header: rgba(0, 0, 0, 0.5);
 $color__background-widgets: #359BB8;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
@@ -11,11 +12,13 @@ $color__background-nav: grey;
 $color__nav-primary: black;
 $color__nav-secondary: #FF8100;
 
+$color__text-main: black;
+$color__text_header: white;
 $color__text-screen: #21759b;
 $color__text-input: #666;
 $color__text-input-focus: #111;
-$color__text-main: black;
 $color__text-nav: #404040;
+
 $color__link: black;
 $color__link-visited: #666;
 $color__link-hover: royalblue;

@@ -693,12 +693,14 @@ a {
         align-items: center;
         text-align: center;
         font-size: 2em;
-          color: black;
+          color: white;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 400;
         letter-spacing: 4px;
-        line-height: 135%; }
+          line-height: 135%;
+          text-shadow: 1px 1px 10px #111;
+      }
     .content-home article .thumbnail {
       min-height: 300px; }
       .content-home article .thumbnail img {

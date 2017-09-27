@@ -19,12 +19,13 @@
         align-items: center;
         text-align: center;
         font-size: 2em;
-        color: $color__text-main;
+        color: $color__text-header;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 400;
         letter-spacing: 4px;
         line-height: 135%;
+        text-shadow: $font__main-header-shadow;
       }
     }
 
