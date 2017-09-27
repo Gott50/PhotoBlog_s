@@ -8,29 +8,42 @@
     flex: 1 0 $size__thumbnail;
 
     .entry-header {
-      position: absolute;
-      height: 100%;
-      width: 100%;
+      //position: absolute;
+      //height: 100%;
+      //width: 100%;
+      background: #1d1e1f;
+      display: block;
+      min-height: 81px;
+      position: relative;
+      padding: 22px 105px 15px 25px;
+      z-index: 17;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
 
       a {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 2em;
-        color: $color__text-header;
+        //height: 100%;
+        //display: flex;
+        //justify-content: center;
+        //align-items: center;
+        //text-align: center;
+        //font-size: 2em;
+        //color: $color__text-header;
         text-decoration: none;
-        text-transform: uppercase;
-        font-weight: 400;
-        letter-spacing: 4px;
-        line-height: 135%;
-        text-shadow: $font__main-header-shadow;
+        //text-transform: uppercase;
+        //font-weight: 400;
+        //letter-spacing: 4px;
+        //line-height: 135%;
+        //text-shadow: $font__main-header-shadow;
+
+        font-size: 13px;
+        line-height: 15px;
+        color: #a8abad;
       }
     }
 
     .thumbnail {
-      min-height: $size__thumbnail;
+      //min-height: $size__thumbnail;
       img {
         min-width: 100%;
       }

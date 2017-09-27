@@ -685,27 +685,26 @@ a {
     position: relative;
     flex: 1 0 300px; }
     .content-home article .entry-header {
-      position: absolute;
-      height: 100%;
-      width: 100%; }
+        background: #1d1e1f;
+        display: block;
+        min-height: 81px;
+        position: relative;
+        padding: 22px 105px 15px 25px;
+        z-index: 17;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
       .content-home article .entry-header a {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 2em;
-        color: white;
         text-decoration: none;
-        text-transform: uppercase;
-        font-weight: 400;
-        letter-spacing: 4px;
-        line-height: 135%;
-        text-shadow: 1px 1px 10px #111; }
-    .content-home article .thumbnail {
-      min-height: 300px; }
-      .content-home article .thumbnail img {
-        min-width: 100%; }
+          font-size: 13px;
+          line-height: 15px;
+          color: #a8abad;
+      }
+
+.content-home article .thumbnail img {
+    min-width: 100%;
+}
 
 /*--------------------------------------------------------------
 ## Posts and pages
