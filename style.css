@@ -228,11 +228,11 @@ input,
 select,
 optgroup,
 textarea {
-    color: black;
+  color: black;
   font-family: sans-serif;
   font-size: 16px;
   font-size: 1rem;
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -290,7 +290,7 @@ html {
   box-sizing: inherit; }
 
 body {
-    background: black;
+  background: black;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -419,7 +419,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-    color: black;
+  color: black;
 }
   a:visited {
     color: #666; }
@@ -439,15 +439,20 @@ a {
   float: left;
   width: 100%; }
   .main-navigation .menu {
-      background-color: black;
+    background-color: black;
     font-size: 1.5em;
-      border: 4.5px #FF8100;
+    border: 4.5px #FF8100;
     border-top-style: solid;
     border-bottom-style: solid;
     text-align: center;
     font-weight: bold; }
     .main-navigation .menu a:not(:hover) {
-      color: #404040; }
+      color: white;
+    }
+
+.main-navigation .menu a:hover {
+  color: #FF8100;
+}
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -589,9 +594,9 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget-area {
-    background-color: #359BB8;
-    border: 10px transparent solid;
-    border-radius: 10px;
+  background-color: #359BB8;
+  border: 10px transparent solid;
+  border-radius: 10px;
 }
   .widget-area .widget {
     margin: 0 0 1.5em;
@@ -599,10 +604,10 @@ a {
     .widget-area .widget select {
       max-width: 100%; }
     .widget-area .widget a {
-        color: black;
+      color: black;
       text-decoration: none; }
     .widget-area .widget a:hover {
-        color: #FF8100;
+      color: #FF8100;
     }
     .widget-area .widget ul {
       margin-left: 0;
@@ -693,13 +698,13 @@ a {
         align-items: center;
         text-align: center;
         font-size: 2em;
-          color: white;
+        color: white;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 400;
         letter-spacing: 4px;
-          line-height: 135%;
-          text-shadow: 1px 1px 10px #111;
+        line-height: 135%;
+        text-shadow: 1px 1px 10px #111;
       }
     .content-home article .thumbnail {
       min-height: 300px; }
@@ -732,7 +737,7 @@ a {
 
 .site-main {
   margin-left: 10%;
-    background-color: white;
+  background-color: white;
   border: 10px transparent solid;
   border-radius: 5px; }
 

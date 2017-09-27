@@ -15,6 +15,9 @@
     a:not(:hover) {
       color: $color__text-nav;
     }
+    a:hover {
+      color: $color__nav-secondary;
+    }
   }
 
   ul {
