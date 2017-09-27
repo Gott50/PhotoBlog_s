@@ -290,7 +290,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #000;
+    background: black;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -438,9 +438,9 @@ a {
   float: left;
   width: 100%; }
   .main-navigation .menu {
-      background-color: #DC6536;
+      background-color: black;
     font-size: 1.5em;
-      border: 4.5px black;
+      border: 4.5px #FF8100;
     border-top-style: solid;
     border-bottom-style: solid;
     text-align: center;
@@ -589,7 +589,8 @@ a {
 --------------------------------------------------------------*/
 .widget-area {
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.2); }
+    background-color: #359BB8;
+}
   .widget-area .widget {
     margin: 0 0 1.5em;
     /* Make sure select elements fit in widgets. */ }
@@ -599,7 +600,7 @@ a {
       color: #eee;
       text-decoration: none; }
     .widget-area .widget a:hover {
-        color: black;
+        color: #FF8100;
     }
     .widget-area .widget ul {
       margin-left: 0;
@@ -727,7 +728,7 @@ a {
 
 .site-main {
   margin-left: 10%;
-  background-color: rgba(255, 255, 255, 0.2);
+    background-color: white;
   border: 10px transparent solid;
   border-radius: 5px; }
 
