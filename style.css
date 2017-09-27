@@ -438,9 +438,9 @@ a {
   float: left;
   width: 100%; }
   .main-navigation .menu {
-    background-color: #aad4c6;
+      background-color: #DC6536;
     font-size: 1.5em;
-    border: 10px #088A85;
+      border: 4.5px black;
     border-top-style: solid;
     border-bottom-style: solid;
     text-align: center;
@@ -599,7 +599,8 @@ a {
       color: #eee;
       text-decoration: none; }
     .widget-area .widget a:hover {
-      color: #088A85; }
+        color: black;
+    }
     .widget-area .widget ul {
       margin-left: 0;
       list-style: none; }
