@@ -12,6 +12,10 @@
     a {
       text-decoration: none;
       color: $color__text-post-preview-title;
+
+      &:hover {
+        color: $color__nav-secondary;
+      }
     }
 
     h1 {

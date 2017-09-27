@@ -687,6 +687,10 @@ a {
     .content-home article a {
       text-decoration: none;
       color: #a8abad; }
+
+.content-home article a:hover {
+  color: #FF8100;
+}
     .content-home article h1 {
       font-size: 13px;
       line-height: 15px; }
