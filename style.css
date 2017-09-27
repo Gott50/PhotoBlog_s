@@ -588,8 +588,9 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget-area {
-  padding: 10px;
     background-color: #359BB8;
+    border: 10px transparent solid;
+    border-radius: 10px;
 }
   .widget-area .widget {
     margin: 0 0 1.5em;

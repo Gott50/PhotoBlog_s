@@ -1,6 +1,8 @@
 .widget-area {
-  padding: 10px;
+  //padding: 10px;
   background-color: $color__background-widgets;
+  border: 10px transparent solid;
+  border-radius: 10px;
 
   .widget {
     margin: 0 0 1.5em;
