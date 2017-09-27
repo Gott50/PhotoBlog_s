@@ -228,12 +228,12 @@ input,
 select,
 optgroup,
 textarea {
-  color: #eee;
+    color: black;
   font-family: sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.5;
-  text-shadow: 1px 1px 10px #111; }
+    line-height: 1.5;
+}
 
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
@@ -419,7 +419,8 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #eee; }
+    color: black;
+}
   a:visited {
     color: #666; }
   a:hover, a:focus, a:active {
@@ -598,7 +599,7 @@ a {
     .widget-area .widget select {
       max-width: 100%; }
     .widget-area .widget a {
-      color: #eee;
+        color: black;
       text-decoration: none; }
     .widget-area .widget a:hover {
         color: #FF8100;
@@ -692,7 +693,7 @@ a {
         align-items: center;
         text-align: center;
         font-size: 2em;
-        color: #eee;
+          color: black;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 400;
