@@ -614,19 +614,17 @@ a {
 --------------------------------------------------------------*/
 .content-area {
   float: left;
-    margin: 0 -30% 0 0;
+  margin: 0 -30% 0 0;
   width: 100%; }
 
 .site-main {
-    margin: 0 30% 0 0;
-}
+  margin: 0 30% 0 0; }
 
 .site-content .widget-area {
   float: right;
   overflow: hidden;
-    width: 25%;
-    margin-right: 5%;
-}
+  width: 25%;
+  margin-right: 5%; }
 
 .site-footer {
   clear: both;
@@ -683,38 +681,31 @@ a {
   justify-content: center; }
   .content-home article {
     position: relative;
-      flex: 1 0 300px;
-      padding: 5px;
-      margin: 0;
-  }
-
-.content-home article a {
-    text-decoration: none;
-    font-size: 13px;
-    line-height: 15px;
-    color: #a8abad;
-}
+    flex: 1 0 300px;
+    padding: 5px;
+    margin: 0; }
+    .content-home article a {
+      text-decoration: none;
+      color: #a8abad; }
+    .content-home article h1 {
+      font-size: 13px;
+      line-height: 15px; }
     .content-home article .entry-header {
-        background: #1d1e1f;
-        display: block;
-        min-height: 81px;
-        position: relative;
-        padding: 22px 105px 15px 25px;
-        z-index: 17;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        border: 1px solid;
-    }
-
-.content-home article .thumbnail {
-    margin-bottom: -10px;
-    border: 1px solid;
-}
-
-.content-home article .thumbnail img {
-    min-width: 100%;
-}
+      background: #1d1e1f;
+      display: block;
+      min-height: 81px;
+      position: relative;
+      padding: 22px 105px 15px 25px;
+      z-index: 17;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      border: 1px solid; }
+    .content-home article .thumbnail {
+      margin-bottom: -10px;
+      border: 1px solid; }
+      .content-home article .thumbnail img {
+        min-width: 100%; }
 
 /*--------------------------------------------------------------
 ## Posts and pages
@@ -738,8 +729,8 @@ a {
   margin: 0 0 1.5em; }
 
 .site-main {
-    margin-left: 5%;
-    background-color: rgba(255, 255, 255, 0.75);
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.75);
   border: 10px transparent solid;
   border-radius: 5px; }
 
