@@ -683,7 +683,10 @@ a {
   justify-content: center; }
   .content-home article {
     position: relative;
-    flex: 1 0 300px; }
+      flex: 1 0 300px;
+      padding: 5px;
+      margin: 0;
+  }
     .content-home article .entry-header {
         background: #1d1e1f;
         display: block;
@@ -701,6 +704,10 @@ a {
           line-height: 15px;
           color: #a8abad;
       }
+
+.content-home article .thumbnail {
+    margin-bottom: -10px;
+}
 
 .content-home article .thumbnail img {
     min-width: 100%;

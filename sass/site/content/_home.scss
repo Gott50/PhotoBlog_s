@@ -6,6 +6,8 @@
   article {
     position: relative;
     flex: 1 0 $size__thumbnail;
+    padding: 5px;
+    margin: 0;
 
     .entry-header {
       //position: absolute;
@@ -44,6 +46,8 @@
 
     .thumbnail {
       //min-height: $size__thumbnail;
+      margin-bottom: -10px;
+
       img {
         min-width: 100%;
       }
