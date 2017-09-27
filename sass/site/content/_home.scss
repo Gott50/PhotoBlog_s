@@ -13,11 +13,11 @@
       text-decoration: none;
       font-size: 13px;
       line-height: 15px;
-      color: #a8abad;
+      color: $color__text-post-preview-title;
     }
 
     .entry-header {
-      background: #1d1e1f;
+      background: $color__background-post-preview-title;
       display: block;
       min-height: 81px;
       position: relative;
