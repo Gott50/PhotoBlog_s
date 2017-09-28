@@ -647,7 +647,7 @@ a {
 .site-header a {
   width: 100%;
   height: 100%;
-  color: white;
+  color: #FF8100;
   text-decoration: none; }
 .site-header .site-branding-wrapper {
   height: 50vh;
@@ -687,10 +687,8 @@ a {
     .content-home article a {
       text-decoration: none;
       color: #a8abad; }
-
-.content-home article a:hover {
-  color: #FF8100;
-}
+      .content-home article a:hover {
+        color: #FF8100; }
     .content-home article h1 {
       font-size: 13px;
       line-height: 15px; }
