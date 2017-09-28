@@ -10,15 +10,17 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <a href="' . esc_url( get_permalink() ) . '" rel="bookmark">
+
     <div class="thumbnail">
-	    <?php the_post_thumbnail(); ?>
+        <?php the_post_thumbnail(); ?>
     </div><!-- .thumbnail -->
 
     <header class="entry-header">
-		<?php
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		?>
+        <?php
+        if ( is_singular() ) :
+            the_title( '<h1 class="entry-title">', '</h1>' );
+        else :
+            the_title( '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark"><h2 class="entry-title">', '</h2> </a>' );
+        endif; ?>
     </header><!-- .entry-header -->
-    </a>
 </article><!-- #post-<?php the_ID(); ?> -->
