@@ -10,7 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <a href="<?php the_permalink(); ?>" rel="bookmark">
+    <a href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">
         <div class="thumbnail">
             <?php the_post_thumbnail(); ?>
         </div><!-- .thumbnail -->
