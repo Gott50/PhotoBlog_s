@@ -708,6 +708,10 @@ a {
       border: 1px solid; }
       .content-home article .thumbnail img {
         min-width: 100%; }
+    .content-home article .postmetadata a {
+      font-size: 11px; }
+      .content-home article .postmetadata a:not(:hover) {
+        color: #78797a; }
 
 /*--------------------------------------------------------------
 ## Posts and pages

@@ -19,6 +19,7 @@
             <?php
                 the_title( '<h1 class="entry-title">', '</h1>' );
             ?>
+            <p class="postmetadata"><?php the_category( ', ' ); ?></p>
         </header><!-- .entry-header -->
     </a>
 </article><!-- #post-<?php the_ID(); ?> -->

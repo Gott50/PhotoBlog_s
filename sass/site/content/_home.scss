@@ -44,5 +44,12 @@
         min-width: 100%;
       }
     }
+
+    .postmetadata a {
+      font-size: 11px;
+      &:not(:hover){
+        color: #78797a;
+      }
+    }
   }
 }
