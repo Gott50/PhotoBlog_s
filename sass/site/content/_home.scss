@@ -8,14 +8,11 @@
     flex: 1 0 $size__thumbnail;
     padding: 5px;
     margin: 0;
-    color: $color__text-post-preview-title;
 
-    h1, a {
+    h1, h2, a {
+      color: $color__text-post-preview-title;
       font-size: 13px;
       line-height: 15px;
-    }
-
-    a {
       text-decoration: none;
 
       &:hover {

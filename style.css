@@ -683,14 +683,13 @@ a {
     position: relative;
     flex: 1 0 300px;
     padding: 5px;
-    margin: 0;
-    color: #a8abad; }
-    .content-home article h1, .content-home article a {
+    margin: 0; }
+    .content-home article h1, .content-home article h2, .content-home article a {
+      color: #a8abad;
       font-size: 13px;
-      line-height: 15px; }
-    .content-home article a {
+      line-height: 15px;
       text-decoration: none; }
-      .content-home article a:hover {
+      .content-home article h1:hover, .content-home article h2:hover, .content-home article a:hover {
         color: #FF8100; }
     .content-home article .entry-header {
       background: #1d1e1f;
