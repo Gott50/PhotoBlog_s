@@ -8,19 +8,19 @@
     flex: 1 0 $size__thumbnail;
     padding: 5px;
     margin: 0;
+    color: $color__text-post-preview-title;
+
+    h1, a {
+      font-size: 13px;
+      line-height: 15px;
+    }
 
     a {
       text-decoration: none;
-      color: $color__text-post-preview-title;
 
       &:hover {
         color: $color__nav-secondary;
       }
-    }
-
-    h1 {
-      font-size: 13px;
-      line-height: 15px;
     }
 
     .entry-header {
@@ -33,21 +33,23 @@
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
-      border: 1px solid;
+      border: 1px solid black;
     }
 
     .thumbnail {
       margin-bottom: -10px;
-      border: 1px solid;
+      border: 1px solid black;
 
       img {
         min-width: 100%;
       }
     }
 
-    .postmetadata a {
+    .postmetadata {
       font-size: 11px;
-      &:not(:hover){
+
+      &,
+      a:not(:hover) {
         color: #78797a;
       }
     }

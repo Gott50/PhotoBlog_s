@@ -14,12 +14,14 @@
         <div class="thumbnail">
             <?php the_post_thumbnail(); ?>
         </div><!-- .thumbnail -->
+    </a>
 
         <header class="entry-header">
             <?php
-                the_title( '<h1 class="entry-title">', '</h1>' );
+                the_title( '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark"><h2 class="entry-title">', '</h2> </a>' );
             ?>
-            <p class="postmetadata"><?php the_category( ', ' ); ?></p>
+            <p class="postmetadata">
+                <?php the_time('F jS, Y'); ?> | <?php the_category( ', ' ); ?>
+            </p>
         </header><!-- .entry-header -->
-    </a>
 </article><!-- #post-<?php the_ID(); ?> -->

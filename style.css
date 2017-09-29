@@ -683,15 +683,15 @@ a {
     position: relative;
     flex: 1 0 300px;
     padding: 5px;
-    margin: 0; }
-    .content-home article a {
-      text-decoration: none;
-      color: #a8abad; }
-      .content-home article a:hover {
-        color: #FF8100; }
-    .content-home article h1 {
+    margin: 0;
+    color: #a8abad; }
+    .content-home article h1, .content-home article a {
       font-size: 13px;
       line-height: 15px; }
+    .content-home article a {
+      text-decoration: none; }
+      .content-home article a:hover {
+        color: #FF8100; }
     .content-home article .entry-header {
       background: #1d1e1f;
       display: block;
@@ -702,14 +702,15 @@ a {
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
-      border: 1px solid; }
+      border: 1px solid black; }
     .content-home article .thumbnail {
       margin-bottom: -10px;
-      border: 1px solid; }
+      border: 1px solid black; }
       .content-home article .thumbnail img {
         min-width: 100%; }
-    .content-home article .postmetadata a {
+    .content-home article .postmetadata {
       font-size: 11px; }
+      .content-home article .postmetadata,
       .content-home article .postmetadata a:not(:hover) {
         color: #78797a; }
 
