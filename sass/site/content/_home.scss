@@ -33,15 +33,19 @@
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
-      border: 1px solid black;
+      border: 1px solid $color__border-post-preview;
     }
 
     .thumbnail {
       margin-bottom: -10px;
-      border: 1px solid black;
+      border: 1px solid $color__border-post-preview;
 
       img {
         min-width: 100%;
+      }
+
+      &:hover {
+        border-color: $color__nav-secondary;
       }
     }
 
