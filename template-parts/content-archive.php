@@ -28,9 +28,26 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php
-            the_excerpt();
+        <div class="row">
+            <?php if (has_post_thumbnail()): ?>
 
+                <div class="col-xs-12 col-sm-4">
+                    <div class="thumbnail"><?php the_post_thumbnail('medium'); ?></div>
+                </div>
+                <div class="col-xs-12 col-sm-8">
+                    <?php the_excerpt(); ?>
+                </div>
+
+            <?php else: ?>
+
+                <div class="col-xs-12">
+                    <?php the_excerpt(); ?>
+                </div>
+
+            <?php endif; ?>
+        </div>
+
+        <?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'photoblog_s' ),
 				'after'  => '</div>',
