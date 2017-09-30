@@ -33,17 +33,12 @@
                 <div class="thumbnail">
                     <?php the_post_thumbnail('medium'); ?>
                 </div>
-                <div class="excerpt">
-                    <?php the_excerpt(); ?>
-                </div>
-
-            <?php else: ?>
-
-                <div class="excerpt">
-                    <?php the_excerpt(); ?>
-                </div>
 
             <?php endif; ?>
+
+                <div class="excerpt">
+                    <?php the_excerpt(); ?>
+                </div>
 
         <?php
 			wp_link_pages( array(
