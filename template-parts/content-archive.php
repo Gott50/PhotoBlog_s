@@ -28,7 +28,6 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-        <div class="row">
             <?php if (has_post_thumbnail()): ?>
 
                 <div class="thumbnail">
@@ -45,7 +44,6 @@
                 </div>
 
             <?php endif; ?>
-        </div>
 
         <?php
 			wp_link_pages( array(
