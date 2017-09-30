@@ -37,6 +37,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
     ## Header
     ## Content
         ### Home
+        ### Archive
 	## Posts and pages
 	## Comments
 # Infinite scroll
@@ -715,6 +716,9 @@ a {
       .content-home article .postmetadata a:not(:hover) {
         color: #78797a; }
 
+/*--------------------------------------------------------------
+### Archive
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
