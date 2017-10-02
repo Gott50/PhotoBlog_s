@@ -29,7 +29,15 @@
 
     <header id="masthead" class="site-header">
         <div class="custom-header">
-		    <?php the_custom_header_markup(); ?>
+            <?php
+            // Check if this is a post or page, if it has a thumbnail
+            if (is_singular() && current_theme_supports('post-thumbnails') &&
+                has_post_thumbnail($post->ID)):
+                echo get_the_post_thumbnail($post->ID);
+
+            else :
+                the_custom_header_markup();
+            endif; ?>
         </div>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <div class="site-branding-wrapper">
