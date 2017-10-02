@@ -8,9 +8,8 @@
 
     div, img {
       min-height: $height__header;
-      min-width: 100%;
+      width: 100%;
       max-width: unset;
-      width: auto;
     }
   }
   a {

@@ -642,9 +642,9 @@ a {
   overflow: hidden; }
   .site-header .custom-header div, .site-header .custom-header img {
     min-height: 50vh;
-    min-width: 100%;
+    width: 100%;
     max-width: unset;
-    width: auto; }
+  }
 .site-header a {
   width: 100%;
   height: 100%;
@@ -722,7 +722,6 @@ a {
 .content-archive .entry-content {
   display: flex;
 }
-
 .content-archive .thumbnail {
   margin-right: 10px;
 }
