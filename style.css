@@ -848,6 +848,16 @@ object {
     .site-branding-wrapper {
         font-size: 8px;
     }
+
+    #primary,
+    #main {
+        margin-right: 0;
+    }
+
+    #secondary {
+        width: 100%;
+        margin-right: 0;
+    }
 }
 
 /*# sourceMappingURL=style.css.map */
