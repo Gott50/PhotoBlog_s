@@ -844,5 +844,10 @@ object {
 /*--------------------------------------------------------------
 # Mobile
 --------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+    .site-branding-wrapper {
+        font-size: 8px;
+    }
+}
 
 /*# sourceMappingURL=style.css.map */
