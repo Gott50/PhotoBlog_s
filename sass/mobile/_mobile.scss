@@ -26,4 +26,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
     top: 0;
     z-index: 100;
   }
+  #primary-menu {
+    flex-direction: column;
+  }
 }

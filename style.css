@@ -865,6 +865,10 @@ object {
         top: 0;
         z-index: 100;
     }
+
+    #primary-menu {
+        flex-direction: column;
+    }
 }
 
 /*# sourceMappingURL=style.css.map */
