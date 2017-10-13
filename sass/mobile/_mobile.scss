@@ -29,4 +29,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
   #primary-menu {
     flex-direction: column;
   }
+  .menu-toggle {
+    position: absolute;
+  }
 }

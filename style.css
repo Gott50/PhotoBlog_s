@@ -869,6 +869,10 @@ object {
     #primary-menu {
         flex-direction: column;
     }
+
+    .menu-toggle {
+        position: absolute;
+    }
 }
 
 /*# sourceMappingURL=style.css.map */
