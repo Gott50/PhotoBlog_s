@@ -1,0 +1,24 @@
+@mixin mq($display, $breakpoint) {
+  @media #{$display} and #{$breakpoint}{
+    @content
+  }
+}
+
+$mq_small_only: "(max-width: 640px)";
+$mq_medium_only: "(min-width: 641px) and (max-width: 1024px)";
+$mq_small_and_medium: "(max-width: 1024px)";
+
+@include mq("screen", $mq_small_and_medium) {
+  .site-branding-wrapper {
+    font-size: 8px;
+  }
+  #primary,
+  #main {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #secondary {
+    width: 100%;
+    margin-right: 0;
+  }
+}
