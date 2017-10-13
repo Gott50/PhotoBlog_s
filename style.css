@@ -485,26 +485,6 @@ a {
   display: flex;
   justify-content: space-evenly; }
 
-@media screen and (min-width: 37.5em) {
-  .menu-toggle {
-    display: none; }
-
-  .main-navigation ul {
-    display: flex;
-    justify-content: space-evenly; } }
-.site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation {
-  margin: 0 0 1.5em;
-  overflow: hidden; }
-.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
-  float: left;
-  width: 50%; }
-.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
-  float: right;
-  text-align: right;
-  width: 50%; }
-
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -844,35 +824,66 @@ object {
 /*--------------------------------------------------------------
 # Mobile
 --------------------------------------------------------------*/
+/* Header */
 @media screen and (max-width: 1024px) {
-    .site-branding-wrapper {
-        font-size: 8px;
-    }
+  .site-branding-wrapper {
+    font-size: 8px;
+  }
 
-    #primary,
-    #main {
-        margin-right: 0;
-        margin-left: 0;
-    }
+  #primary,
+  #main {
+    margin-right: 0;
+    margin-left: 0;
+  }
 
-    #secondary {
-        width: 100%;
-        margin-right: 0;
-    }
+  #secondary {
+    width: 100%;
+    margin-right: 0;
+  }
 
-    #site-navigation {
-        position: fixed;
-        top: 0;
-        z-index: 100;
-    }
+  #site-navigation {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
 
-    #primary-menu {
-        flex-direction: column;
-    }
+  #primary-menu {
+    flex-direction: column;
+  }
 
-    .menu-toggle {
-        position: absolute;
-    }
+  .menu-toggle {
+    position: absolute;
+  }
+}
+
+/* Menu */
+@media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .main-navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

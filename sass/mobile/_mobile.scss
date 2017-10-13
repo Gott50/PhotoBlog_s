@@ -8,6 +8,7 @@ $mq_small_only: "(max-width: 640px)";
 $mq_medium_only: "(min-width: 641px) and (max-width: 1024px)";
 $mq_small_and_medium: "(max-width: 1024px)";
 
+/* Header */
 @include mq("screen", $mq_small_and_medium) {
   .site-branding-wrapper {
     font-size: 8px;
@@ -31,5 +32,37 @@ $mq_small_and_medium: "(max-width: 1024px)";
   }
   .menu-toggle {
     position: absolute;
+  }
+}
+
+/* Menu */
+@media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+  .site-main & {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+  }
+
+  .nav-previous {
+    float: left;
+    width: 50%;
+  }
+
+  .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
   }
 }
