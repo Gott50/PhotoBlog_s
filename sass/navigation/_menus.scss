@@ -19,7 +19,10 @@
       color: $color__nav-secondary;
     }
   }
-
+  .widget-area {
+    display: none;
+    list-style: none;
+  }
   ul {
     display: none;
     list-style: none;
@@ -88,9 +91,12 @@
 
 /* Small menu. */
 .menu-toggle,
-.main-navigation.toggled ul {
-  display: flex;
-  justify-content: space-evenly;
+.main-navigation.toggled {
+  ul,
+  .widget-area {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 .comment-navigation,

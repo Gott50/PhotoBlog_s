@@ -450,6 +450,11 @@ a {
       color: white; }
     .main-navigation .menu a:hover {
       color: #FF8100; }
+
+.main-navigation .widget-area {
+    display: none;
+    list-style: none;
+}
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -480,8 +485,10 @@ a {
     text-decoration: none; }
 
 /* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
+.menu-toggle ul,
+.menu-toggle .widget-area,
+.main-navigation.toggled ul,
+.main-navigation.toggled .widget-area {
   display: flex;
   justify-content: space-evenly; }
 
