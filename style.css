@@ -453,7 +453,7 @@ a {
 
 .main-navigation .widget-area {
     display: none;
-    list-style: none;
+  list-style: none;
 }
   .main-navigation ul {
     display: none;
@@ -495,31 +495,31 @@ a {
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
-    margin: 0 0 1.5em;
-    overflow: hidden;
+  margin: 0 0 1.5em;
+  overflow: hidden;
 }
 .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
 .comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
-    float: right;
-    text-align: right;
-    width: 50%;
+  float: right;
+  text-align: right;
+  width: 50%;
 }
 
 #site-navigation {
-    position: fixed;
-    top: 0;
-    z-index: 100;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 #primary-menu {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .menu-toggle {
-    position: absolute;
+  position: absolute;
 }
 
 /*--------------------------------------------------------------
@@ -633,18 +633,18 @@ a {
 --------------------------------------------------------------*/
 .content-area {
   float: left;
-    margin: 0 0 0 0;
+  margin: 0 0 0 0;
   width: 100%; }
 
 .site-main {
-    margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .site-content .widget-area {
   float: right;
   overflow: hidden;
-    width: 100%;
-    margin-right: 0;
+  width: 100%;
+  margin-right: 0;
 }
 
 .site-footer {
@@ -658,10 +658,10 @@ a {
   position: absolute;
   z-index: -100;
   width: 100%;
-    height: 100vh;
+  height: 100vh;
   overflow: hidden; }
   .site-header .custom-header div, .site-header .custom-header img {
-      min-height: 100vh;
+    min-height: 100vh;
     width: 100%;
     max-width: unset; }
 .site-header a {
@@ -670,7 +670,7 @@ a {
   color: #FF8100;
   text-decoration: none; }
 .site-header .site-branding-wrapper {
-    height: 100vh;
+  height: 100vh;
   text-align: center;
   padding-top: 10vh; }
   .site-header .site-branding-wrapper .site-branding {
@@ -762,11 +762,6 @@ a {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
-
-.site-main {
-  background-color: rgba(255, 255, 255, 0.75);
-  border: 10px transparent solid;
-  border-radius: 5px; }
 
 /*--------------------------------------------------------------
 ## Comments
@@ -864,18 +859,18 @@ object {
 /* Header */
 @media screen and (max-width: 1024px) {
   .site-branding-wrapper {
-      font-size: 8px;
+    font-size: 8px;
   }
 
   #primary,
   #main {
     margin-right: 0;
-      margin-left: 0;
+    margin-left: 0;
   }
 
   #secondary {
     width: 100%;
-      margin-right: 0;
+    margin-right: 0;
   }
 }
 
