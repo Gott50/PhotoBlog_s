@@ -113,3 +113,17 @@
     width: 50%;
   }
 }
+
+#site-navigation {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+#primary-menu {
+  flex-direction: column;
+}
+
+.menu-toggle {
+  position: absolute;
+}
