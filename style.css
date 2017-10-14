@@ -437,7 +437,8 @@ a {
   clear: both;
   display: block;
   float: left;
-  width: 100%; }
+  width: 20%;
+}
   .main-navigation .menu {
     background-color: black;
     font-size: 1.3em;
