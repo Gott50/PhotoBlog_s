@@ -37,14 +37,8 @@
     }
 
     .thumbnail {
-      border: 1px solid $color__border-post-preview;
-
       img {
         min-width: 100%;
-      }
-
-      &:hover {
-        border-color: $color__nav-secondary;
       }
     }
 

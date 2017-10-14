@@ -726,12 +726,10 @@ a {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       border: 1px solid black; }
-    .content-home article .thumbnail {
-      border: 1px solid black; }
-      .content-home article .thumbnail img {
-        min-width: 100%; }
-      .content-home article .thumbnail:hover {
-        border-color: #FF8100; }
+
+.content-home article .thumbnail img {
+  min-width: 100%;
+}
     .content-home article .postmetadata {
       font-size: 11px; }
       .content-home article .postmetadata,
