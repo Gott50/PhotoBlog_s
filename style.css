@@ -722,10 +722,7 @@ a {
       position: relative;
       padding: 22px 105px 15px 25px;
       z-index: 17;
-      box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      border: 1px solid black; }
+    }
 
 .content-home article .thumbnail img {
   min-width: 100%;
