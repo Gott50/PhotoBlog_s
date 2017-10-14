@@ -612,6 +612,10 @@ a {
   clear: both;
   width: 100%; }
 
+.site-main {
+  margin-left: 5%;
+}
+
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
@@ -726,7 +730,6 @@ a {
   margin: 0 0 1.5em; }
 
 .site-main {
-  margin-left: 5%;
   background-color: rgba(255, 255, 255, 0.75);
   border: 10px transparent solid;
   border-radius: 5px; }
@@ -854,7 +857,9 @@ object {
     flex-direction: column; }
 
   .menu-toggle {
-    position: absolute; } }
+    position: absolute;
+  }
+}
 /* Menu */
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
@@ -862,15 +867,19 @@ object {
 
   .main-navigation ul {
     display: flex;
-    justify-content: space-evenly; } }
+    justify-content: space-evenly;
+  }
+}
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
   margin: 0 0 1.5em;
-  overflow: hidden; }
+  overflow: hidden;
+}
 .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
   float: left;
-  width: 50%; }
+  width: 50%;
+}
 .comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
   float: right;
   text-align: right;
