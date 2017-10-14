@@ -2,6 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  &.site-main {
+    border: none;
+  }
 
   article {
     position: relative;

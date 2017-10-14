@@ -699,6 +699,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+.content-home.site-main {
+  border: none;
+}
   .content-home article {
     position: relative;
     flex: 1 0 300px;
