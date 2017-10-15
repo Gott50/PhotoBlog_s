@@ -441,9 +441,6 @@ a {
   .main-navigation .menu {
     background-color: black;
     font-size: 1.3em;
-    border: 4.5px #FF8100;
-    border-top-style: solid;
-    border-bottom-style: solid;
     text-align: center;
     font-weight: bold; }
     .main-navigation .menu a:not(:hover) {

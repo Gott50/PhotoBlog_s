@@ -7,9 +7,6 @@
   .menu {
     background-color: $color__nav-primary;
     font-size: 1.3em;
-    border: 4.5px $color__nav-secondary;
-    border-top-style: solid;
-    border-bottom-style: solid;
     text-align: center;
     font-weight: bold;
     a:not(:hover) {
