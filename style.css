@@ -494,7 +494,9 @@ a {
     display: block; }
 
 .menu-toggle {
-  font-size: 35px; }
+  font-size: 35px;
+  padding-right: 0;
+}
 
 .toggled .menu-toggle {
   float: right; }
