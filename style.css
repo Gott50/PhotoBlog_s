@@ -491,16 +491,13 @@ a {
   .menu-toggle .widget-area,
   .main-navigation.toggled ul,
   .main-navigation.toggled .widget-area {
-    display: flex;
-    justify-content: space-evenly; }
+    display: block; }
 
 .menu-toggle {
-  font-size: 35px;
-}
+  font-size: 35px; }
 
 .toggled .menu-toggle {
-  float: right;
-}
+  float: right; }
 
 .menu-icon {
   position: relative;
@@ -515,8 +512,7 @@ a {
   width: 1em;
   height: 0.125em;
   border-top: 0.375em double #666;
-  border-bottom: 0.125em solid #666;
-}
+  border-bottom: 0.125em solid #666; }
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
