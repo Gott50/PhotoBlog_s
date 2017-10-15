@@ -92,6 +92,8 @@
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled {
+  background: none;
+  border: none;
   ul,
   .widget-area {
     display: flex;
