@@ -510,8 +510,9 @@ a {
   left: 0;
   width: 1em;
   height: 0.125em;
-  border-top: 0.375em double #000;
-  border-bottom: 0.125em solid #000; }
+  border-top: 0.375em double #666;
+  border-bottom: 0.125em solid #666;
+}
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
