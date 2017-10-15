@@ -76,8 +76,8 @@
 
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
             <nav id="site-navigation" class="main-navigation">
-                <button class="menu-toggle" aria-controls="primary-menu"
-                        aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'photoblog_s' ); ?></button>
+                <button class="menu-toggle menu-icon" aria-controls="primary-menu"
+                        aria-expanded="false"></button>
                 <?php
                 wp_nav_menu( array(
                     'theme_location' => 'primary',
