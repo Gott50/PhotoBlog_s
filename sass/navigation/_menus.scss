@@ -144,12 +144,12 @@
   }
 }
 
-#site-navigation {
+.main-navigation {
   position: fixed;
   top: 0;
   z-index: 100;
 }
 
-#primary-menu {
+.menu {
   flex-direction: column;
 }

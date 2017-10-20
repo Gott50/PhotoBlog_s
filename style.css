@@ -492,7 +492,7 @@ a {
 
 .menu-toggle {
   font-size: 35px;
-  padding-right: 0;
+    padding-right: 0;
 }
 
 .toggled .menu-toggle {
@@ -526,12 +526,12 @@ a {
   text-align: right;
   width: 50%; }
 
-#site-navigation {
+.main-navigation {
   position: fixed;
   top: 0;
   z-index: 100; }
 
-#primary-menu {
+.menu {
   flex-direction: column; }
 
 /*--------------------------------------------------------------
