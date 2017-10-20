@@ -6,7 +6,7 @@
   clear: both;
   display: block;
   float: left;
-  width: $width__main-navigation;
+  //width: $width__main-navigation;
 
   .menu {
     flex-direction: column;
@@ -109,7 +109,7 @@
 }
 
 .toggled .menu-toggle {
-  float: right;
+  //float: right;
 }
 
 .menu-icon {

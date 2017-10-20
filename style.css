@@ -439,8 +439,8 @@ a {
   z-index: 100;
   clear: both;
   display: block;
-  float: left;
-  width: 20%; }
+    float: left;
+}
   .main-navigation .menu {
     flex-direction: column;
     background-color: black;
@@ -497,9 +497,6 @@ a {
   font-size: 35px;
     padding-right: 0;
 }
-
-.toggled .menu-toggle {
-  float: right; }
 
 .menu-icon {
   position: relative;
