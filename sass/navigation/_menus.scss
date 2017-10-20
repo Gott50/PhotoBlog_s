@@ -1,10 +1,16 @@
 .main-navigation {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+
   clear: both;
   display: block;
   float: left;
   width: $width__main-navigation;
 
   .menu {
+    flex-direction: column;
+
     background-color: $color__nav-primary;
     font-size: 1.3em;
     text-align: center;
@@ -145,11 +151,4 @@
 }
 
 .main-navigation {
-  position: absolute;
-  top: 0;
-  z-index: 100;
-}
-
-.menu {
-  flex-direction: column;
 }

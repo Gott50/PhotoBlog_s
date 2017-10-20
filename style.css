@@ -434,11 +434,15 @@ a {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
+    position: absolute;
+    top: 0;
+    z-index: 100;
   clear: both;
   display: block;
   float: left;
   width: 20%; }
   .main-navigation .menu {
+      flex-direction: column;
     background-color: black;
     font-size: 1.3em;
     text-align: center;
@@ -525,14 +529,6 @@ a {
   float: right;
   text-align: right;
   width: 50%; }
-
-.main-navigation {
-    position: absolute;
-  top: 0;
-  z-index: 100; }
-
-.menu {
-  flex-direction: column; }
 
 /*--------------------------------------------------------------
 # Accessibility
