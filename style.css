@@ -477,7 +477,6 @@ a {
     .main-navigation ul li.focus > ul {
       left: auto; }
   .main-navigation li {
-    float: left;
     position: relative; }
   .main-navigation a {
     display: block;
@@ -496,7 +495,7 @@ a {
 
 .menu-toggle {
   font-size: 35px;
-  padding-right: 0;
+    padding-right: 0;
 }
 
 .toggled .menu-toggle {
