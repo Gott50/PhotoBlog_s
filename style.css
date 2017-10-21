@@ -637,7 +637,9 @@ a {
 .site-header .site-branding-wrapper {
   height: 50vh;
   text-align: center;
-  padding-top: 10vh; }
+  padding-top: 10vh;
+  text-shadow: 2px 2px black;
+}
   .site-header .site-branding-wrapper .site-branding {
     background: rgba(0, 0, 0, 0.5);
     display: inline-block;
