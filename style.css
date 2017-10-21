@@ -439,7 +439,11 @@ a {
   z-index: 100;
   clear: both;
   display: block;
-    float: left;
+  float: left;
+}
+
+.main-navigation.toggled {
+  background-color: white;
 }
   .main-navigation .menu {
     flex-direction: column;
@@ -485,7 +489,6 @@ a {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled {
-  background: none;
   border: none; }
   .menu-toggle ul,
   .menu-toggle .widget-area,
@@ -495,7 +498,7 @@ a {
 
 .menu-toggle {
   font-size: 35px;
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .menu-icon {

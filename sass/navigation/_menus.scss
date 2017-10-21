@@ -8,6 +8,10 @@
   float: left;
   //width: $width__main-navigation;
 
+  &.toggled {
+    background-color: white;
+  }
+
   .menu {
     flex-direction: column;
 
@@ -95,7 +99,7 @@
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled {
-  background: none;
+  //background: none;
   border: none;
   ul,
   .widget-area {
