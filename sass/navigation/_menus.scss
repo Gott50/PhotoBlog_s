@@ -103,7 +103,6 @@
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled {
-  //background: none;
   border: none;
   ul,
   .widget-area {
@@ -114,6 +113,8 @@
 .menu-toggle {
   font-size: 35px;
   padding-right: 0;
+
+  background: none;
 }
 
 .toggled .menu-toggle {

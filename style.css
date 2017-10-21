@@ -442,12 +442,9 @@ a {
   float: left;
   border: 10px transparent solid;
   border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.main-navigation.toggled {
-  background-color: white;
-}
+  border-top-right-radius: 10px; }
+  .main-navigation.toggled {
+    background-color: white; }
   .main-navigation .menu {
     flex-direction: column;
     background-color: black;
@@ -502,7 +499,7 @@ a {
 .menu-toggle {
   font-size: 35px;
   padding-right: 0;
-}
+  background: none; }
 
 .menu-icon {
   position: relative;
