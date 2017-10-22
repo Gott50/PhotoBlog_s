@@ -656,6 +656,10 @@ a {
   clear: both;
   width: 100%; }
 
+.site-main {
+  margin-left: 5%;
+}
+
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
@@ -677,7 +681,9 @@ a {
 .site-header .site-branding-wrapper {
   height: 100vh;
   text-align: center;
-  padding-top: 10vh; }
+  padding-top: 10vh;
+  text-shadow: 2px 2px black;
+}
   .site-header .site-branding-wrapper .site-branding {
     background: rgba(0, 0, 0, 0.5);
     display: inline-block;
@@ -863,11 +869,12 @@ object {
 /*--------------------------------------------------------------
 # Mobile
 --------------------------------------------------------------*/
-/* Header */
 @media screen and (max-width: 1024px) {
+  /* Header */
   .site-branding-wrapper {
     font-size: 8px; }
 
+  /* Layout */
   #primary,
   #main {
     margin-right: 0;
@@ -876,5 +883,6 @@ object {
   #secondary {
     width: 100%;
     margin-right: 0; } }
+
 
 /*# sourceMappingURL=style.css.map */

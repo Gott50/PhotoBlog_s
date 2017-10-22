@@ -8,11 +8,13 @@ $mq_small_only: "(max-width: 640px)";
 $mq_medium_only: "(min-width: 641px) and (max-width: 1024px)";
 $mq_small_and_medium: "(max-width: 1024px)";
 
-/* Header */
 @include mq("screen", $mq_small_and_medium) {
+  /* Header */
   .site-branding-wrapper {
     font-size: 8px;
   }
+
+  /* Layout */
   #primary,
   #main {
     margin-right: 0;
