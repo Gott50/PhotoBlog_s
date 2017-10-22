@@ -656,10 +656,6 @@ a {
   clear: both;
   width: 100%; }
 
-.site-main {
-  margin-left: 5%;
-}
-
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
@@ -682,7 +678,7 @@ a {
   height: 100vh;
   text-align: center;
   padding-top: 10vh;
-  text-shadow: 2px 2px black;
+    text-shadow: 2px 2px black;
 }
   .site-header .site-branding-wrapper .site-branding {
     background: rgba(0, 0, 0, 0.5);
@@ -883,6 +879,5 @@ object {
   #secondary {
     width: 100%;
     margin-right: 0; } }
-
 
 /*# sourceMappingURL=style.css.map */
