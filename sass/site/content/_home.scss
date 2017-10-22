@@ -2,12 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  &.site-main {
+    border: none;
+  }
 
   article {
     position: relative;
     flex: 1 0 $size__thumbnail;
-    padding: 5px;
     margin: 0;
+    display: flex;
+    background-color: $color__background-post-preview-title;
+    flex-flow: wrap;
 
     h1, h2, a {
       color: $color__text-post-preview-title;
@@ -21,28 +26,18 @@
     }
 
     .entry-header {
+      width: 100%;
       background: $color__background-post-preview-title;
       display: block;
       min-height: 81px;
       position: relative;
       padding: 22px 105px 15px 25px;
       z-index: 17;
-      box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      border: 1px solid $color__border-post-preview;
     }
 
     .thumbnail {
-      margin-bottom: -10px;
-      border: 1px solid $color__border-post-preview;
-
       img {
         min-width: 100%;
-      }
-
-      &:hover {
-        border-color: $color__nav-secondary;
       }
     }
 

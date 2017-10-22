@@ -1,15 +1,26 @@
 .main-navigation {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+
   clear: both;
   display: block;
   float: left;
-  width: 100%;
+  //width: $width__main-navigation;
+
+  border: 0 transparent solid;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+  &.toggled {
+    background-color: white;
+  }
 
   .menu {
+    flex-direction: column;
+
     background-color: $color__nav-primary;
     font-size: 1.3em;
-    border: 4.5px $color__nav-secondary;
-    border-top-style: solid;
-    border-bottom-style: solid;
     text-align: center;
     font-weight: bold;
     a:not(:hover) {
@@ -19,7 +30,10 @@
       color: $color__nav-secondary;
     }
   }
-
+  .widget-area {
+    display: none;
+    list-style: none;
+  }
   ul {
     display: none;
     list-style: none;
@@ -66,7 +80,7 @@
   }
 
   li {
-    float: left;
+    //float: left;
     position: relative;
 
     &:hover > a,
@@ -88,7 +102,59 @@
 
 /* Small menu. */
 .menu-toggle,
-.main-navigation.toggled ul {
-  display: flex;
-  justify-content: space-evenly;
+.main-navigation.toggled {
+  border: none;
+  ul,
+  .widget-area {
+    display: block;
+  }
+}
+
+.menu-toggle {
+  font-size: 35px;
+  padding-right: 0;
+
+  background: none;
+}
+
+.toggled .menu-toggle {
+  //float: right;
+}
+
+.menu-icon {
+  position: relative;
+  padding-left: 1.25em;
+  box-sizing: content-box;
+}
+
+.menu-icon:before {
+  content: "";
+  position: absolute;
+  top: 0.25em;
+  left: 0;
+  width: 1em;
+  height: 0.125em;
+  border-top: 0.375em double $color__icon-menu;
+  border-bottom: 0.125em solid $color__icon-menu;
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+  .site-main & {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+  }
+
+  .nav-previous {
+    float: left;
+    width: 50%;
+  }
+
+  .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
 }
