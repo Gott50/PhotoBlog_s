@@ -449,7 +449,7 @@ a {
   }
   .main-navigation .menu {
     flex-direction: column;
-    font-size: 1.3em;
+    font-size: 1.7em;
     text-align: center;
     font-weight: bold; }
     .main-navigation .menu a:not(:hover) {
@@ -458,7 +458,9 @@ a {
       color: #FF8100; }
   .main-navigation .widget-area {
     display: none;
-    list-style: none; }
+    list-style: none;
+    margin-top: 4em;
+  }
   .main-navigation ul {
     display: none;
     list-style: none;

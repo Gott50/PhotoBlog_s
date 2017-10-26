@@ -19,7 +19,7 @@
   .menu {
     flex-direction: column;
 
-    font-size: 1.3em;
+    font-size: 1.7em;
     text-align: center;
     font-weight: bold;
     a:not(:hover) {
@@ -32,6 +32,8 @@
   .widget-area {
     display: none;
     list-style: none;
+
+    margin-top: 4em;
   }
   ul {
     display: none;
