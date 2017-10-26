@@ -615,8 +615,6 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget-area {
-  border: 10px transparent solid;
-  border-radius: 10px;
   color: white; }
   .widget-area .widget {
     margin: 0 0 1.5em;
