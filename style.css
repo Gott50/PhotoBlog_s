@@ -712,11 +712,6 @@ a {
     width: 100%;
 }
 
-.home .site-content {
-    margin-right: 0;
-    margin-left: 0;
-}
-
 .content-home {
   display: flex;
   flex-wrap: wrap;
