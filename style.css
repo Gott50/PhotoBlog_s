@@ -440,15 +440,16 @@ a {
   clear: both;
   display: block;
   float: left;
+  padding: 10px;
   border: 0 transparent solid;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px; }
   .main-navigation.toggled {
-    background-color: white; }
+      background-color: rgba(0, 0, 0, 0.5);
+  }
   .main-navigation .menu {
     flex-direction: column;
-    background-color: black;
-    font-size: 1.3em;
+    font-size: 1.7em;
     text-align: center;
     font-weight: bold; }
     .main-navigation .menu a:not(:hover) {
@@ -457,7 +458,9 @@ a {
       color: #FF8100; }
   .main-navigation .widget-area {
     display: none;
-    list-style: none; }
+    list-style: none;
+      margin-top: 4em;
+  }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -513,8 +516,9 @@ a {
   left: 0;
   width: 1em;
   height: 0.125em;
-  border-top: 0.375em double #666;
-  border-bottom: 0.125em solid #666; }
+  border-top: 0.375em double rgba(0, 0, 0, 0.5);
+    border-bottom: 0.125em solid rgba(0, 0, 0, 0.5);
+}
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
@@ -615,9 +619,6 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget-area {
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 10px transparent solid;
-  border-radius: 10px;
   color: white; }
   .widget-area .widget {
     margin: 0 0 1.5em;
@@ -639,9 +640,10 @@ a {
 # Site
 --------------------------------------------------------------*/
 .content-area {
-  float: left;
-  margin: 0 0 0 0;
-  width: 100%; }
+    max-width: 100%;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
 
 .site-main {
   margin: 0 0 0 0; }
@@ -702,6 +704,10 @@ a {
 /*--------------------------------------------------------------
 ### Home
 --------------------------------------------------------------*/
+.home .content-area {
+    width: 100%;
+}
+
 .content-home {
   display: flex;
   flex-wrap: wrap;

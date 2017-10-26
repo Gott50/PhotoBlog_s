@@ -1,7 +1,7 @@
 .content-area {
-  float: left;
-  margin: 0 0 0 0;
-  width: 100%;
+  max-width: 100%;
+  width: $size__site-main;
+  margin: 0 auto 0 auto;
 }
 
 .site-main {

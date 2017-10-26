@@ -2,7 +2,6 @@ $color__background-body: black;
 $color__background-content: rgba(256, 256, 256, 0.75);
 $color__background-header: rgba(0, 0, 0, 0.5);
 $color__background-post-preview-title: #1d1e1f;
-$color__background-widgets: rgba(0, 0, 0, 0.5);
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
@@ -10,7 +9,7 @@ $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__background-nav: white;
 
-$color__nav-primary: black;
+$color__nav-primary: rgba(0, 0, 0, 0.5);
 $color__nav-secondary: #FF8100;
 
 $color__text-main: black;
@@ -33,4 +32,4 @@ $color__border-button-focus: #aaa #bbb #bbb;
 $color__border-input: #ccc;
 $color__border-abbr: #666;
 
-$color__icon-menu: #666;
+$color__icon-menu: rgba(0, 0, 0, 0.5);

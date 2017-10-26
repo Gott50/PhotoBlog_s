@@ -6,21 +6,20 @@
   clear: both;
   display: block;
   float: left;
-  //width: $width__main-navigation;
 
+  padding: 10px;
   border: 0 transparent solid;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 
   &.toggled {
-    background-color: white;
+    background-color: $color__nav-primary;
   }
 
   .menu {
     flex-direction: column;
 
-    background-color: $color__nav-primary;
-    font-size: 1.3em;
+    font-size: 1.7em;
     text-align: center;
     font-weight: bold;
     a:not(:hover) {
@@ -33,6 +32,8 @@
   .widget-area {
     display: none;
     list-style: none;
+
+    margin-top: 4em;
   }
   ul {
     display: none;
