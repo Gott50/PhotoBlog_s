@@ -444,7 +444,7 @@ a {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px; }
   .main-navigation.toggled {
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.5);
   }
   .main-navigation .menu {
     flex-direction: column;
@@ -513,8 +513,9 @@ a {
   left: 0;
   width: 1em;
   height: 0.125em;
-  border-top: 0.375em double #666;
-  border-bottom: 0.125em solid #666; }
+  border-top: 0.375em double rgba(0, 0, 0, 0.5);
+  border-bottom: 0.125em solid rgba(0, 0, 0, 0.5);
+}
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
