@@ -2,6 +2,9 @@
   .content-area {
     width: 100%;
   }
+  .site-main {
+    background: none;
+  }
 }
 
 .content-home {
@@ -15,7 +18,7 @@
   article {
     position: relative;
     flex: 1 0 $size__thumbnail;
-    margin: 0;
+    margin: 10px;
     display: flex;
     background-color: $color__background-post-preview-title;
     flex-flow: wrap;
