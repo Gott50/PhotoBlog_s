@@ -444,10 +444,10 @@ a {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px; }
   .main-navigation.toggled {
-    background-color: white; }
+    background-color: red;
+  }
   .main-navigation .menu {
     flex-direction: column;
-    background-color: black;
     font-size: 1.3em;
     text-align: center;
     font-weight: bold; }
@@ -615,7 +615,6 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget-area {
-  background-color: rgba(0, 0, 0, 0.5);
   border: 10px transparent solid;
   border-radius: 10px;
   color: white; }
@@ -678,7 +677,7 @@ a {
   height: 100vh;
   text-align: center;
   padding-top: 10vh;
-    text-shadow: 2px 2px black;
+  text-shadow: 2px 2px black;
 }
   .site-header .site-branding-wrapper .site-branding {
     background: rgba(0, 0, 0, 0.5);
