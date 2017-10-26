@@ -440,6 +440,7 @@ a {
   clear: both;
   display: block;
   float: left;
+  padding: 10px;
   border: 0 transparent solid;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px; }
