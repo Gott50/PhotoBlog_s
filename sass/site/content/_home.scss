@@ -23,6 +23,10 @@
     background-color: $color__background-post-preview-title;
     flex-flow: wrap;
 
+    a, .thumbnail {
+      width: 100%;
+    }
+
     h1, h2, a {
       color: $color__text-post-preview-title;
       font-size: 13px;

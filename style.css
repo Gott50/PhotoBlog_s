@@ -711,7 +711,6 @@ a {
 .home .content-area {
     width: 100%;
 }
-
 .home .site-main {
     background: none;
 }
@@ -729,6 +728,10 @@ a {
     display: flex;
     background-color: #1d1e1f;
     flex-flow: wrap; }
+
+.content-home article a, .content-home article .thumbnail {
+    width: 100%;
+}
     .content-home article h1, .content-home article h2, .content-home article a {
       color: #a8abad;
       font-size: 13px;
