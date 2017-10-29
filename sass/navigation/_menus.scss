@@ -116,10 +116,21 @@
   padding: 0;
 
   background: none;
+
+  .icon-close {
+    display: none;
+  }
 }
 
 .toggled .menu-toggle {
   color: $color__icon-menu-toggled;
+
+  .icon-close {
+    display: block;
+  }
+  .icon-bars {
+    display: none;
+  }
 }
 
 .comment-navigation,

@@ -81,6 +81,7 @@
                         aria-expanded="false">
                     <?php
                     echo photoblog_s_get_svg(array('icon' => 'bars'));
+                    echo photoblog_s_get_svg(array('icon' => 'close'));
                     ?>
                 </button>
 

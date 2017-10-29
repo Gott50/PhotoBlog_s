@@ -512,8 +512,20 @@ a {
   background: none;
 }
 
+.menu-toggle .icon-close {
+  display: none;
+}
+
 .toggled .menu-toggle {
   color: white;
+}
+
+.toggled .menu-toggle .icon-close {
+  display: block;
+}
+
+.toggled .menu-toggle .icon-bars {
+  display: none;
 }
 
 .site-main .comment-navigation,
