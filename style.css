@@ -44,6 +44,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Media
 	## Captions
 	## Galleries
+	## Icons
 # Mobile
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -773,7 +774,6 @@ a {
 .home .content-area {
     width: 100%;
 }
-
 .home .site-main {
     background: none;
 }
@@ -830,7 +830,6 @@ a {
 .content-archive .entry-content {
     display: flex;
 }
-
 .content-archive .thumbnail {
     margin-right: 10px;
 }
@@ -951,6 +950,9 @@ object {
 .gallery-caption {
   display: block; }
 
+/*--------------------------------------------------------------
+## Icons
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Mobile
 --------------------------------------------------------------*/
