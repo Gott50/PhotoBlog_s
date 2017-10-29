@@ -446,11 +446,11 @@ a {
   padding: 10px;
   border: 0 transparent solid;
   border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .main-navigation.toggled {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
   .main-navigation .menu {
     flex-direction: column;
@@ -465,7 +465,7 @@ a {
 .main-navigation .widget-area {
     display: none;
     list-style: none;
-    margin-top: 4em;
+  margin-top: 4em;
 }
   .main-navigation ul {
     display: none;
@@ -497,37 +497,37 @@ a {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled {
-    border: none;
+  border: none;
 }
 
 .menu-toggle ul,
 .menu-toggle .widget-area,
 .main-navigation.toggled ul,
 .main-navigation.toggled .widget-area {
-    display: block;
+  display: block;
 }
 
 .menu-toggle {
   color: #FF8100;
   font-size: 35px;
   padding: 0;
-    background: none;
+  background: none;
 }
 
 .menu-toggle .icon-close {
-    display: none;
+  display: none;
 }
 
 .toggled .menu-toggle {
-    color: white;
+  color: white;
 }
 
 .toggled .menu-toggle .icon-close {
-    display: block;
+  display: block;
 }
 
 .toggled .menu-toggle .icon-bars {
-    display: none;
+  display: none;
 }
 
 .site-main .comment-navigation,
@@ -652,22 +652,22 @@ a {
 .content-area {
   max-width: 100%;
   width: 1000px;
-    margin: 0 auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .site-main {
-    margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .site-content {
-    margin: 20px;
+  margin: 20px;
 }
 
 .site-content .widget-area {
   float: right;
   overflow: hidden;
   width: 100%;
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .site-footer {
@@ -678,7 +678,7 @@ a {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-    position: relative;
+  position: relative;
 }
 
 .site-header .custom-header {
@@ -686,55 +686,55 @@ a {
     z-index: -100;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .site-header .custom-header div, .site-header .custom-header img {
-    min-height: 100vh;
-    width: 100%;
-    max-width: unset;
+  min-height: 100vh;
+  width: 100%;
+  max-width: unset;
 }
 
 .site-header a {
     width: 100%;
     height: 100%;
     color: #FF8100;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .site-header .site-branding-wrapper {
     display: grid;
     height: 100vh;
     text-align: center;
-    text-shadow: 2px 2px black;
+  text-shadow: 2px 2px black;
 }
 
 .site-header .site-branding-wrapper .site-branding {
-    margin: auto;
-    background: transparent;
-    display: inline-block;
-    padding: 1.7em;
+  margin: auto;
+  background: transparent;
+  display: inline-block;
+  padding: 1.7em;
 }
 
 .site-header .site-branding-wrapper .custom-logo {
-    height: 50%;
+  height: 50%;
 }
 
 .site-header .site-branding-wrapper .custom-logo img {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
 
 .site-header .site-branding-wrapper h1, .site-header .site-branding-wrapper p {
-    margin: 0;
+  margin: 0;
 }
 
 .site-header .site-branding-wrapper h1 {
-    font-size: 4em;
+  font-size: 4em;
 }
 
 .site-header .site-branding-wrapper p {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .site-header .menu-scroll-down {
@@ -743,21 +743,47 @@ a {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin: 1em;
+  margin: 1em;
 }
 
 .site-header .menu-scroll-down .icon {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    width: 3em;
-    height: 3em;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 3em;
+  height: 3em;
 }
 
 /*--------------------------------------------------------------
 
 ## Footer
 --------------------------------------------------------------*/
+.site-footer {
+  background: #1d1d1d;
+}
+
+.site-footer ul {
+  list-style: none;
+}
+
+.site-footer li:hover > a {
+  color: #fff;
+}
+
+.site-footer a {
+  display: block;
+  padding: 23px 0;
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 10000;
+}
+
+.site-footer .menu > li {
+  display: inline-block;
+}
+
 /*--------------------------------------------------------------
 
 ## Content
@@ -766,10 +792,10 @@ a {
 ### Home
 --------------------------------------------------------------*/
 .home .content-area {
-    width: 100%;
+  width: 100%;
 }
 .home .site-main {
-    background: none;
+  background: none;
 }
 
 .content-home {
@@ -778,7 +804,7 @@ a {
   justify-content: center; }
 
 .content-home.site-main {
-    border: none;
+  border: none;
 }
   .content-home article {
     position: relative;
@@ -786,11 +812,11 @@ a {
     margin: 10px;
     display: flex;
     background-color: #1d1e1f;
-      flex-flow: wrap;
+    flex-flow: wrap;
   }
 
 .content-home article a, .content-home article .thumbnail {
-    width: 100%;
+  width: 100%;
 }
     .content-home article h1, .content-home article h2, .content-home article a {
       color: #a8abad;
@@ -806,11 +832,11 @@ a {
       min-height: 81px;
       position: relative;
       padding: 22px 105px 15px 25px;
-        z-index: 17;
+      z-index: 17;
     }
 
 .content-home article .thumbnail img {
-    min-width: 100%;
+  min-width: 100%;
 }
     .content-home article .postmetadata {
       font-size: 11px; }
@@ -822,10 +848,10 @@ a {
 ### Archive
 --------------------------------------------------------------*/
 .content-archive .entry-content {
-    display: flex;
+  display: flex;
 }
 .content-archive .thumbnail {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -954,7 +980,7 @@ object {
   fill: currentColor;
   position: relative;
   top: -0.0625em;
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*--------------------------------------------------------------
@@ -963,19 +989,19 @@ object {
 @media screen and (max-width: 1024px) {
   /* Header */
   .site-branding-wrapper {
-      font-size: 8px;
+    font-size: 8px;
   }
 
   /* Layout */
   #primary,
   #main {
     margin-right: 0;
-      margin-left: 0;
+    margin-left: 0;
   }
 
   #secondary {
     width: 100%;
-      margin-right: 0;
+    margin-right: 0;
   }
 }
 

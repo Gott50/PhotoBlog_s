@@ -1,0 +1,25 @@
+.site-footer {
+  background: #1d1d1d;
+
+  ul {
+    list-style: none;
+  }
+
+  li:hover > a {
+    color: #fff;
+  }
+
+  a {
+    display: block;
+    padding: 23px 0;
+    font-size: 14px;
+    color: #999;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10000;
+  }
+
+  .menu > li {
+    display: inline-block;
+  }
+}
