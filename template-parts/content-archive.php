@@ -28,9 +28,17 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php
-            the_excerpt();
+        <?php if (has_post_thumbnail()): ?>
+            <div class="thumbnail">
+                <?php the_post_thumbnail('medium'); ?>
+            </div>
+        <?php endif; ?>
 
+        <div class="excerpt">
+            <?php the_excerpt(); ?>
+        </div>
+
+        <?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'photoblog_s' ),
 				'after'  => '</div>',

@@ -1,4 +1,6 @@
 .site-header {
+  position: relative;
+
   .custom-header {
     position: absolute;
     z-index: -100;
@@ -8,9 +10,8 @@
 
     div, img {
       min-height: $height__header;
-      min-width: 100%;
+      width: 100%;
       max-width: unset;
-      width: auto;
     }
   }
   a {
@@ -20,11 +21,15 @@
     text-decoration: none;
   }
   .site-branding-wrapper {
+    display: grid;
+
     height: $height__header;
     text-align: center;
-    padding-top: 10vh;
+    text-shadow: 2px 2px black;
 
     .site-branding {
+      margin: auto;
+
       background: $color__background-header;
       display: inline-block;
       padding: 1.7em;
@@ -46,6 +51,30 @@
     }
     p {
       font-size: 2em;
+    }
+  }
+
+  .menu-scroll-down {
+    height: auto;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    margin: 1em;
+
+    .icon {
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+
+      width: 3em;
+      height: 3em;
+      display: inline-block;
+      fill: currentColor;
+      position: relative;
+      top: -0.0625em;
+      vertical-align: middle;
     }
   }
 }

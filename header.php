@@ -29,7 +29,15 @@
 
     <header id="masthead" class="site-header">
         <div class="custom-header">
-		    <?php the_custom_header_markup(); ?>
+            <?php
+            // Check if this is a post or page, if it has a thumbnail
+            if (is_singular() && current_theme_supports('post-thumbnails') &&
+                has_post_thumbnail($post->ID)):
+                echo get_the_post_thumbnail($post->ID);
+
+            else :
+                the_custom_header_markup();
+            endif; ?>
         </div>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <div class="site-branding-wrapper">
@@ -68,16 +76,23 @@
 
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
             <nav id="site-navigation" class="main-navigation">
-                <button class="menu-toggle" aria-controls="primary-menu"
-                        aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'photoblog_s' ); ?></button>
+                <button class="menu-toggle menu-icon" aria-controls="primary-menu"
+                        aria-expanded="false"></button>
                 <?php
                 wp_nav_menu( array(
                     'theme_location' => 'primary',
                     'menu_id'        => 'primary-menu',
                 ) );
+
+                get_sidebar();
                 ?>
             </nav><!-- #site-navigation -->
         <?php endif;?>
+
+        <a href="#content" class="menu-scroll-down"><?php echo photoblog_s_get_svg(array('icon' => 'arrow-right')); ?>
+            <span class="screen-reader-text"><?php _e('Scroll down to content', 'photoblog_s'); ?></span>
+        </a>
+
     </header><!-- #masthead -->
 
     <div id="content" class="site-content">
