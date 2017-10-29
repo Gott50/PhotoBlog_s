@@ -512,25 +512,6 @@ a {
   background: none;
 }
 
-.menu-icon {
-  height: 0.63em;
-  width: 1em;
-  position: relative;
-  box-sizing: content-box;
-}
-
-.menu-icon:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1em;
-  height: 0.125em;
-  border-top: 0.375em double;
-  border-bottom: 0.125em solid;
-  border-color: black;
-}
-
 .toggled .menu-toggle:before {
   border-color: white;
 }
