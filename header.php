@@ -75,9 +75,15 @@
         </a>
 
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
+
             <nav id="site-navigation" class="main-navigation">
-                <button class="menu-toggle menu-icon" aria-controls="primary-menu"
-                        aria-expanded="false"></button>
+                <button class="menu-toggle" aria-controls="primary-menu"
+                        aria-expanded="false">
+                    <?php
+                    echo photoblog_s_get_svg(array('icon' => 'bars'));
+                    ?>
+                </button>
+
                 <?php
                 wp_nav_menu( array(
                     'theme_location' => 'primary',
