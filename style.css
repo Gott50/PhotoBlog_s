@@ -779,6 +779,7 @@ a {
   text-transform: uppercase;
   position: relative;
   z-index: 10000;
+  text-decoration: none;
 }
 
 .site-footer .menu > li {
