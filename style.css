@@ -512,8 +512,8 @@ a {
   background: none;
 }
 
-.toggled .menu-toggle:before {
-  border-color: white;
+.toggled .menu-toggle {
+  color: white;
 }
 
 .site-main .comment-navigation,
