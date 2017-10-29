@@ -756,6 +756,8 @@ a {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+  width: 3em;
+  height: 3em;
 }
 
 /*--------------------------------------------------------------
@@ -947,8 +949,8 @@ object {
 ## Icons
 --------------------------------------------------------------*/
 .icon {
-  width: 3em;
-  height: 3em;
+  width: 1em;
+  height: 1em;
   display: inline-block;
   fill: currentColor;
   position: relative;
