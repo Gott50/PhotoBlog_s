@@ -755,7 +755,7 @@ a {
     border: none; }
   .content-home article {
     position: relative;
-    flex: 1 0 400px;
+    flex: 400px;
     margin: 10px;
     display: flex;
     background-color: #1d1e1f;
@@ -937,6 +937,10 @@ object {
 
   #secondary {
     width: 100%;
+    margin-right: 0; } }
+@media screen and (max-width: 640px) {
+  .site-content {
+    margin-left: 0;
     margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -26,3 +26,9 @@ $mq_small_and_medium: "(max-width: 1024px)";
   }
 }
 
+@include mq("screen", $mq_small_only) {
+  .site-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
