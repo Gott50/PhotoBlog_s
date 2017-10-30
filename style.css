@@ -448,7 +448,8 @@ a {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px; }
   .main-navigation.toggled {
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(0, 0, 0, 0.75);
+  }
   .main-navigation .menu {
     flex-direction: column;
     font-size: 1.7em;
@@ -722,7 +723,7 @@ a {
     color: #fff; }
   .site-footer a {
     display: block;
-    padding: 23px 0;
+    padding: 23px 10px;
     font-size: 14px;
     color: #999;
     text-transform: uppercase;
