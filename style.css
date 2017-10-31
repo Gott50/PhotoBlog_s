@@ -724,7 +724,9 @@ ul.menu {
 --------------------------------------------------------------*/
 .site-footer {
   background: #1d1d1d;
-  font-size: 14px; }
+  font-size: 14px;
+  text-align: center;
+}
   .site-footer a {
     display: block;
     padding: 23px 10px;
