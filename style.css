@@ -28,6 +28,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Forms
 # Navigation
 	## Links
+	## Main-navigation
 	## Menus
 # Accessibility
 # Alignments
@@ -435,7 +436,7 @@ a {
     outline: 0; }
 
 /*--------------------------------------------------------------
-## Menus
+## Main-navigation
 --------------------------------------------------------------*/
 .main-navigation {
   position: absolute;
@@ -530,6 +531,9 @@ a {
   text-align: right;
   width: 50%; }
 
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/

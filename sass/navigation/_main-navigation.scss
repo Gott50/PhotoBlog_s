@@ -1,0 +1,156 @@
+.main-navigation {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+
+  clear: both;
+  display: block;
+  float: left;
+
+  max-width: 320px;
+  padding: 10px;
+  border: 0 transparent solid;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+  &.toggled {
+    background-color: $color__nav-primary;
+  }
+
+  .menu {
+    flex-direction: column;
+
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bold;
+    a:not(:hover) {
+      color: $color__text-nav;
+    }
+    a:hover {
+      color: $color__nav-secondary;
+    }
+  }
+  .widget-area {
+    display: none;
+    list-style: none;
+
+    margin-top: 4em;
+  }
+  ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+    ul {
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+      float: left;
+      position: absolute;
+      top: 100%;
+      left: -999em;
+      z-index: 99999;
+
+      ul {
+        left: -999em;
+        top: 0;
+      }
+
+      li {
+        &:hover > ul,
+        &.focus > ul {
+          left: 100%;
+        }
+      }
+
+      a {
+        width: 200px;
+      }
+
+      :hover > a,
+      .focus > a {
+      }
+
+      a:hover,
+      a.focus {
+      }
+    }
+
+    li:hover > ul,
+    li.focus > ul {
+      left: auto;
+    }
+  }
+
+  li {
+    //float: left;
+    position: relative;
+
+    &:hover > a,
+    &.focus > a {
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .current_page_item > a,
+  .current-menu-item > a,
+  .current_page_ancestor > a,
+  .current-menu-ancestor > a {
+  }
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled {
+  border: none;
+  ul,
+  .widget-area {
+    display: block;
+  }
+}
+
+.menu-toggle {
+  color: $color__icon-menu;
+  font-size: 35px;
+  padding: 0;
+
+  background: none;
+
+  .icon-close {
+    display: none;
+  }
+}
+
+.toggled .menu-toggle {
+  color: $color__icon-menu-toggled;
+
+  .icon-close {
+    display: block;
+  }
+  .icon-bars {
+    display: none;
+  }
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+  .site-main & {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+  }
+
+  .nav-previous {
+    float: left;
+    width: 50%;
+  }
+
+  .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+}
