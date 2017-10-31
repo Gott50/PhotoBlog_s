@@ -1,10 +1,5 @@
 .site-footer {
   background: #1d1d1d;
-  text-align: center;
-
-  ul {
-    list-style: none;
-  }
 
   li:hover > a {
     color: #fff;
@@ -14,19 +9,10 @@
     display: block;
     padding: 23px 10px;
     font-size: 14px;
-    color: #999;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 10000;
     text-decoration: none;
   }
 
   .menu > li {
     display: inline-block;
-  }
-
-  .menu {
-    margin: 0;
-    padding: 0;
   }
 }

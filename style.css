@@ -724,25 +724,16 @@ ul.menu {
 --------------------------------------------------------------*/
 .site-footer {
   background: #1d1d1d;
-  text-align: center; }
-  .site-footer ul {
-    list-style: none; }
+}
   .site-footer li:hover > a {
     color: #fff; }
   .site-footer a {
     display: block;
     padding: 23px 10px;
     font-size: 14px;
-    color: #999;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 10000;
     text-decoration: none; }
   .site-footer .menu > li {
     display: inline-block; }
-  .site-footer .menu {
-    margin: 0;
-    padding: 0; }
 
 /*--------------------------------------------------------------
 
