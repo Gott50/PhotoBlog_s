@@ -453,15 +453,6 @@ a {
   .main-navigation.toggled {
     background-color: rgba(0, 0, 0, 0.75);
   }
-  .main-navigation .menu {
-    flex-direction: column;
-    font-size: 1.7em;
-    text-align: center;
-    font-weight: bold; }
-    .main-navigation .menu a:not(:hover) {
-      color: white; }
-    .main-navigation .menu a:hover {
-      color: #FF8100; }
   .main-navigation .widget-area {
     display: none;
     list-style: none;
@@ -534,6 +525,21 @@ a {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.menu {
+  flex-direction: column;
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu a:not(:hover) {
+  color: white;
+}
+
+.menu a:hover {
+  color: #FF8100;
+}
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/

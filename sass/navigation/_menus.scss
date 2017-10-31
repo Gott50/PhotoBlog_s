@@ -1,0 +1,13 @@
+.menu {
+  flex-direction: column;
+
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: bold;
+  a:not(:hover) {
+    color: $color__text-nav;
+  }
+  a:hover {
+    color: $color__nav-secondary;
+  }
+}
