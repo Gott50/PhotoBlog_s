@@ -540,6 +540,20 @@ ul.menu {
 /*--------------------------------------------------------------
 ## Social-Links-Menu
 --------------------------------------------------------------*/
+#menu-social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#menu-social-links a {
+  width: auto;
+}
+
+#menu-social-links li a {
+  padding: 10px;
+}
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/

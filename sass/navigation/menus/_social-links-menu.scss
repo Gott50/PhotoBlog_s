@@ -1,0 +1,12 @@
+#menu-social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  a {
+    width: auto;
+  }
+  li a {
+    padding: 10px;
+  }
+}
