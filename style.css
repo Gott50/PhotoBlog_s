@@ -30,6 +30,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 	## Links
 	## Main-navigation
 	## Menus
+	## Social-Links-Menu
 # Accessibility
 # Alignments
 # Clearings
@@ -536,6 +537,9 @@ ul.menu {
   ul.menu li {
     display: flex; }
 
+/*--------------------------------------------------------------
+## Social-Links-Menu
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
