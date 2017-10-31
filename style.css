@@ -503,7 +503,6 @@ a {
 .menu {
   flex-direction: column;
   font-size: 1.7em;
-  text-align: center;
   font-weight: bold; }
   .menu a:not(:hover) {
     color: white; }
