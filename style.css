@@ -521,13 +521,13 @@ a {
   color: #FF8100;
 }
 
-ul {
+.menuul {
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
 
-ul ul {
+.menuul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
   position: absolute;
@@ -536,21 +536,21 @@ ul ul {
   z-index: 99999;
 }
 
-ul ul ul {
+.menuul ul ul {
   left: -999em;
   top: 0;
 }
 
-ul ul li:hover > ul, ul ul li.focus > ul {
+.menuul ul li:hover > ul, .menuul ul li.focus > ul {
   left: 100%;
 }
 
-ul ul a {
+.menuul ul a {
   width: 200px;
 }
 
-ul li:hover > ul,
-ul li.focus > ul {
+.menuul li:hover > ul,
+.menuul li.focus > ul {
   left: auto;
 }
 
