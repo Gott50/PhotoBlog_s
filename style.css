@@ -724,11 +724,14 @@ ul.menu {
 ## Footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: #1d1d1d; }
+  background: #1d1d1d;
+  font-size: 14px;
+}
   .site-footer a {
     display: block;
     padding: 23px 10px;
-    font-size: 14px; }
+    font-size: 1rem;
+  }
   .site-footer .menu > li {
     display: inline-block; }
 
