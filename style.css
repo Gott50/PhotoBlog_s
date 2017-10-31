@@ -953,7 +953,7 @@ object {
 --------------------------------------------------------------*/
 div.sharedaddy {
   display: table-cell;
-  width: 50%;
+  width: auto !important;
 }
 
 /*# sourceMappingURL=style.css.map */
