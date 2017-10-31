@@ -460,8 +460,6 @@ a {
     list-style: none; }
   .main-navigation li {
     position: relative; }
-  .main-navigation a {
-    text-decoration: none; }
 
 /* Small menu. */
 .menu-toggle,
