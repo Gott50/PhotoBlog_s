@@ -456,8 +456,7 @@ a {
     display: none;
     margin-top: 4em; }
   .main-navigation ul {
-    display: none;
-  }
+    display: none; }
 
 /* Small menu. */
 .menu-toggle,
@@ -516,6 +515,8 @@ ul.menu {
   margin: 0;
   padding-left: 0; }
   ul.menu ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
     float: left;
     position: absolute;
@@ -527,16 +528,13 @@ ul.menu {
       top: 0; }
     ul.menu ul a {
       width: 200px;
-      background-color: rgba(0, 0, 0, 0.75);
-    }
+      background-color: rgba(0, 0, 0, 0.75); }
   ul.menu li:hover > ul,
   ul.menu li.focus > ul {
     left: 0;
     position: relative; }
-
-ul.menu li {
-  display: flex;
-}
+  ul.menu li {
+    display: flex; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -726,13 +724,11 @@ ul.menu li {
 --------------------------------------------------------------*/
 .site-footer {
   background: #1d1d1d;
-  font-size: 14px;
-}
+  font-size: 14px; }
   .site-footer a {
     display: block;
     padding: 23px 10px;
-    font-size: 1rem;
-  }
+    font-size: 1rem; }
   .site-footer .menu > li {
     display: inline-block; }
 
