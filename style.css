@@ -730,7 +730,9 @@ ul.menu {
   .site-footer a {
     display: block;
     padding: 23px 10px;
-    font-size: 1rem; }
+    font-size: 1rem;
+    width: 200px;
+  }
   .site-footer .menu > li {
     display: inline-block; }
 
