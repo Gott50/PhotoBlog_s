@@ -36,7 +36,7 @@ ul.menu {
     li {
       &:hover > ul,
       &.focus > ul {
-        left: 100%;
+        //left: 100%;
       }
     }
 
@@ -55,7 +55,10 @@ ul.menu {
 
   li:hover > ul,
   li.focus > ul {
-    left: auto;
+    left: 0;
     position: relative;
+  }
+  li {
+    display: flex;
   }
 }

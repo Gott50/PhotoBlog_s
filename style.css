@@ -526,14 +526,16 @@ ul.menu {
     ul.menu ul ul {
       left: -999em;
       top: 0; }
-    ul.menu ul li:hover > ul, ul.menu ul li.focus > ul {
-      left: 100%; }
     ul.menu ul a {
       width: 200px; }
   ul.menu li:hover > ul,
   ul.menu li.focus > ul {
-    left: auto;
+    left: 0;
     position: relative; }
+
+ul.menu li {
+  display: flex;
+}
 
 /*--------------------------------------------------------------
 # Accessibility
