@@ -533,8 +533,7 @@ ul.menu {
       width: 200px; }
   ul.menu li:hover > ul,
   ul.menu li.focus > ul {
-    left: auto; }
-  ul.menu li {
+    left: auto;
     position: relative; }
 
 /*--------------------------------------------------------------
