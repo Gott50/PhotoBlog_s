@@ -514,6 +514,10 @@ a {
   .menu a:hover {
     color: #FF8100; }
 
+.menu a {
+  text-decoration: none;
+}
+
 ul.menu {
   list-style: none;
   margin: 0;
@@ -725,13 +729,11 @@ ul.menu {
 .site-footer {
   background: #1d1d1d;
 }
-  .site-footer li:hover > a {
-    color: #fff; }
   .site-footer a {
     display: block;
     padding: 23px 10px;
     font-size: 14px;
-    text-decoration: none; }
+  }
   .site-footer .menu > li {
     display: inline-block; }
 
