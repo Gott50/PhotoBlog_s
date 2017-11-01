@@ -72,7 +72,7 @@
                         <?php endif;?>
                 </div><!-- .site-branding -->
             </div><!-- .site-branding-wrapper -->
-        <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"></a>
+        <a class="overlay" href="<?php echo esc_url(home_url('/')); ?>" rel="home"></a>
 
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
 

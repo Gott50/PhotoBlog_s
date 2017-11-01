@@ -2,7 +2,7 @@
   position: relative;
 
   a {
-    &[rel$="home"] {
+    &.overlay {
       position: absolute;
       top: 0;
     }

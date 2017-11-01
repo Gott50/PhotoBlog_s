@@ -694,7 +694,7 @@ ul.menu {
   text-decoration: none;
 }
 
-.site-header a[rel$="home"] {
+.site-header a.overlay {
   position: absolute;
   top: 0;
 }
