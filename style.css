@@ -547,7 +547,11 @@ ul.menu {
   #menu-social-links a {
     width: auto; }
   #menu-social-links li a {
-    padding: 10px; }
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 100%;
+    line-height: 0;
+  }
 
 /*--------------------------------------------------------------
 # Accessibility

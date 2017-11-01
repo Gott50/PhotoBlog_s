@@ -8,5 +8,9 @@
   }
   li a {
     padding: 10px;
+
+    background: $color__nav-primary;
+    border-radius: 100%;
+    line-height: 0;
   }
 }
