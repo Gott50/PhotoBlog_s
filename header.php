@@ -41,6 +41,7 @@
         </div>
             <div class="site-branding-wrapper">
                 <div class="site-branding">
+                    <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
                         <?php
                         $custom_logo_id = get_theme_mod( 'custom_logo' );
                         $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
@@ -48,7 +49,7 @@
                             <img class="custom-logo" src="<?php echo esc_url( $logo[0] ) ?>">
                         <?php else : ?>
                             <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-                        <?php
+                            <?php
                         endif;
 
                         $description = get_bloginfo( 'description', 'display' );
@@ -56,6 +57,7 @@
                             <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
                             <?php
                         endif; ?>
+                    </a>
 
                     <?php
                         if ( has_nav_menu( 'social' ) ) : ?>
