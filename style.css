@@ -715,6 +715,7 @@ ul.menu {
     text-shadow: 2px 2px black; }
     .site-header .site-branding-wrapper .site-branding {
       margin: auto;
+      z-index: 1;
       background: transparent;
       display: inline-block;
       padding: 1.7em; }
