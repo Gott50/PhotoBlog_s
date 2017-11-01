@@ -686,6 +686,18 @@ ul.menu {
 --------------------------------------------------------------*/
 .site-header {
   position: relative; }
+
+.site-header a {
+  width: 100%;
+  height: 100%;
+  color: #FF8100;
+  text-decoration: none;
+}
+
+.site-header a[rel$="home"] {
+  position: absolute;
+  top: 0;
+}
   .site-header .custom-header {
     position: absolute;
     z-index: -100;
@@ -696,11 +708,6 @@ ul.menu {
       min-height: 100vh;
       width: 100%;
       max-width: unset; }
-  .site-header a {
-    width: 100%;
-    height: 100%;
-    color: #FF8100;
-    text-decoration: none; }
   .site-header .site-branding-wrapper {
     display: grid;
     height: 100vh;

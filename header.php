@@ -39,7 +39,6 @@
                 the_custom_header_markup();
             endif; ?>
         </div>
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             <div class="site-branding-wrapper">
                 <div class="site-branding">
                         <?php
@@ -56,8 +55,9 @@
                         if ( $description || is_customize_preview() ) : ?>
                             <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
                             <?php
-                        endif;
+                        endif; ?>
 
+                    <?php
                         if ( has_nav_menu( 'social' ) ) : ?>
                             <nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'photoblog_s' ); ?>">
                                 <?php
@@ -72,7 +72,7 @@
                         <?php endif;?>
                 </div><!-- .site-branding -->
             </div><!-- .site-branding-wrapper -->
-        </a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"></a>
 
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
 
