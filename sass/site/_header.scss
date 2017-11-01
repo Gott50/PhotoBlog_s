@@ -1,6 +1,9 @@
 .site-header {
   position: relative;
-  box-shadow: $box-shadow__site-header;
+
+  &:hover {
+    box-shadow: $box-shadow__site-header;
+  }
 
   a {
     &.overlay {

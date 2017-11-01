@@ -681,7 +681,11 @@ ul.menu {
 --------------------------------------------------------------*/
 .site-header {
   position: relative;
-  box-shadow: inset 0 0 300px 0 black; }
+}
+
+.site-header:hover {
+  box-shadow: inset 0 0 300px 0 black;
+}
   .site-header a {
     width: 100%;
     height: 100%;
