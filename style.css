@@ -733,7 +733,8 @@ ul.menu {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin: 3em; }
+    margin: 5em;
+  }
     .site-header .menu-scroll-down .icon {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
@@ -781,7 +782,6 @@ ul.menu {
 .home .site-branding-wrapper {
   height: 100vh;
 }
-
 .home .menu-scroll-down {
   display: block;
 }
