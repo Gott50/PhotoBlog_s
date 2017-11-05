@@ -715,7 +715,7 @@ ul.menu {
     text-align: center;
     text-shadow: 2px 2px black; }
     .site-header .site-branding-wrapper .site-branding {
-      margin: auto;
+        margin-top: 10%;
       z-index: 1;
       background: transparent;
       display: inline-block; }
