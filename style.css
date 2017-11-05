@@ -699,15 +699,15 @@ ul.menu {
     position: absolute;
     z-index: -100;
     width: 100%;
-    height: 100vh;
+      height: 50vh;
     overflow: hidden; }
     .site-header .custom-header div, .site-header .custom-header img {
-      min-height: 100vh;
+        min-height: 50vh;
       width: 100%;
       max-width: unset; }
   .site-header .site-branding-wrapper {
     display: grid;
-    height: 100vh;
+      height: 50vh;
     text-align: center;
     text-shadow: 2px 2px black; }
     .site-header .site-branding-wrapper .site-branding {
@@ -770,6 +770,18 @@ ul.menu {
   width: 100%; }
 .home .site-main {
   background: none; }
+
+.home .custom-header {
+    height: 100vh;
+}
+
+.home .custom-header div, .home .custom-header img {
+    min-height: 100vh;
+}
+
+.home .site-branding-wrapper {
+    height: 100vh;
+}
 
 .content-home {
   display: flex;

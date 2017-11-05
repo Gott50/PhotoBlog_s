@@ -5,6 +5,16 @@
   .site-main {
     background: none;
   }
+
+  .custom-header {
+    height: $height__header_home;
+    div, img {
+      min-height: $height__header_home;
+    }
+  }
+  .site-branding-wrapper {
+    height: $height__header_home;
+  }
 }
 
 .content-home {
