@@ -72,15 +72,18 @@
     bottom: 0;
     right: 0;
 
-    margin: 1em;
+    margin: 3em;
 
     .icon {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
 
-      width: 3em;
-      height: 3em;
+      width: 6em;
+      height: 6em;
+      background: #0000003d;
+      border-radius: 100%;
+      padding: 10px;
     }
   }
 }

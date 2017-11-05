@@ -551,7 +551,7 @@ ul.menu {
     padding: 10px;
     background: rgba(0, 0, 0, 0.75);
     border-radius: 100%;
-    line-height: 0;
+      line-height: 0;
   }
 
 /*--------------------------------------------------------------
@@ -685,11 +685,11 @@ ul.menu {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-  position: relative;
+    position: relative;
 }
 
 .site-header:hover {
-  box-shadow: inset 0 0 150px 0 black;
+    box-shadow: inset 0 0 150px 0 black;
 }
   .site-header a {
     width: 100%;
@@ -736,13 +736,18 @@ ul.menu {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin: 1em; }
+      margin: 3em;
+  }
     .site-header .menu-scroll-down .icon {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
-      width: 3em;
-      height: 3em; }
+        width: 6em;
+        height: 6em;
+        background: #0000003d;
+        border-radius: 100%;
+        padding: 10px;
+    }
 
 /*--------------------------------------------------------------
 
