@@ -733,7 +733,7 @@ ul.menu {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin: 5em;
+      margin: 5em;
   }
     .site-header .menu-scroll-down .icon {
       -webkit-transform: rotate(90deg);
@@ -773,17 +773,17 @@ ul.menu {
 .home .site-main {
   background: none; }
 .home .custom-header {
-  height: 100vh;
+    height: 100vh;
 }
 
 .home .custom-header div, .home .custom-header img {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 .home .site-branding-wrapper {
-  height: 100vh;
+    height: 100vh;
 }
 .home .menu-scroll-down {
-  display: block;
+    display: block;
 }
 
 .content-home {
@@ -830,21 +830,21 @@ ul.menu {
 .content-archive .entry-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+    justify-content: center;
 }
 
 .content-archive .entry-content div {
-  flex-basis: 300px;
+    flex-basis: 300px;
 }
 .content-archive .thumbnail {
-  flex-grow: 0;
-  margin-right: 10px; }
+    flex-grow: 0;
+}
 .content-archive .excerpt {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 .content-archive .excerpt p {
-  margin: 0;
+    margin: 0 10px;
 }
 
 /*--------------------------------------------------------------

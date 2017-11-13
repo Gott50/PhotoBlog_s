@@ -11,14 +11,13 @@
 
   .thumbnail {
     flex-grow: 0;
-    margin-right: 10px;
   }
 
   .excerpt {
     flex-grow: 1;
 
     p {
-      margin: 0;
+      margin: 0 10px;
     }
   }
 }
