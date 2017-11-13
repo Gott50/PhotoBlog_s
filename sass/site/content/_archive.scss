@@ -1,9 +1,23 @@
 .content-archive {
   .entry-content {
     display: flex;
+    flex-wrap: wrap;
+
+    div {
+      flex-basis: 300px;
+    }
   }
 
   .thumbnail {
+    flex-grow: 0;
     margin-right: 10px;
+  }
+
+  .excerpt {
+    flex-grow: 1;
+
+    p {
+      margin: 0;
+    }
   }
 }
