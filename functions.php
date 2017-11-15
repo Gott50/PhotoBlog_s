@@ -97,10 +97,13 @@ add_action( 'after_setup_theme', 'photoblog_s_setup' );
  *
  * Priority 0 to make it available to lower priority callbacks.
  *
+ * It also defines the specific width for Jetpack galleries
+ * https://jetpack.com/support/tiled-galleries/#content-width
+ *
  * @global int $content_width
  */
 function photoblog_s_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'photoblog_s_content_width', 640 );
+    $GLOBALS['content_width'] = apply_filters('photoblog_s_content_width', 980);
 }
 add_action( 'after_setup_theme', 'photoblog_s_content_width', 0 );
 

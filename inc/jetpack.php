@@ -36,12 +36,6 @@ function photoblog_s_jetpack_setup() {
 			'comment'    => '.comments-link',
 		),
 	) );
-
-    // Define a specific width for your galleries
-    // https://jetpack.com/support/tiled-galleries/#content-width
-    if (!isset($content_width)) {
-        $content_width = 980;
-    }
 }
 add_action( 'after_setup_theme', 'photoblog_s_jetpack_setup' );
 
