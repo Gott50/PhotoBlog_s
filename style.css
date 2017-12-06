@@ -470,7 +470,7 @@ a {
     display: block; }
 
 .menu-toggle {
-  color: #FF8100;
+  color: white;
   font-size: 35px;
   padding: 0;
   background: none; }
@@ -507,7 +507,7 @@ a {
   .menu a:not(:hover) {
     color: white; }
   .menu a:hover {
-    color: #FF8100; }
+    color: white; }
   .menu a {
     text-decoration: none; }
 
@@ -649,7 +649,7 @@ ul.menu {
       color: white;
       text-decoration: none; }
     .widget-area .widget a:hover {
-      color: #FF8100; }
+      color: white; }
     .widget-area .widget ul {
       margin-left: 0;
       list-style: none; }
@@ -690,7 +690,7 @@ ul.menu {
   .site-header a {
     width: 100%;
     height: 100%;
-    color: #FF8100;
+    color: white;
     text-decoration: none; }
     .site-header a.overlay {
       position: absolute;
@@ -733,8 +733,7 @@ ul.menu {
     position: absolute;
     bottom: 0;
     right: 0;
-      margin: 5em;
-  }
+    margin: 5em; }
     .site-header .menu-scroll-down .icon {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
@@ -773,18 +772,13 @@ ul.menu {
 .home .site-main {
   background: none; }
 .home .custom-header {
-    height: 100vh;
-}
-
-.home .custom-header div, .home .custom-header img {
-    min-height: 100vh;
-}
+  height: 100vh; }
+  .home .custom-header div, .home .custom-header img {
+    min-height: 100vh; }
 .home .site-branding-wrapper {
-    height: 100vh;
-}
+  height: 100vh; }
 .home .menu-scroll-down {
-    display: block;
-}
+  display: block; }
 
 .content-home {
   display: flex;
@@ -807,14 +801,14 @@ ul.menu {
       line-height: 15px;
       text-decoration: none; }
       .content-home article h1:hover, .content-home article h2:hover, .content-home article a:hover {
-        color: #FF8100; }
+        color: white; }
     .content-home article .entry-header {
       width: 100%;
       background: #1d1e1f;
       display: block;
       min-height: 81px;
       position: relative;
-        padding: 22px;
+      padding: 22px;
       z-index: 17; }
     .content-home article .thumbnail img {
       min-width: 100%; }
@@ -830,22 +824,15 @@ ul.menu {
 .content-archive .entry-content {
   display: flex;
   flex-wrap: wrap;
-    justify-content: center;
-}
-
-.content-archive .entry-content div {
-    flex-basis: 300px;
-}
+  justify-content: center; }
+  .content-archive .entry-content div {
+    flex-basis: 300px; }
 .content-archive .thumbnail {
-    flex-grow: 0;
-}
+  flex-grow: 0; }
 .content-archive .excerpt {
-    flex-grow: 1;
-}
-
-.content-archive .excerpt p {
-    margin: 0 10px;
-}
+  flex-grow: 1; }
+  .content-archive .excerpt p {
+    margin: 0 10px; }
 
 /*--------------------------------------------------------------
 ## Posts and pages
