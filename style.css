@@ -464,7 +464,7 @@ a {
   font-size: 1.7em;
   font-weight: bold; }
   .menu a:not(:hover) {
-    color: white; }
+    color: #a8abad; }
   .menu a:hover {
     color: white; }
   .menu a {
