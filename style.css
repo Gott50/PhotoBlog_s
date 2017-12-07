@@ -697,6 +697,7 @@ ul.menu {
       position: absolute;
       top: 0; }
   .site-header .custom-header {
+    display: none;
     position: absolute;
     z-index: -100;
     width: 100%;
@@ -707,7 +708,7 @@ ul.menu {
       width: 100%;
       max-width: unset; }
   .site-header .site-branding-wrapper {
-    display: grid;
+    display: none;
     height: 50vh;
     text-align: center;
     text-shadow: 2px 2px black; }

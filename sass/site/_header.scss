@@ -17,6 +17,7 @@
   }
 
   .custom-header {
+    display: none;
     position: absolute;
     z-index: -100;
     width: 100%;
@@ -31,7 +32,7 @@
   }
 
   .site-branding-wrapper {
-    display: grid;
+    display: none;
 
     height: $height__header;
     text-align: center;
