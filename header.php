@@ -92,8 +92,6 @@
                     'theme_location' => 'primary',
                     'menu_id'        => 'primary-menu',
                 ) );
-
-                get_sidebar();
                 ?>
             </nav><!-- #site-navigation -->
         <?php endif;?>
