@@ -49,6 +49,11 @@ $mq_small_and_medium: "(max-width: 1024px)";
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 
+    text-align: left;
+    .menu li {
+      width: 100%;
+    }
+    
     &.toggled {
       background-color: $color__nav-primary;
     }

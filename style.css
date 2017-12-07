@@ -955,7 +955,10 @@ object {
     padding: 10px;
     border: 0 transparent solid;
     border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px; }
+    border-top-right-radius: 10px;
+    text-align: left; }
+    .main-navigation .menu li {
+      width: 100%; }
     .main-navigation.toggled {
       background-color: #1d1d1d; }
     .main-navigation .widget-area {
