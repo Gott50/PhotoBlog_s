@@ -440,64 +440,6 @@ a {
 /*--------------------------------------------------------------
 ## Main-navigation
 --------------------------------------------------------------*/
-.main-navigation {
-  position: absolute;
-  top: 0;
-  z-index: 100;
-  clear: both;
-  display: block;
-  float: left;
-  max-width: 320px;
-  padding: 10px;
-  border: 0 transparent solid;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px; }
-  .main-navigation.toggled {
-    background-color: rgba(0, 0, 0, 0.75); }
-  .main-navigation .widget-area {
-    display: none;
-    margin-top: 4em; }
-  .main-navigation ul {
-    display: none; }
-
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled {
-  border: none; }
-  .menu-toggle ul,
-  .menu-toggle .widget-area,
-  .main-navigation.toggled ul,
-  .main-navigation.toggled .widget-area {
-    display: block; }
-
-.menu-toggle {
-  color: white;
-  font-size: 35px;
-  padding: 0;
-  background: none; }
-  .menu-toggle .icon-close {
-    display: none; }
-
-.toggled .menu-toggle {
-  color: white; }
-  .toggled .menu-toggle .icon-close {
-    display: block; }
-  .toggled .menu-toggle .icon-bars {
-    display: none; }
-
-.site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation {
-  margin: 0 0 1.5em;
-  overflow: hidden; }
-.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
-  float: left;
-  width: 50%; }
-.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
-  float: right;
-  text-align: right;
-  width: 50%; }
-
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -985,6 +927,64 @@ object {
   .site-content {
     margin-left: 0;
     margin-right: 0; } }
+@media screen and (max-width: 640px) {
+  .main-navigation {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    clear: both;
+    display: block;
+    float: left;
+    max-width: 320px;
+    padding: 10px;
+    border: 0 transparent solid;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; }
+    .main-navigation.toggled {
+      background-color: rgba(0, 0, 0, 0.75); }
+    .main-navigation .widget-area {
+      display: none;
+      margin-top: 4em; }
+    .main-navigation ul {
+      display: none; }
+
+  /* Small menu. */
+  .menu-toggle,
+  .main-navigation.toggled {
+    border: none; }
+    .menu-toggle ul,
+    .menu-toggle .widget-area,
+    .main-navigation.toggled ul,
+    .main-navigation.toggled .widget-area {
+      display: block; }
+
+  .menu-toggle {
+    color: white;
+    font-size: 35px;
+    padding: 0;
+    background: none; }
+    .menu-toggle .icon-close {
+      display: none; }
+
+  .toggled .menu-toggle {
+    color: white; }
+    .toggled .menu-toggle .icon-close {
+      display: block; }
+    .toggled .menu-toggle .icon-bars {
+      display: none; }
+
+  .site-main .comment-navigation,
+  .site-main .posts-navigation,
+  .site-main .post-navigation {
+    margin: 0 0 1.5em;
+    overflow: hidden; }
+  .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+    float: left;
+    width: 50%; }
+  .comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%; } }
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
