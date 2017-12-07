@@ -943,7 +943,7 @@ object {
   .site-content {
     margin-left: 0;
     margin-right: 0; } }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
   .main-navigation {
     position: absolute;
     top: 0;
