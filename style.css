@@ -652,6 +652,7 @@ ul.menu {
     color: white;
     text-decoration: none; }
     .site-header a.overlay {
+      display: none;
       position: absolute;
       top: 0; }
   .site-header .custom-header {
