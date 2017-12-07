@@ -440,6 +440,18 @@ a {
 /*--------------------------------------------------------------
 ## Main-navigation
 --------------------------------------------------------------*/
+.main-navigation {
+  background: #1d1d1d;
+  font-size: 14px;
+  text-align: center; }
+  .main-navigation a {
+    display: block;
+    padding: 23px 10px;
+    font-size: 1rem;
+    width: 200px; }
+  .main-navigation .menu > li {
+    display: inline-block; }
+
 .menu-toggle,
 .menu-scroll-down {
   display: none; }
