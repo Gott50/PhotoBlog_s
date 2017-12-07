@@ -75,6 +75,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
   }
 
   .menu-toggle {
+    display: inline-block;
     color: $color__icon-menu;
     font-size: 35px;
     padding: 0;
