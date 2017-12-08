@@ -739,7 +739,7 @@ ul.menu {
 .home .site-branding-wrapper {
   height: 100vh; }
 .home .menu-scroll-down {
-  display: block; }
+  display: none; }
 
 .content-home {
   display: flex;
