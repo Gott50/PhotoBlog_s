@@ -13,7 +13,23 @@
   .menu > li {
     display: inline-block;
   }
+
+  .nav-site-title {
+    display: inline-block;
+    float: left;
+    width: auto;
+    padding: 11px;
+
+    .site-title {
+      margin: 0;
+    }
+  }
+
+  .menu-primary-container {
+    display: inline-block;
+  }
 }
+
 .menu-toggle,
 .menu-scroll-down{
   display: none;

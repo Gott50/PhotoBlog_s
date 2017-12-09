@@ -451,6 +451,15 @@ a {
     width: 200px; }
   .main-navigation .menu > li {
     display: inline-block; }
+  .main-navigation .nav-site-title {
+    display: inline-block;
+    float: left;
+    width: auto;
+    padding: 11px; }
+    .main-navigation .nav-site-title .site-title {
+      margin: 0; }
+  .main-navigation .menu-primary-container {
+    display: inline-block; }
 
 .menu-toggle,
 .menu-scroll-down {
