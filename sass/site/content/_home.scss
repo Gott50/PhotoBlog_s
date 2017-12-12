@@ -38,7 +38,7 @@
     flex-flow: wrap;
 
     &:hover {
-      $excerpt-height: 300px;
+      $excerpt-height: 150px;
       .thumbnail {
         margin-bottom: -$excerpt-height;
       }
@@ -48,12 +48,12 @@
       }
     }
     .entry-excerpt {
-      transition: height 2s;
+      transition: height 1s;
       height: 0;
       overflow: hidden;
     }
     .thumbnail {
-      transition: margin-bottom 2s;
+      transition: margin-bottom 1s;
     }
 
     a, .thumbnail {
