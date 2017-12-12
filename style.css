@@ -976,6 +976,7 @@ object {
     .main-navigation .widget-area {
       display: none;
       margin-top: 4em; }
+    .main-navigation .nav-site-title,
     .main-navigation ul {
       display: none; }
 
@@ -983,8 +984,10 @@ object {
   .menu-toggle,
   .main-navigation.toggled {
     border: none; }
+    .menu-toggle .nav-site-title,
     .menu-toggle ul,
     .menu-toggle .widget-area,
+    .main-navigation.toggled .nav-site-title,
     .main-navigation.toggled ul,
     .main-navigation.toggled .widget-area {
       display: block; }
