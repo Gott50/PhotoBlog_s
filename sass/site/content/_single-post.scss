@@ -1,0 +1,9 @@
+.single-post {
+  .entry-content {
+    p img{
+      &.alignleft {
+        margin-left: -200px;
+      }
+    }
+  }
+}
