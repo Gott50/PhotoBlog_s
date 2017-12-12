@@ -981,6 +981,9 @@ object {
     .main-navigation .nav-site-title,
     .main-navigation ul {
       display: none; }
+    .main-navigation .social-navigation {
+      width: 100%;
+      text-align: center; }
 
   /* Small menu. */
   .menu-toggle,
