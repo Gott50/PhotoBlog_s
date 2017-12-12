@@ -768,11 +768,15 @@ ul.menu {
     background-color: #1d1e1f;
     flex-flow: wrap; }
     .content-home article:hover .thumbnail {
-      height: 0; }
+      margin-bottom: -300px; }
     .content-home article:hover .entry-excerpt {
-      display: block; }
+      height: 150px; }
     .content-home article .entry-excerpt {
-      display: none; }
+      transition: height 2s;
+      height: 0;
+      overflow: hidden; }
+    .content-home article .thumbnail {
+      transition: margin-bottom 2s; }
     .content-home article a, .content-home article .thumbnail {
       width: 100%; }
     .content-home article h1, .content-home article h2, .content-home article a {

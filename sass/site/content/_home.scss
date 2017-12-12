@@ -39,16 +39,21 @@
 
     &:hover {
       .thumbnail {
-        height: 0;
+        margin-bottom: -300px;
       }
 
       .entry-excerpt {
-        display: block;
+        height: 150px;
       }
     }
     .entry-excerpt {
-      display: none;
-  }
+      transition: height 2s;
+      height: 0;
+      overflow: hidden;
+    }
+    .thumbnail {
+      transition: margin-bottom 2s;
+    }
 
     a, .thumbnail {
       width: 100%;
