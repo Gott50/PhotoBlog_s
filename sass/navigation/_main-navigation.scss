@@ -3,6 +3,16 @@
   font-size: 14px;
   text-align: center;
 
+  display: flex;
+  justify-content: space-between;
+
+  .nav-site-title,
+  .menu-primary-container,
+  .social-navigation {
+    flex-grow: 1;
+  }
+
+
   a {
     display: block;
     padding: 23px 10px;

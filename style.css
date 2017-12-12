@@ -443,7 +443,13 @@ a {
 .main-navigation {
   background: #1d1d1d;
   font-size: 14px;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  justify-content: space-between; }
+  .main-navigation .nav-site-title,
+  .main-navigation .menu-primary-container,
+  .main-navigation .social-navigation {
+    flex-grow: 1; }
   .main-navigation a {
     display: block;
     padding: 23px 10px;
