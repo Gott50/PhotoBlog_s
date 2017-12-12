@@ -25,7 +25,15 @@
             </p>
         </header><!-- .entry-header -->
 
+    <a href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">
     <div class="entry-excerpt">
-        <?php the_excerpt(); ?>
+        <?php the_excerpt();
+
+        wp_link_pages( array(
+            'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'photoblog_s' ),
+            'after'  => '</div>',
+        ) );
+        ?>
     </div><!-- .entry-excerpt -->
+    </a>
 </article><!-- #post-<?php the_ID(); ?> -->

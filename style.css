@@ -767,7 +767,7 @@ ul.menu {
     display: flex;
     background-color: #1d1e1f;
     flex-flow: wrap; }
-    .content-home article:hover .thumbnail img {
+    .content-home article:hover .thumbnail {
       height: 0; }
     .content-home article:hover .entry-excerpt {
       display: block; }
