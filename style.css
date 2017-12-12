@@ -767,6 +767,8 @@ ul.menu {
     display: flex;
     background-color: #1d1e1f;
     flex-flow: wrap; }
+    .content-home article:hover .thumbnail img {
+      height: 0; }
     .content-home article a, .content-home article .thumbnail {
       width: 100%; }
     .content-home article h1, .content-home article h2, .content-home article a {

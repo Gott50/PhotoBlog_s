@@ -37,6 +37,12 @@
     background-color: $color__background-post-preview-title;
     flex-flow: wrap;
 
+    &:hover {
+      .thumbnail img {
+        height: 0;
+      }
+    }
+
     a, .thumbnail {
       width: 100%;
     }
