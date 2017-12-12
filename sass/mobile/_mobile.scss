@@ -50,7 +50,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
     border-top-right-radius: 10px;
 
     text-align: left;
-    .menu li {
+    .nav-menu li {
       width: 100%;
     }
     
@@ -68,6 +68,11 @@ $mq_small_and_medium: "(max-width: 1024px)";
     ul {
       display: none;
     }
+    //
+    //.social-navigation {
+    //  width: 100%;
+    //  text-align: center;
+    //}
 
   }
 

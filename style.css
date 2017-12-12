@@ -460,6 +460,8 @@ a {
       margin: 0; }
     .main-navigation .nav-site-title .custom-logo {
       height: 41px; }
+  .main-navigation .social-navigation {
+    float: right; }
   .main-navigation .menu-primary-container {
     display: inline-block; }
 
@@ -969,7 +971,7 @@ object {
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     text-align: left; }
-    .main-navigation .menu li {
+    .main-navigation .nav-menu li {
       width: 100%; }
     .main-navigation.toggled {
       background-color: #1d1d1d; }
