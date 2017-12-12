@@ -769,6 +769,11 @@ ul.menu {
     flex-flow: wrap; }
     .content-home article:hover .thumbnail img {
       height: 0; }
+    .content-home article:hover .entry-excerpt {
+      display: block; }
+    .content-home article .entry-excerpt {
+      color: white;
+      display: none; }
     .content-home article a, .content-home article .thumbnail {
       width: 100%; }
     .content-home article h1, .content-home article h2, .content-home article a {

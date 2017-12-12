@@ -41,6 +41,14 @@
       .thumbnail img {
         height: 0;
       }
+
+      .entry-excerpt {
+        display: block;
+      }
+    }
+    .entry-excerpt {
+      color: white;
+      display: none;
     }
 
     a, .thumbnail {
