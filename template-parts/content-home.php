@@ -24,4 +24,8 @@
                 <?php the_time('F jS, Y'); ?> | <?php the_category( ', ' ); ?>
             </p>
         </header><!-- .entry-header -->
+
+    <div class="entry-excerpt">
+        <?php the_excerpt(); ?>
+    </div><!-- .entry-excerpt -->
 </article><!-- #post-<?php the_ID(); ?> -->
