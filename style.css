@@ -770,7 +770,7 @@ ul.menu {
     .content-home article:hover .thumbnail {
       margin-bottom: -300px; }
     .content-home article:hover .entry-excerpt {
-      height: 150px; }
+      height: 300px; }
     .content-home article .entry-excerpt {
       transition: height 2s;
       height: 0;

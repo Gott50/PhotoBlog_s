@@ -38,12 +38,13 @@
     flex-flow: wrap;
 
     &:hover {
+      $excerpt-height: 300px;
       .thumbnail {
-        margin-bottom: -300px;
+        margin-bottom: -$excerpt-height;
       }
 
       .entry-excerpt {
-        height: 150px;
+        height: $excerpt-height;
       }
     }
     .entry-excerpt {
