@@ -772,7 +772,6 @@ ul.menu {
     .content-home article:hover .entry-excerpt {
       display: block; }
     .content-home article .entry-excerpt {
-      color: white;
       display: none; }
     .content-home article a, .content-home article .thumbnail {
       width: 100%; }
