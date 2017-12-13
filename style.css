@@ -645,9 +645,6 @@ ul.menu {
 .site-main {
   margin: 0 0 0 0; }
 
-.site-content {
-  margin: 20px; }
-
 .site-content .widget-area {
   float: right;
   overflow: hidden;
@@ -827,6 +824,8 @@ ul.menu {
 /*--------------------------------------------------------------
 ### SinglePost
 --------------------------------------------------------------*/
+.single-post .site-content {
+  background: white; }
 .single-post .entry-content .alignleft {
   margin-left: -20%; }
 .single-post .entry-content .alignright {
