@@ -1,4 +1,4 @@
-.post-navigation{
+.post-navigation {
   position: fixed;
   width: 100%;
   top: 50%;
@@ -27,5 +27,16 @@
 
   .icon {
     font-size: 5em;
+  }
+
+  a {
+    display: none;
+  }
+
+  .nav-previous:hover,
+  .nav-next:hover {
+    a {
+      display: block;
+    }
   }
 }
