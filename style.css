@@ -665,12 +665,14 @@ ul.menu {
   .site-header a {
     width: 100%;
     height: 100%;
-    color: #C2002E;
-    text-decoration: none; }
+    text-decoration: none;
+    color: rgba(194, 0, 46, 0.7); }
     .site-header a.overlay {
       display: none;
       position: absolute;
       top: 0; }
+    .site-header a :hover {
+      color: #C2002E; }
   .site-header .custom-header {
     display: none;
     position: absolute;
