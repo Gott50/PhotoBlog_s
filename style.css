@@ -431,7 +431,7 @@ a {
   a:visited {
     color: #666; }
   a:hover, a:focus, a:active {
-    color: white; }
+    color: #C2002E; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -485,7 +485,7 @@ a {
   .menu a:not(:hover) {
     color: #a8abad; }
   .menu a:hover {
-    color: white; }
+    color: #C2002E; }
   .menu a {
     text-decoration: none; }
 
@@ -627,7 +627,7 @@ ul.menu {
       color: white;
       text-decoration: none; }
     .widget-area .widget a:hover {
-      color: white; }
+      color: #C2002E; }
     .widget-area .widget ul {
       margin-left: 0;
       list-style: none; }
@@ -665,7 +665,7 @@ ul.menu {
   .site-header a {
     width: 100%;
     height: 100%;
-    color: white;
+    color: #C2002E;
     text-decoration: none; }
     .site-header a.overlay {
       display: none;
@@ -788,7 +788,7 @@ ul.menu {
       line-height: 15px;
       text-decoration: none; }
       .content-home article h1:hover, .content-home article h2:hover, .content-home article a:hover {
-        color: white; }
+        color: #C2002E; }
     .content-home article .entry-header {
       width: 100%;
       background: #1d1e1f;
