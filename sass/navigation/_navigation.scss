@@ -11,11 +11,14 @@
 ## Menus
 --------------------------------------------------------------*/
 @import "menus/menus";
+/*--------------------------------------------------------------
+## Post-navigation
+--------------------------------------------------------------*/
+@import "post-navigation";
 
 
 .comment-navigation,
-.posts-navigation,
-.post-navigation {
+.posts-navigation {
 
   .site-main & {
     margin: 0 0 1.5em;

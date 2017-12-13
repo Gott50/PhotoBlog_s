@@ -30,7 +30,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 	## Links
 	## Main-navigation
 	## Menus
-	## Social-Links-Menu
+	## Post-navigation
 # Accessibility
 # Alignments
 # Clearings
@@ -519,7 +519,7 @@ ul.menu {
     display: flex; }
 
 /*--------------------------------------------------------------
-## Social-Links-Menu
+### Social-Links-Menu
 --------------------------------------------------------------*/
 #menu-social-links {
   display: flex;
@@ -534,15 +534,28 @@ ul.menu {
     border-radius: 100%;
     line-height: 0; }
 
-.site-main .comment-navigation,
-.site-main .posts-navigation,
+/*--------------------------------------------------------------
+## Post-navigation
+--------------------------------------------------------------*/
 .site-main .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden; }
-.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+.post-navigation .nav-previous {
   float: left;
   width: 50%; }
-.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+.post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%; }
+
+.site-main .comment-navigation,
+.site-main .posts-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden; }
+.comment-navigation .nav-previous, .posts-navigation .nav-previous {
+  float: left;
+  width: 50%; }
+.comment-navigation .nav-next, .posts-navigation .nav-next {
   float: right;
   text-align: right;
   width: 50%; }
