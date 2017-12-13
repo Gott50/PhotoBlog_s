@@ -548,10 +548,14 @@ ul.menu {
   .post-navigation .nav-previous {
     float: left;
     width: 50%; }
+    .post-navigation .nav-previous .icon-angle-down {
+      transform: rotate(90deg); }
   .post-navigation .nav-next {
     float: right;
     text-align: right;
     width: 50%; }
+    .post-navigation .nav-next .icon-angle-down {
+      transform: rotate(270deg); }
   .post-navigation .icon {
     font-size: 5em; }
 
