@@ -10,10 +10,15 @@
 get_header(); ?>
 
 <div class="post-navigation">
-    <?php echo photoblog_s_get_svg(array('icon' => 'angle-down')); ?>
-    <?php previous_post_link(); ?>
-    <?php echo photoblog_s_get_svg(array('icon' => 'angle-down')); ?>
-    <?php next_post_link(); ?>
+    <h2 class="screen-reader-text">Beitrags-Navigation</h2>
+    <div class="nav-previous">
+        <?php echo photoblog_s_get_svg(array('icon' => 'angle-down')); ?>
+        <?php previous_post_link(); ?>
+    </div>
+    <div class="nav-next">
+        <?php echo photoblog_s_get_svg(array('icon' => 'angle-down')); ?>
+        <?php next_post_link(); ?>
+    </div>
 </div>
 
 	<div id="primary" class="content-area">
