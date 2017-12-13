@@ -538,16 +538,20 @@ ul.menu {
 /*--------------------------------------------------------------
 ## Post-navigation
 --------------------------------------------------------------*/
-.site-main .post-navigation {
-  margin: 0 0 1.5em;
-  overflow: hidden; }
-.post-navigation .nav-previous {
-  float: left;
-  width: 50%; }
-.post-navigation .nav-next {
-  float: right;
-  text-align: right;
-  width: 50%; }
+.post-navigation {
+  position: fixed;
+  width: 100%;
+  top: 50%; }
+  .site-main .post-navigation {
+    margin: 0 0 1.5em;
+    overflow: hidden; }
+  .post-navigation .nav-previous {
+    float: left;
+    width: 50%; }
+  .post-navigation .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%; }
 
 .site-main .comment-navigation,
 .site-main .posts-navigation {
