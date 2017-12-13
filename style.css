@@ -552,6 +552,8 @@ ul.menu {
     float: right;
     text-align: right;
     width: 50%; }
+  .post-navigation .icon {
+    font-size: 5em; }
 
 .site-main .comment-navigation,
 .site-main .posts-navigation {
