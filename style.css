@@ -426,7 +426,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #78797a;
+  color: rgba(194, 0, 46, 0.7);
   text-decoration: none; }
   a:visited {
     color: #666; }
@@ -803,7 +803,7 @@ ul.menu {
       font-size: 11px; }
       .content-home article .postmetadata,
       .content-home article .postmetadata a:not(:hover) {
-        color: #78797a; }
+        color: rgba(194, 0, 46, 0.7); }
 
 /*--------------------------------------------------------------
 ### Archive
