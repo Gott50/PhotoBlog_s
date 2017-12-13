@@ -1,9 +1,10 @@
 .single-post {
   .entry-content {
-    p img{
-      &.alignleft {
-        margin-left: -200px;
-      }
+    .alignleft {
+      margin-left: -20%;
+    }
+    .alignright {
+      margin-right: -20%;
     }
   }
 }

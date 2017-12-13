@@ -1,94 +1,1062 @@
-/*
-Error: File to import not found or unreadable: single-post.
-        on line 12 of sass/site/content/_content.scss
-        from line 17 of sass/site/_site.scss
-        from line 107 of sass/style.scss
-        from line 1 of style.scss
+/*!
+Theme Name: PhotoBlog_s
+Theme URI: http://underscores.me/
+Author: Gott50
+Author URI: https://Gott50.github.io
+Description: The theme for Blogging Photographers
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: photoblog_s
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-Backtrace:
-sass/site/content/_content.scss:12
-sass/site/_site.scss:17
-sass/style.scss:107
-style.scss:1
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:45:in `import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:37:in `css_import?'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `map'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `map'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `map'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin.rb:82:in `update_stylesheets'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
-/usr/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/scss:13:in `<top (required)>'
-/usr/bin/scss:23:in `load'
-/usr/bin/scss:23:in `<main>'
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+PhotoBlog_s is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: single-post.\A         on line 12 of sass/site/content/_content.scss\A         from line 17 of sass/site/_site.scss\A         from line 107 of sass/style.scss\A         from line 1 of style.scss"; }
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Main-navigation
+	## Menus
+	## Social-Links-Menu
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Site
+    ## Header
+    ## Footer
+    ## Content
+        ### Home
+        ### Archive
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+	## Icons
+# Mobile
+# Plugins
+  ## Jetpack
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden],
+template {
+  display: none; }
+
+a {
+  background-color: transparent; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both; }
+
+p {
+  margin-bottom: 1.5em; }
+
+dfn, cite, em, i {
+  font-style: italic; }
+
+blockquote {
+  margin: 0 1.5em; }
+
+address {
+  margin: 0 0 1.5em; }
+
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em; }
+
+code, kbd, tt, var {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 15px;
+  font-size: 0.9375rem; }
+
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help; }
+
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none; }
+
+big {
+  font-size: 125%; }
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit; }
+
+body {
+  background: black;
+  /* Fallback for when there is no custom background color defined. */ }
+
+blockquote, q {
+  quotes: "" ""; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: ""; }
+
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em; }
+
+ul, ol {
+  margin: 0 0 1.5em 3em; }
+
+ul {
+  list-style: disc; }
+
+ol {
+  list-style: decimal; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em; }
+
+dt {
+  font-weight: bold; }
+
+dd {
+  margin: 0 1.5em 1.5em; }
+
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */ }
+
+figure {
+  margin: 1em 0;
+  /* Extra wide images within figure tags don't overflow the content area. */ }
+
+table {
+  margin: 0 0 1.5em;
+  width: 100%; }
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  background: #e6e6e6;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: .6em 1em .4em; }
+  button:hover,
+  input[type="button"]:hover,
+  input[type="reset"]:hover,
+  input[type="submit"]:hover {
+    border-color: #ccc #bbb #aaa; }
+  button:active, button:focus,
+  input[type="button"]:active,
+  input[type="button"]:focus,
+  input[type="reset"]:active,
+  input[type="reset"]:focus,
+  input[type="submit"]:active,
+  input[type="submit"]:focus {
+    border-color: #aaa #bbb #bbb; }
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px; }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="url"]:focus,
+  input[type="password"]:focus,
+  input[type="search"]:focus,
+  input[type="number"]:focus,
+  input[type="tel"]:focus,
+  input[type="range"]:focus,
+  input[type="date"]:focus,
+  input[type="month"]:focus,
+  input[type="week"]:focus,
+  input[type="time"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="color"]:focus,
+  textarea:focus {
+    color: #111; }
+
+select {
+  border: 1px solid #ccc; }
+
+textarea {
+  width: 100%; }
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+  color: #78797a;
+  text-decoration: none; }
+  a:visited {
+    color: #666; }
+  a:hover, a:focus, a:active {
+    color: white; }
+  a:focus {
+    outline: thin dotted; }
+  a:hover, a:active {
+    outline: 0; }
+
+/*--------------------------------------------------------------
+## Main-navigation
+--------------------------------------------------------------*/
+.main-navigation {
+  background: #1d1d1d;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between; }
+  .main-navigation .nav-site-title,
+  .main-navigation .menu-primary-container,
+  .main-navigation .social-navigation {
+    flex-grow: 1; }
+  .main-navigation a {
+    display: block;
+    padding: 23px 10px;
+    font-size: 1rem;
+    width: 200px; }
+  .main-navigation .menu > li {
+    display: inline-block; }
+  .main-navigation .nav-site-title {
+    display: inline-block;
+    float: left;
+    width: auto;
+    padding: 11px; }
+    .main-navigation .nav-site-title .site-title {
+      margin: 0; }
+    .main-navigation .nav-site-title .custom-logo {
+      height: 41px; }
+  .main-navigation .social-navigation {
+    float: right; }
+  .main-navigation .menu-primary-container {
+    display: inline-block; }
+
+.menu-toggle,
+.menu-scroll-down {
+  display: none; }
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.menu {
+  flex-direction: column;
+  font-size: 1.7em;
+  font-weight: bold; }
+  .menu a:not(:hover) {
+    color: #a8abad; }
+  .menu a:hover {
+    color: white; }
+  .menu a {
+    text-decoration: none; }
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding-left: 0; }
+  ul.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    position: absolute;
+    top: 100%;
+    left: -999em;
+    z-index: 99999; }
+    ul.menu ul ul {
+      left: -999em;
+      top: 0; }
+    ul.menu ul a {
+      width: 200px;
+      background-color: rgba(0, 0, 0, 0.75); }
+  ul.menu li:hover > ul,
+  ul.menu li.focus > ul {
+    left: 0;
+    position: relative; }
+  ul.menu li {
+    display: flex; }
+
+/*--------------------------------------------------------------
+## Social-Links-Menu
+--------------------------------------------------------------*/
+#menu-social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  #menu-social-links a {
+    width: auto; }
+  #menu-social-links li a {
+    margin: 0 10px;
+    padding: 10px;
+    background: #1d1d1d;
+    border-radius: 100%;
+    line-height: 0; }
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */ }
+  .screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */ }
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0; }
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+  content: "";
+  display: table;
+  table-layout: fixed; }
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+  clear: both; }
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget-area {
+  color: white; }
+  .widget-area .widget {
+    margin: 0 0 1.5em;
+    /* Make sure select elements fit in widgets. */ }
+    .widget-area .widget select {
+      max-width: 100%; }
+    .widget-area .widget a {
+      color: white;
+      text-decoration: none; }
+    .widget-area .widget a:hover {
+      color: white; }
+    .widget-area .widget ul {
+      margin-left: 0;
+      list-style: none; }
+    .widget-area .widget .widget-title {
+      margin-bottom: 0; }
+
+/*--------------------------------------------------------------
+# Site
+--------------------------------------------------------------*/
+.content-area {
+  max-width: 100%;
+  width: 1000px;
+  margin: 0 auto 0 auto; }
+
+.site-main {
+  margin: 0 0 0 0; }
+
+.site-content {
+  margin: 20px; }
+
+.site-content .widget-area {
+  float: right;
+  overflow: hidden;
+  width: 100%;
+  margin-right: 0; }
+
+.site-footer {
+  clear: both;
+  width: 100%; }
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.site-header {
+  position: relative; }
+  .site-header:hover {
+    box-shadow: inset 0 0 150px 0 black; }
+  .site-header a {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none; }
+    .site-header a.overlay {
+      display: none;
+      position: absolute;
+      top: 0; }
+  .site-header .custom-header {
+    display: none;
+    position: absolute;
+    z-index: -100;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden; }
+    .site-header .custom-header div, .site-header .custom-header img {
+      min-height: 50vh;
+      width: 100%;
+      max-width: unset; }
+  .site-header .site-branding-wrapper {
+    display: none;
+    height: 50vh;
+    text-align: center;
+    text-shadow: 2px 2px black; }
+    .site-header .site-branding-wrapper .site-branding {
+      margin: 10% auto auto;
+      z-index: 1;
+      background: transparent;
+      display: inline-block; }
+    .site-header .site-branding-wrapper .custom-logo {
+      height: 50%; }
+      .site-header .site-branding-wrapper .custom-logo img {
+        height: 100%;
+        width: auto; }
+    .site-header .site-branding-wrapper h1, .site-header .site-branding-wrapper p {
+      margin: 0; }
+    .site-header .site-branding-wrapper h1 {
+      font-size: 4em; }
+    .site-header .site-branding-wrapper p {
+      font-size: 2em; }
+  .site-header .menu-scroll-down {
+    display: none;
+    height: auto;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5em; }
+    .site-header .menu-scroll-down .icon {
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+      width: 6em;
+      height: 6em;
+      background: #0000003d;
+      border-radius: 100%;
+      padding: 10px; }
+
+/*--------------------------------------------------------------
+
+## Footer
+--------------------------------------------------------------*/
+.site-footer {
+  background: #1d1d1d;
+  font-size: 14px;
+  text-align: center; }
+  .site-footer a {
+    display: block;
+    padding: 23px 10px;
+    font-size: 1rem;
+    width: 200px; }
+  .site-footer .menu > li {
+    display: inline-block; }
+
+/*--------------------------------------------------------------
+
+## Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+### Home
+--------------------------------------------------------------*/
+.home .content-area {
+  width: 100%; }
+.home .site-main {
+  background: none; }
+.home .custom-header {
+  height: 100vh; }
+  .home .custom-header div, .home .custom-header img {
+    min-height: 100vh; }
+.home .site-branding-wrapper {
+  height: 100vh; }
+.home .menu-scroll-down {
+  display: none; }
+
+.content-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .content-home.site-main {
+    border: none; }
+  .content-home article {
+    position: relative;
+    flex: 400px;
+    margin: 10px;
+    display: flex;
+    background-color: #1d1e1f;
+    flex-flow: wrap; }
+    .content-home article:hover .thumbnail {
+      margin-bottom: -150px; }
+    .content-home article:hover .entry-excerpt {
+      height: 150px; }
+    .content-home article .entry-excerpt {
+      transition: height 1s;
+      height: 0;
+      overflow: hidden; }
+    .content-home article .thumbnail {
+      transition: margin-bottom 1s; }
+    .content-home article a, .content-home article .thumbnail {
+      width: 100%; }
+    .content-home article h1, .content-home article h2, .content-home article a {
+      color: #a8abad;
+      font-size: 13px;
+      line-height: 15px;
+      text-decoration: none; }
+      .content-home article h1:hover, .content-home article h2:hover, .content-home article a:hover {
+        color: white; }
+    .content-home article .entry-header {
+      width: 100%;
+      background: #1d1e1f;
+      display: block;
+      min-height: 81px;
+      position: relative;
+      padding: 22px;
+      z-index: 17; }
+    .content-home article .thumbnail img {
+      min-width: 100%; }
+    .content-home article .postmetadata {
+      font-size: 11px; }
+      .content-home article .postmetadata,
+      .content-home article .postmetadata a:not(:hover) {
+        color: #78797a; }
+
+/*--------------------------------------------------------------
+### Archive
+--------------------------------------------------------------*/
+.content-archive .entry-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .content-archive .entry-content div {
+    flex-basis: 300px; }
+.content-archive .thumbnail {
+  flex-grow: 0; }
+.content-archive .excerpt {
+  flex-grow: 1; }
+  .content-archive .excerpt p {
+    margin: 0 10px; }
+
+/*--------------------------------------------------------------
+### SinglePost
+--------------------------------------------------------------*/
+.single-post .entry-content .alignleft {
+  margin-left: -20%; }
+.single-post .entry-content .alignright {
+  margin-right: -20%; }
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+  display: block; }
+
+.hentry {
+  margin: 0 0 1.5em; }
+
+.updated:not(.published) {
+  display: none; }
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0; }
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em; }
+
+.site-main {
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 10px transparent solid;
+  border-radius: 5px; }
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+  word-wrap: break-word; }
+
+.bypostauthor {
+  display: block; }
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+  /* Theme Footer (when set to scrolling) */
+  display: none; }
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+  display: block; }
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0; }
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%; }
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+  display: inline-block; }
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%; }
+  .wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .wp-caption .wp-caption-text {
+    margin: 0.8075em 0; }
+
+.wp-caption-text {
+  text-align: center; }
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+  margin-bottom: 1.5em; }
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%; }
+  .gallery-columns-2 .gallery-item {
+    max-width: 50%; }
+  .gallery-columns-3 .gallery-item {
+    max-width: 33.33%; }
+  .gallery-columns-4 .gallery-item {
+    max-width: 25%; }
+  .gallery-columns-5 .gallery-item {
+    max-width: 20%; }
+  .gallery-columns-6 .gallery-item {
+    max-width: 16.66%; }
+  .gallery-columns-7 .gallery-item {
+    max-width: 14.28%; }
+  .gallery-columns-8 .gallery-item {
+    max-width: 12.5%; }
+  .gallery-columns-9 .gallery-item {
+    max-width: 11.11%; }
+
+.gallery-caption {
+  display: block; }
+
+/*--------------------------------------------------------------
+## Icons
+--------------------------------------------------------------*/
+.icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  position: relative;
+  top: -0.0625em;
+  vertical-align: middle; }
+
+/*--------------------------------------------------------------
+# Mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+  /* Header */
+  .site-branding-wrapper {
+    font-size: 8px; }
+
+  /* Layout */
+  #primary,
+  #main {
+    margin-right: 0;
+    margin-left: 0; }
+
+  #secondary {
+    width: 100%;
+    margin-right: 0; } }
+@media screen and (max-width: 640px) {
+  .site-content {
+    margin-left: 0;
+    margin-right: 0; } }
+@media screen and (max-width: 1024px) {
+  .main-navigation {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    clear: both;
+    display: block;
+    float: left;
+    max-width: 320px;
+    padding: 10px;
+    border: 0 transparent solid;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left; }
+    .main-navigation .nav-menu li {
+      width: 100%; }
+    .main-navigation.toggled {
+      background-color: #1d1d1d; }
+    .main-navigation .widget-area {
+      display: none;
+      margin-top: 4em; }
+    .main-navigation .nav-site-title,
+    .main-navigation ul {
+      display: none; }
+    .main-navigation .social-navigation {
+      width: 100%;
+      text-align: center; }
+
+  /* Small menu. */
+  .menu-toggle,
+  .main-navigation.toggled {
+    border: none; }
+    .menu-toggle .nav-site-title,
+    .menu-toggle ul,
+    .menu-toggle .widget-area,
+    .main-navigation.toggled .nav-site-title,
+    .main-navigation.toggled ul,
+    .main-navigation.toggled .widget-area {
+      display: block; }
+
+  .menu-toggle {
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    padding: 0;
+    background: none; }
+    .menu-toggle .icon-close {
+      display: none; }
+
+  .toggled .menu-toggle {
+    color: white; }
+    .toggled .menu-toggle .icon-close {
+      display: block; }
+    .toggled .menu-toggle .icon-bars {
+      display: none; }
+
+  .site-main .comment-navigation,
+  .site-main .posts-navigation,
+  .site-main .post-navigation {
+    margin: 0 0 1.5em;
+    overflow: hidden; }
+  .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+    float: left;
+    width: 50%; }
+  .comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%; } }
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Jetpack
+--------------------------------------------------------------*/
+div.sharedaddy {
+  display: table-cell;
+  width: auto !important; }
+
+/*# sourceMappingURL=style.css.map */
