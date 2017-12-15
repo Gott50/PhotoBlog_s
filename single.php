@@ -9,17 +9,27 @@
 
 get_header(); ?>
 
-<div class="post-navigation">
-    <h2 class="screen-reader-text">Beitrags-Navigation</h2>
-    <div class="nav-previous">
-        <?php echo photoblog_s_get_svg(array('icon' => 'angle-down')); ?>
-        <?php previous_post_link(); ?>
+    <div class="post-navigation">
+        <h2 class="screen-reader-text">Beitrags-Navigation</h2>
+		<?php $in_same_term = false;
+		$prevPost           = get_previous_post( $in_same_term );
+		if ( $prevPost ): ?>
+            <div class="nav-previous">
+				<?php echo photoblog_s_get_svg( array( 'icon' => 'angle-down' ) ); ?>
+				<?php $prevthumbnail = get_the_post_thumbnail( $prevPost->ID, array( 100, 100 ) ); ?>
+				<?php previous_post_link( '%link', "$prevthumbnail  <p>%title</p>", $in_same_term ); ?>
+            </div>
+		<?php endif ?>
+
+		<?php $nextPost = get_next_post( $in_same_term );
+		if ( $nextPost ): ?>
+            <div class="nav-next">
+				<?php echo photoblog_s_get_svg( array( 'icon' => 'angle-down' ) ); ?>
+				<?php $nextthumbnail = get_the_post_thumbnail( $nextPost->ID, array( 100, 100 ) ); ?>
+				<?php next_post_link( '%link', "$nextthumbnail  <p>%title</p>", $in_same_term ); ?>
+            </div>
+		<?php endif ?>
     </div>
-    <div class="nav-next">
-        <?php echo photoblog_s_get_svg(array('icon' => 'angle-down')); ?>
-        <?php next_post_link(); ?>
-    </div>
-</div>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
