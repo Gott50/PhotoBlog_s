@@ -18,10 +18,10 @@ get_header(); ?>
 				<?php $angle_left =  photoblog_s_get_svg( array( 'icon' => 'angle-down' ) ); ?>
 				<?php $prevthumbnail = get_the_post_thumbnail( $prevPost->ID, array( 300, 300 ) ); ?>
 				<?php previous_post_link( '%link',
-					"$angle_left 
+					"
                 <div class='posts-preview'>
                     $prevthumbnail  <p>%title</p>
-                </div> ", $in_same_term ); ?>
+                </div> $angle_left ", $in_same_term ); ?>
             </div>
 		<?php endif ?>
 

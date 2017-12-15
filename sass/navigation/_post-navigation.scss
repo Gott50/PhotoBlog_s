@@ -8,6 +8,13 @@
     overflow: hidden;
   }
 
+  .nav-previous,
+  .nav-next {
+    a{
+      display: flex;
+    }
+  }
+
   .nav-previous {
     float: left;
     .icon-angle-down{
@@ -28,7 +35,6 @@
   }
 
   .posts-preview {
-    display: none;
     background: $color__background-post-preview-title;
     padding: 22px;
   }
@@ -36,7 +42,6 @@
   .nav-previous:hover,
   .nav-next:hover {
     .posts-preview {
-      display: block;
     }
   }
 }

@@ -545,6 +545,9 @@ ul.menu {
   .site-main .post-navigation {
     margin: 0 0 1.5em;
     overflow: hidden; }
+  .post-navigation .nav-previous a,
+  .post-navigation .nav-next a {
+    display: flex; }
   .post-navigation .nav-previous {
     float: left; }
     .post-navigation .nav-previous .icon-angle-down {
@@ -557,12 +560,8 @@ ul.menu {
   .post-navigation .icon {
     font-size: 5em; }
   .post-navigation .posts-preview {
-    display: none;
     background: #1d1e1f;
     padding: 22px; }
-  .post-navigation .nav-previous:hover .posts-preview,
-  .post-navigation .nav-next:hover .posts-preview {
-    display: block; }
 
 .site-main .comment-navigation,
 .site-main .posts-navigation {
