@@ -17,6 +17,11 @@
 
   .nav-previous {
     float: left;
+
+    .posts-preview{
+      transition: margin-left 1s;
+      margin-left: -344px;
+    }
     .icon-angle-down{
       transform: rotate(90deg);
     }
@@ -25,6 +30,11 @@
   .nav-next {
     float: right;
     text-align: right;
+
+    .posts-preview{
+      transition: margin-right 1s;
+      margin-right: -344px;
+    }
     .icon-angle-down{
       transform: rotate(270deg);
     }
@@ -37,11 +47,13 @@
   .posts-preview {
     background: $color__background-post-preview-title;
     padding: 22px;
+    width: 344px;
   }
 
   .nav-previous:hover,
   .nav-next:hover {
     .posts-preview {
+      margin: 0 ;
     }
   }
 }

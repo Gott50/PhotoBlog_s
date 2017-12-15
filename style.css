@@ -550,18 +550,28 @@ ul.menu {
     display: flex; }
   .post-navigation .nav-previous {
     float: left; }
+    .post-navigation .nav-previous .posts-preview {
+      transition: margin-left 1s;
+      margin-left: -344px; }
     .post-navigation .nav-previous .icon-angle-down {
       transform: rotate(90deg); }
   .post-navigation .nav-next {
     float: right;
     text-align: right; }
+    .post-navigation .nav-next .posts-preview {
+      transition: margin-right 1s;
+      margin-right: -344px; }
     .post-navigation .nav-next .icon-angle-down {
       transform: rotate(270deg); }
   .post-navigation .icon {
     font-size: 5em; }
   .post-navigation .posts-preview {
     background: #1d1e1f;
-    padding: 22px; }
+    padding: 22px;
+    width: 344px; }
+  .post-navigation .nav-previous:hover .posts-preview,
+  .post-navigation .nav-next:hover .posts-preview {
+    margin: 0; }
 
 .site-main .comment-navigation,
 .site-main .posts-navigation {
