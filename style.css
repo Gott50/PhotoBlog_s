@@ -546,14 +546,12 @@ ul.menu {
     margin: 0 0 1.5em;
     overflow: hidden; }
   .post-navigation .nav-previous {
-    float: left;
-    width: 50%; }
+    float: left; }
     .post-navigation .nav-previous .icon-angle-down {
       transform: rotate(90deg); }
   .post-navigation .nav-next {
     float: right;
-    text-align: right;
-    width: 50%; }
+    text-align: right; }
     .post-navigation .nav-next .icon-angle-down {
       transform: rotate(270deg); }
   .post-navigation .icon {
