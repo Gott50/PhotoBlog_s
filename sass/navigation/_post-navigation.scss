@@ -27,13 +27,13 @@
     font-size: 5em;
   }
 
-  a {
+  img,p {
     display: none;
   }
 
   .nav-previous:hover,
   .nav-next:hover {
-    a {
+    img,p {
       display: block;
     }
   }
