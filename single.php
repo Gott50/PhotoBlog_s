@@ -16,8 +16,12 @@ get_header(); ?>
 		if ( $prevPost ): ?>
             <div class="nav-previous">
 				<?php $angle_left =  photoblog_s_get_svg( array( 'icon' => 'angle-down' ) ); ?>
-				<?php $prevthumbnail = get_the_post_thumbnail( $prevPost->ID, array( 100, 100 ) ); ?>
-				<?php previous_post_link( '%link', "$angle_left $prevthumbnail  <p>%title</p>", $in_same_term ); ?>
+				<?php $prevthumbnail = get_the_post_thumbnail( $prevPost->ID, array( 300, 300 ) ); ?>
+				<?php previous_post_link( '%link',
+					"$angle_left 
+                <div class='posts-preview'>
+                    $prevthumbnail  <p>%title</p>
+                </div> ", $in_same_term ); ?>
             </div>
 		<?php endif ?>
 
@@ -25,8 +29,12 @@ get_header(); ?>
 		if ( $nextPost ): ?>
             <div class="nav-next">
 				<?php $angle_right =  photoblog_s_get_svg( array( 'icon' => 'angle-down' ) ); ?>
-				<?php $nextthumbnail = get_the_post_thumbnail( $nextPost->ID, array( 100, 100 ) ); ?>
-				<?php next_post_link( '%link', "$angle_right $nextthumbnail  <p>%title</p>", $in_same_term ); ?>
+				<?php $nextthumbnail = get_the_post_thumbnail( $nextPost->ID, array( 300, 300 ) ); ?>
+				<?php next_post_link( '%link',
+                    "$angle_right 
+                <div class='posts-preview'>
+                    $nextthumbnail  <p>%title</p>
+                </div> ", $in_same_term ); ?>
             </div>
 		<?php endif ?>
     </div>

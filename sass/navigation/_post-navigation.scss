@@ -27,13 +27,15 @@
     font-size: 5em;
   }
 
-  img,p {
+  .posts-preview {
     display: none;
+    background: $color__background-post-preview-title;
+    padding: 22px;
   }
 
   .nav-previous:hover,
   .nav-next:hover {
-    img,p {
+    .posts-preview {
       display: block;
     }
   }

@@ -556,11 +556,12 @@ ul.menu {
       transform: rotate(270deg); }
   .post-navigation .icon {
     font-size: 5em; }
-  .post-navigation img, .post-navigation p {
-    display: none; }
-  .post-navigation .nav-previous:hover img, .post-navigation .nav-previous:hover p,
-  .post-navigation .nav-next:hover img,
-  .post-navigation .nav-next:hover p {
+  .post-navigation .posts-preview {
+    display: none;
+    background: #1d1e1f;
+    padding: 22px; }
+  .post-navigation .nav-previous:hover .posts-preview,
+  .post-navigation .nav-next:hover .posts-preview {
     display: block; }
 
 .site-main .comment-navigation,
