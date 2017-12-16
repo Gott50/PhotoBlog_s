@@ -31,9 +31,13 @@ $mq_small_and_medium: "(max-width: 1024px)";
     margin-left: 0;
     margin-right: 0;
   }
-  .single-post .content-area .entry-content {
+  .single-post .content-area {
+    font-size: 16px;
+
+    .entry-content {
     .alignleft, .alignright {
-      margin: 25px;
+      margin: 0;
+    }
     }
   }
 }
