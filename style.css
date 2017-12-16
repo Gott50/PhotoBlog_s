@@ -887,7 +887,8 @@ ul.menu {
 ### SinglePost
 --------------------------------------------------------------*/
 .single-post .content-area {
-  width: 32em; }
+  width: 32em;
+  font-size: 20px; }
   .single-post .content-area .entry-content .alignleft {
     margin-left: -50%;
     max-width: 150% !important; }
