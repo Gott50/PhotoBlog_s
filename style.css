@@ -884,12 +884,13 @@ ul.menu {
 /*--------------------------------------------------------------
 ### SinglePost
 --------------------------------------------------------------*/
-.single-post .site-content {
-  background: white; }
 .single-post .entry-content .alignleft {
   margin-left: -20%; }
 .single-post .entry-content .alignright {
   margin-right: -20%; }
+
+.site-content {
+  background: white; }
 
 /*--------------------------------------------------------------
 ## Posts and pages
