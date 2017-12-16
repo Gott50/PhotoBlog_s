@@ -1045,10 +1045,17 @@ object {
 @media screen and (max-width: 640px) {
   .site-content {
     margin-left: 0;
-    margin-right: 0; } }
-@media screen and (max-width: 1024px) {
+    margin-right: 0; }
+
   .single-post .content-area .entry-content .alignleft, .single-post .content-area .entry-content .alignright {
     margin: 25px; } }
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .single-post .content-area {
+    font-size: 16px; }
+    .single-post .content-area .entry-content .alignleft {
+      margin-left: -15%; }
+    .single-post .content-area .entry-content .alignright {
+      margin-right: -15%; } }
 @media screen and (max-width: 1024px) {
   .main-navigation {
     position: absolute;

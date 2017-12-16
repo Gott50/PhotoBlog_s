@@ -31,12 +31,25 @@ $mq_small_and_medium: "(max-width: 1024px)";
     margin-left: 0;
     margin-right: 0;
   }
-}
-
-@include mq("screen", $mq_small_and_medium) {
   .single-post .content-area .entry-content {
     .alignleft, .alignright {
       margin: 25px;
+    }
+  }
+}
+
+@include mq("screen", $mq_medium_only) {
+  .single-post .content-area {
+    font-size: 16px;
+
+    .entry-content {
+      $shift: 15%;
+      .alignleft {
+        margin-left: -$shift;
+      }
+      .alignright {
+        margin-right: -$shift;
+      }
     }
   }
 }
