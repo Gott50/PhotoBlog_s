@@ -693,7 +693,7 @@ ul.menu {
 --------------------------------------------------------------*/
 .content-area {
   max-width: 100%;
-  width: 32em;
+  width: 1000px;
   margin: 0 auto 0 auto; }
 
 .site-main {
@@ -886,12 +886,14 @@ ul.menu {
 /*--------------------------------------------------------------
 ### SinglePost
 --------------------------------------------------------------*/
-.single-post .entry-content .alignleft {
-  margin-left: -50%;
-  max-width: 150% !important; }
-.single-post .entry-content .alignright {
-  margin-right: -50%;
-  max-width: 150% !important; }
+.single-post .content-area {
+  width: 32em; }
+  .single-post .content-area .entry-content .alignleft {
+    margin-left: -50%;
+    max-width: 150% !important; }
+  .single-post .content-area .entry-content .alignright {
+    margin-right: -50%;
+    max-width: 150% !important; }
 
 .site-content {
   background: white; }
