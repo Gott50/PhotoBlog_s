@@ -1047,6 +1047,9 @@ object {
     margin-left: 0;
     margin-right: 0; } }
 @media screen and (max-width: 1024px) {
+  .single-post .content-area .entry-content .alignleft, .single-post .content-area .entry-content .alignright {
+    margin: 25px; } }
+@media screen and (max-width: 1024px) {
   .main-navigation {
     position: absolute;
     top: 0;

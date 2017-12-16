@@ -34,6 +34,14 @@ $mq_small_and_medium: "(max-width: 1024px)";
 }
 
 @include mq("screen", $mq_small_and_medium) {
+  .single-post .content-area .entry-content {
+    .alignleft, .alignright {
+      margin: 25px;
+    }
+  }
+}
+
+@include mq("screen", $mq_small_and_medium) {
   .main-navigation {
     position: absolute;
     top: 0;
