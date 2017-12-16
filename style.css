@@ -887,9 +887,11 @@ ul.menu {
 ### SinglePost
 --------------------------------------------------------------*/
 .single-post .entry-content .alignleft {
-  margin-left: -20%; }
+  margin-left: -50%;
+  max-width: 150% !important; }
 .single-post .entry-content .alignright {
-  margin-right: -20%; }
+  margin-right: -50%;
+  max-width: 150% !important; }
 
 .site-content {
   background: white; }
