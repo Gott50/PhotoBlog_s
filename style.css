@@ -1036,8 +1036,8 @@ object {
   /* Layout */
   #primary,
   #main {
-    margin-right: 0;
-    margin-left: 0; }
+    margin-right: auto;
+    margin-left: auto; }
 
   #secondary {
     width: 100%;
