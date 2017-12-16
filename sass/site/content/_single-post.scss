@@ -1,17 +1,17 @@
 .single-post {
-  .content-area{
+  .content-area {
     width: 32em;
 
-  .entry-content {
-    $shift: 50%;
-    .alignleft {
-      margin-left: -$shift;
-      max-width: 100%+$shift !important;
+    .entry-content {
+      $shift: 50%;
+      .alignleft {
+        margin-left: -$shift;
+        max-width: 100%+$shift !important;
+      }
+      .alignright {
+        margin-right: -$shift;
+        max-width: 100%+$shift !important;
+      }
     }
-    .alignright {
-      margin-right: -$shift;
-      max-width: 100%+$shift !important;
-    }
-  }
   }
 }
