@@ -888,13 +888,11 @@ ul.menu {
 --------------------------------------------------------------*/
 .single-post .content-area {
   width: 32em;
-  font-size: 20px; }
+  font-size: 25px; }
   .single-post .content-area .entry-content .alignleft {
-    margin-left: -50%;
-    max-width: 150% !important; }
+    margin-left: -30%; }
   .single-post .content-area .entry-content .alignright {
-    margin-right: -50%;
-    max-width: 150% !important; }
+    margin-right: -30%; }
 
 .site-content {
   background: white; }

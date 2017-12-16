@@ -1,17 +1,15 @@
 .single-post {
   .content-area {
     width: 32em;
-    font-size: 20px;
+    font-size: 25px;
 
     .entry-content {
-      $shift: 50%;
+      $shift: 30%;
       .alignleft {
         margin-left: -$shift;
-        max-width: 100%+$shift !important;
       }
       .alignright {
         margin-right: -$shift;
-        max-width: 100%+$shift !important;
       }
     }
   }
