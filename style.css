@@ -693,7 +693,7 @@ ul.menu {
 --------------------------------------------------------------*/
 .content-area {
   max-width: 100%;
-  width: 1000px;
+  width: 32em;
   margin: 0 auto 0 auto; }
 
 .site-main {
