@@ -1,7 +1,10 @@
 .single-post {
+  .site-content{
+    font-size: 25px;
+  }
+
   .content-area {
     width: 32em;
-    font-size: 25px;
 
     .entry-content {
       $shift: 30%;

@@ -31,8 +31,10 @@ $mq_small_and_medium: "(max-width: 1024px)";
     margin-left: 0;
     margin-right: 0;
   }
-  .single-post .content-area {
+  .single-post .site-content{
     font-size: 16px;
+  }
+  .single-post .content-area {
 
     .entry-content {
     .alignleft, .alignright {
@@ -43,6 +45,10 @@ $mq_small_and_medium: "(max-width: 1024px)";
 }
 
 @include mq("screen", $mq_medium_only) {
+  .single-post .site-content{
+      font-size: 16px;
+  }
+
   .single-post .content-area {
     font-size: 16px;
 
