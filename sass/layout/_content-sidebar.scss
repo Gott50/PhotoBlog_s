@@ -1,5 +1,5 @@
 .content-area {
-  margin: 0 0 0 auto;
+  //margin: 0 auto 0 auto;
   width: $size__site-main + $content-image-shift;
 }
 
@@ -15,5 +15,6 @@
 
 .site-content {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
