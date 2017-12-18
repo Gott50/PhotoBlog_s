@@ -45,6 +45,9 @@ $mq_small_and_medium: "(max-width: 1024px)";
   .post-navigation {
     display: none;
   }
+  .main-navigation .nav-site-title {
+    font-size: 3.5vmin;
+  }
 }
 
 @include mq("screen", $mq_medium_only) {
@@ -85,6 +88,14 @@ $mq_small_and_medium: "(max-width: 1024px)";
     padding: 10px;
 
     text-align: left;
+
+    .nav-site-title{
+      width: 100%;
+      padding: 0 0 0 33px;
+
+      text-align: center;
+    }
+
     .nav-menu li {
       width: 100%;
     }
@@ -122,6 +133,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
   }
 
   .menu-toggle {
+    position: absolute;
     display: inline-block;
     color: $color__icon-menu;
     font-size: 35px;

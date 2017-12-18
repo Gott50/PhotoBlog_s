@@ -1062,7 +1062,10 @@ object {
     margin: 0; }
 
   .post-navigation {
-    display: none; } }
+    display: none; }
+
+  .main-navigation .nav-site-title {
+    font-size: 3.5vmin; } }
 @media screen and (min-width: 641px) and (max-width: 1024px) {
   .single-post .site-content {
     font-size: 16px; }
@@ -1087,6 +1090,10 @@ object {
     width: 100%;
     padding: 10px;
     text-align: left; }
+    .main-navigation .nav-site-title {
+      width: 100%;
+      padding: 0 0 0 33px;
+      text-align: center; }
     .main-navigation .nav-menu li {
       width: 100%; }
     .main-navigation.toggled {
@@ -1111,6 +1118,7 @@ object {
       display: block; }
 
   .menu-toggle {
+    position: absolute;
     display: inline-block;
     color: white;
     font-size: 35px;
