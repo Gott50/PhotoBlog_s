@@ -674,7 +674,9 @@ ul.menu {
   color: black;
   display: inline-table;
   border: 0 solid #a8abad;
-  border-left-width: 1px; }
+  border-left-width: 1px;
+  margin: 30px;
+  padding-left: 30px; }
   .widget-area .widget {
     margin: 0 0 1.5em;
     /* Make sure select elements fit in widgets. */ }
