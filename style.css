@@ -707,7 +707,7 @@ ul.menu {
 
 .site-footer {
   clear: both;
-  width: 1050px; }
+  width: 100%; }
 
 .site-content {
   display: flex;
