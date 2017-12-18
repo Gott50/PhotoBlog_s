@@ -675,7 +675,10 @@ ul.menu {
   border: 0 solid #e4e7e9;
   border-left-width: 1px;
   margin: 30px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  flex: 300px;
+  display: flex;
+  flex-wrap: wrap; }
   .widget-area .widget {
     margin: 0 0 1.5em;
     /* Make sure select elements fit in widgets. */ }
