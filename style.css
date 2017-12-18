@@ -463,7 +463,6 @@ a {
     display: inline-block; }
   .main-navigation .nav-site-title {
     display: inline-block;
-    float: left;
     width: auto;
     padding: 11px; }
     .main-navigation .nav-site-title .site-title {
@@ -1077,7 +1076,7 @@ object {
     clear: both;
     display: block;
     float: left;
-    max-width: 320px;
+    width: 100%;
     padding: 10px;
     border: 0 transparent solid;
     border-bottom-right-radius: 10px;
@@ -1100,10 +1099,8 @@ object {
   .menu-toggle,
   .main-navigation.toggled {
     border: none; }
-    .menu-toggle .nav-site-title,
     .menu-toggle ul,
     .menu-toggle .widget-area,
-    .main-navigation.toggled .nav-site-title,
     .main-navigation.toggled ul,
     .main-navigation.toggled .widget-area {
       display: block; }
