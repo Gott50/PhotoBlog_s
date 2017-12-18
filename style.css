@@ -1059,7 +1059,10 @@ object {
     font-size: 16px; }
 
   .single-post .content-area .entry-content .alignleft, .single-post .content-area .entry-content .alignright {
-    margin: 0; } }
+    margin: 0; }
+
+  .post-navigation {
+    display: none; } }
 @media screen and (min-width: 641px) and (max-width: 1024px) {
   .single-post .site-content {
     font-size: 16px; }

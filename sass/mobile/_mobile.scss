@@ -42,6 +42,9 @@ $mq_small_and_medium: "(max-width: 1024px)";
     }
     }
   }
+  .post-navigation {
+    display: none;
+  }
 }
 
 @include mq("screen", $mq_medium_only) {
