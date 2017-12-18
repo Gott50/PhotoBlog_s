@@ -1,5 +1,6 @@
 .content-area {
   width: $size__site-main + $content-image-shift;
+  max-width: 100%;
   flex-grow: 99999;
 }
 

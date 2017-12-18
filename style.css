@@ -698,6 +698,7 @@ ul.menu {
 --------------------------------------------------------------*/
 .content-area {
   width: 1300px;
+  max-width: 100%;
   flex-grow: 99999; }
 
 .site-content .widget-area {
@@ -894,6 +895,7 @@ ul.menu {
   font-size: 25px; }
 .single-post .site-main {
   width: 32em;
+  max-width: 100%;
   margin: 0 auto 0 auto; }
   .single-post .site-main .entry-content .alignleft {
     margin-left: -250px; }
