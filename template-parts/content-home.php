@@ -16,12 +16,18 @@
         </div><!-- .thumbnail -->
     </a>
 
-        <header class="entry-header">
-            <?php
-                the_title( '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark"><h2 class="entry-title">', '</h2> </a>' );
-            ?>
-            <p class="postmetadata">
-                <?php the_time('F jS, Y'); ?> | <?php the_category( ', ' ); ?>
-            </p>
-        </header><!-- .entry-header -->
+    <header class="entry-header">
+        <?php
+            the_title( '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark"><h2 class="entry-title">', '</h2> </a>' );
+        ?>
+        <p class="postmetadata">
+            <?php the_time('F jS, Y'); ?> | <?php the_category( ', ' ); ?>
+        </p>
+
+        <a href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">
+            <div class="entry-excerpt">
+                <?php the_excerpt(); ?>
+            </div><!-- .entry-excerpt -->
+        </a>
+    </header><!-- .entry-header -->
 </article><!-- #post-<?php the_ID(); ?> -->

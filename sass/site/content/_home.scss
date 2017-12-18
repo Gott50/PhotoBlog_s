@@ -1,4 +1,8 @@
 .home {
+  .site-content {
+    background: none;
+  }
+
   .content-area {
     width: 100%;
   }
@@ -17,7 +21,7 @@
   }
 
   .menu-scroll-down {
-    display: block;
+    display: none;
   }
 }
 
@@ -36,6 +40,25 @@
     display: flex;
     background-color: $color__background-post-preview-title;
     flex-flow: wrap;
+
+    &:hover {
+      $excerpt-height: 150px;
+      .thumbnail {
+        margin-bottom: -$excerpt-height;
+      }
+
+      .entry-excerpt {
+        height: $excerpt-height;
+      }
+    }
+    .entry-excerpt {
+      transition: height 1s;
+      height: 0;
+      overflow: hidden;
+    }
+    .thumbnail {
+      transition: margin-bottom 1s;
+    }
 
     a, .thumbnail {
       width: 100%;
@@ -73,7 +96,7 @@
 
       &,
       a:not(:hover) {
-        color: $color__link;
+        color: $color__background-post-preview-metadata;
       }
     }
   }

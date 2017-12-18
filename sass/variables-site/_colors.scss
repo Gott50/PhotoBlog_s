@@ -1,7 +1,7 @@
 $color__background-body: black;
-$color__background-content: rgba(256, 256, 256, 0.75);
 $color__background-header: transparent;
 $color__background-post-preview-title: #1d1e1f;
+$color__background-post-preview-metadata: #78797a;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
@@ -9,22 +9,24 @@ $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__background-nav: white;
 $color__background-menu: rgba(0, 0, 0, 0.75);
+$color__background-content: rgba(256, 256, 256, 0);
+$color__background-site-content: white;
 
-$color__nav-primary: rgba(0, 0, 0, 0.75);
-$color__nav-secondary: white;
+$color__nav-primary: #1d1d1d;
+$color__nav-secondary: rgb(255, 207, 108);
 
-$color__text-main: black;
+$color__text-main: #222222;
 $color__text_header: white;
 $color__text-post-preview-title: #a8abad;
 $color__text-widget: white;
 $color__text-screen: #21759b;
 $color__text-input: #666;
 $color__text-input-focus: #111;
-$color__text-nav: white;
+$color__text-nav: #a8abad;
 
-$color__link: #78797a;
+$color__link: rgba(255, 207, 108, 0.81);
 $color__link-visited: #666;
-$color__link-hover: white;
+$color__link-hover: rgb(255, 207, 108);
 
 $color__border-post-preview: black;
 $color__border-button: #ccc #ccc #bbb;

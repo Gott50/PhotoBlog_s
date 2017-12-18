@@ -17,8 +17,8 @@ $mq_small_and_medium: "(max-width: 1024px)";
   /* Layout */
   #primary,
   #main {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
   #secondary {
     width: 100%;
@@ -31,4 +31,116 @@ $mq_small_and_medium: "(max-width: 1024px)";
     margin-left: 0;
     margin-right: 0;
   }
+  .single-post .site-content{
+    font-size: 16px;
+  }
+  .single-post .content-area {
+
+    .entry-content {
+    .alignleft, .alignright {
+      margin: 0;
+    }
+    }
+  }
+}
+
+@include mq("screen", $mq_medium_only) {
+  .single-post .site-content{
+      font-size: 16px;
+  }
+
+  .single-post .content-area {
+    font-size: 16px;
+
+    .entry-content {
+      $shift: 15%;
+      .alignleft {
+        margin-left: -$shift;
+      }
+      .alignright {
+        margin-right: -$shift;
+      }
+    }
+  }
+}
+
+@include mq("screen", $mq_small_and_medium) {
+  .main-navigation {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+
+    clear: both;
+    display: block;
+    float: left;
+
+    max-width: 320px;
+    padding: 10px;
+    border: 0 transparent solid;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    text-align: left;
+    .nav-menu li {
+      width: 100%;
+    }
+    
+    &.toggled {
+      background-color: $color__nav-primary;
+    }
+
+    .widget-area {
+      display: none;
+
+      margin-top: 4em;
+    }
+
+    ul {
+      display: none;
+    }
+
+    .social-navigation {
+      width: 100%;
+      text-align: center;
+    }
+
+  }
+
+  /* Small menu. */
+  .menu-toggle,
+  .main-navigation.toggled {
+    border: none;
+
+    .nav-site-title,
+    ul,
+    .widget-area {
+      display: block;
+    }
+  }
+
+  .menu-toggle {
+    display: inline-block;
+    color: $color__icon-menu;
+    font-size: 35px;
+    padding: 0;
+
+    background: none;
+
+    .icon-close {
+      display: none;
+    }
+  }
+
+  .toggled .menu-toggle {
+    color: $color__icon-menu-toggled;
+
+    .icon-close {
+      display: block;
+    }
+    .icon-bars {
+      display: none;
+    }
+  }
+
+
 }
