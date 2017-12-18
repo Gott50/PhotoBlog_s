@@ -5,7 +5,7 @@
 
 .site-content .widget-area {
   overflow: hidden;
-  width: $size__site-sidebar;
+  flex: $size__site-sidebar;
 }
 
 .site-footer {

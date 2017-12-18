@@ -672,7 +672,6 @@ ul.menu {
 --------------------------------------------------------------*/
 .widget-area {
   color: black;
-  flex: 300px;
   display: flex;
   flex-wrap: wrap; }
   .widget-area .widget {
@@ -703,7 +702,7 @@ ul.menu {
 
 .site-content .widget-area {
   overflow: hidden;
-  width: 300px; }
+  flex: 300px; }
 
 .site-footer {
   clear: both;
