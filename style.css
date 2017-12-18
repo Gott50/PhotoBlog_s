@@ -672,7 +672,6 @@ ul.menu {
 --------------------------------------------------------------*/
 .widget-area {
   color: black;
-  display: inline-table;
   border: 0 solid #e4e7e9;
   border-left-width: 1px;
   margin: 30px;
@@ -692,14 +691,6 @@ ul.menu {
       list-style: none; }
     .widget-area .widget .widget-title {
       margin-bottom: 0; }
-  .widget-area:before {
-    content: '';
-    width: 1px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 309px;
-    display: block; }
 
 /*--------------------------------------------------------------
 # Site
