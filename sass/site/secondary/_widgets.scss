@@ -1,16 +1,17 @@
 .widget-area {
   color: $color__text-widget;
-  border: 0 solid $color__widget-area-border;
-  border-left-width: 1px;
-  margin: 30px;
-  padding-left: 30px;
 
   flex: 300px;
   display: flex;
   flex-wrap: wrap;
 
   .widget {
-    margin: 0 0 1.5em;
+    border: 0 solid $color__widget-area-border;
+    border-left-width: 1px;
+    margin: 30px;
+    padding-left: 30px;
+
+    flex: 300px;
 
     /* Make sure select elements fit in widgets. */
     select {
