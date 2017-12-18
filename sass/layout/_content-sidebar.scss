@@ -1,7 +1,6 @@
 .content-area {
-  max-width: 100%;
   margin: 0 auto 0 auto;
-  width: $size__site-main;
+  width: $size__site-main + $content-image-shift;
 }
 
 .site-content .widget-area {
@@ -18,4 +17,5 @@
 .site-content {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }

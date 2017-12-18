@@ -8,12 +8,11 @@
     margin: 0 auto 0 auto;
 
     .entry-content {
-      $shift: 30%;
       .alignleft {
-        margin-left: -$shift;
+        margin-left: -$content-image-shift;
       }
       .alignright {
-        margin-right: -$shift;
+        margin-right: -$content-image-shift;
       }
     }
   }

@@ -692,9 +692,8 @@ ul.menu {
 # Site
 --------------------------------------------------------------*/
 .content-area {
-  max-width: 100%;
   margin: 0 auto 0 auto;
-  width: 1000px; }
+  width: 1300px; }
 
 .site-content .widget-area {
   float: right;
@@ -703,11 +702,12 @@ ul.menu {
 
 .site-footer {
   clear: both;
-  width: 1000px; }
+  width: 1050px; }
 
 .site-content {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 /*--------------------------------------------------------------
 ## Header
@@ -892,9 +892,9 @@ ul.menu {
   width: 32em;
   margin: 0 auto 0 auto; }
   .single-post .site-main .entry-content .alignleft {
-    margin-left: -30%; }
+    margin-left: -250px; }
   .single-post .site-main .entry-content .alignright {
-    margin-right: -30%; }
+    margin-right: -250px; }
 
 .site-content {
   background: white; }
