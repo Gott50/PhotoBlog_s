@@ -671,7 +671,10 @@ ul.menu {
 # Widgets
 --------------------------------------------------------------*/
 .widget-area {
-  color: black; }
+  color: black;
+  display: inline-table;
+  border: 0 solid #a8abad;
+  border-left-width: 1px; }
   .widget-area .widget {
     margin: 0 0 1.5em;
     /* Make sure select elements fit in widgets. */ }
@@ -687,12 +690,19 @@ ul.menu {
       list-style: none; }
     .widget-area .widget .widget-title {
       margin-bottom: 0; }
+  .widget-area:before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 309px;
+    display: block; }
 
 /*--------------------------------------------------------------
 # Site
 --------------------------------------------------------------*/
 .content-area {
-  margin: 0 auto 0 auto;
   width: 1300px; }
 
 .site-content .widget-area {

@@ -1,5 +1,8 @@
 .widget-area {
   color: $color__text-widget;
+  display: inline-table;
+  border: 0 solid $color__text-post-preview-title;
+  border-left-width: 1px;
 
   .widget {
     margin: 0 0 1.5em;
@@ -24,5 +27,16 @@
     .widget-title {
       margin-bottom: 0;
     }
+  }
+
+
+  &:before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 309px;
+    display: block;
   }
 }
