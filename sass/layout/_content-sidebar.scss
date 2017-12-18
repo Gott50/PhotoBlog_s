@@ -4,9 +4,8 @@
 }
 
 .site-content .widget-area {
-  float: right;
   overflow: hidden;
-  width: $size__site-sidebar - $size__margin-left;
+  width: $size__site-sidebar;
 }
 
 .site-footer {
