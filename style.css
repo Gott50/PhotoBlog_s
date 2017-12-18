@@ -705,6 +705,7 @@ ul.menu {
 # Site
 --------------------------------------------------------------*/
 .content-area {
+  margin: 0 0 0 auto;
   width: 1300px; }
 
 .site-content .widget-area {
@@ -717,7 +718,6 @@ ul.menu {
 
 .site-content {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap; }
 
 /*--------------------------------------------------------------
