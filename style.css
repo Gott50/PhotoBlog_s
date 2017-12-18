@@ -1078,9 +1078,6 @@ object {
     float: left;
     width: 100%;
     padding: 10px;
-    border: 0 transparent solid;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
     text-align: left; }
     .main-navigation .nav-menu li {
       width: 100%; }
