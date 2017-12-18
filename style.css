@@ -698,7 +698,8 @@ ul.menu {
 # Site
 --------------------------------------------------------------*/
 .content-area {
-  width: 1300px; }
+  width: 1300px;
+  flex-grow: 99999; }
 
 .site-content .widget-area {
   overflow: hidden;

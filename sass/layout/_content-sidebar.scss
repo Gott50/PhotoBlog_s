@@ -1,6 +1,6 @@
 .content-area {
-  //margin: 0 auto 0 auto;
   width: $size__site-main + $content-image-shift;
+  flex-grow: 99999;
 }
 
 .site-content .widget-area {
