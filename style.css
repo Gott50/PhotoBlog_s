@@ -671,14 +671,14 @@ ul.menu {
 # Widgets
 --------------------------------------------------------------*/
 .widget-area {
-  color: white; }
+  color: black; }
   .widget-area .widget {
     margin: 0 0 1.5em;
     /* Make sure select elements fit in widgets. */ }
     .widget-area .widget select {
       max-width: 100%; }
     .widget-area .widget a {
-      color: white;
+      color: black;
       text-decoration: none; }
     .widget-area .widget a:hover {
       color: #ffcf6c; }
