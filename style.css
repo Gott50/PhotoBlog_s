@@ -692,22 +692,25 @@ ul.menu {
 # Site
 --------------------------------------------------------------*/
 .content-area {
-  max-width: 100%;
-  width: 1000px;
-  margin: 0 auto 0 auto; }
+  float: left;
+  margin: 0 -30% 0 0;
+  width: 1000px; }
 
 .site-main {
-  margin: 0 0 0 0; }
+  margin: 0 30% 0 0; }
 
 .site-content .widget-area {
   float: right;
   overflow: hidden;
-  width: 100%;
+  width: 30%;
   margin-right: 0; }
 
 .site-footer {
   clear: both;
-  width: 100%; }
+  width: 1000px; }
+
+.site-main {
+  margin-left: 0; }
 
 /*--------------------------------------------------------------
 ## Header
