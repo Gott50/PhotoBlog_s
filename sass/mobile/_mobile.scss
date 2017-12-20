@@ -53,6 +53,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
 @include mq("screen", $mq_medium_only) {
   .single-post .site-content{
       font-size: 16px;
+    background: red;
   }
 
   .single-post .content-area {
@@ -61,10 +62,10 @@ $mq_small_and_medium: "(max-width: 1024px)";
     .entry-content {
       $shift: 15%;
       .alignleft {
-        margin-left: -$shift;
+        //margin-left: -$shift;
       }
       .alignright {
-        margin-right: -$shift;
+        //margin-right: -$shift;
       }
     }
   }

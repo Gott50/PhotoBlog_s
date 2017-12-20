@@ -697,9 +697,8 @@ ul.menu {
 # Site
 --------------------------------------------------------------*/
 .content-area {
-  width: 1300px;
-  max-width: 100%;
-  flex-grow: 99999; }
+  width: 1050px;
+  max-width: 100%; }
 
 .site-content .widget-area {
   overflow: hidden;
@@ -891,6 +890,10 @@ ul.menu {
 /*--------------------------------------------------------------
 ### SinglePost
 --------------------------------------------------------------*/
+.single-post .content-area {
+  width: 52em;
+  max-width: 100%;
+  flex-grow: 99999; }
 .single-post .site-content {
   font-size: 25px; }
 .single-post .site-main {
@@ -898,9 +901,9 @@ ul.menu {
   max-width: 100%;
   margin: 0 auto 0 auto; }
   .single-post .site-main .entry-content .alignleft {
-    margin-left: -250px; }
+    margin-left: -10em; }
   .single-post .site-main .entry-content .alignright {
-    margin-right: -250px; }
+    margin-right: -10em; }
 
 .site-content {
   background: white; }
@@ -1068,14 +1071,11 @@ object {
     font-size: 3.5vmin; } }
 @media screen and (min-width: 641px) and (max-width: 1024px) {
   .single-post .site-content {
-    font-size: 16px; }
+    font-size: 16px;
+    background: red; }
 
   .single-post .content-area {
-    font-size: 16px; }
-    .single-post .content-area .entry-content .alignleft {
-      margin-left: -15%; }
-    .single-post .content-area .entry-content .alignright {
-      margin-right: -15%; } }
+    font-size: 16px; } }
 @media screen and (max-width: 1024px) {
   .main-navigation {
     clear: both;

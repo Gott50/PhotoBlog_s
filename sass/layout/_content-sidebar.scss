@@ -1,7 +1,6 @@
 .content-area {
-  width: $size__site-main + $content-image-shift;
+  width: $size__site-main;
   max-width: 100%;
-  flex-grow: 99999;
 }
 
 .site-content .widget-area {
