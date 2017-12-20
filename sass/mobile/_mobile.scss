@@ -71,15 +71,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
 }
 
 @include mq("screen", $mq_small_and_medium) {
-  .content-area {
-    //margin-top: 90px;
-  }
-
   .main-navigation {
-    //position: absolute;
-    top: 0;
-    z-index: 100;
-
     clear: both;
     display: block;
     float: left;

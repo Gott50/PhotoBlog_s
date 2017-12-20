@@ -1078,8 +1078,6 @@ object {
       margin-right: -15%; } }
 @media screen and (max-width: 1024px) {
   .main-navigation {
-    top: 0;
-    z-index: 100;
     clear: both;
     display: block;
     float: left;
