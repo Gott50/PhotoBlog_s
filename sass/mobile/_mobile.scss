@@ -58,13 +58,14 @@ $mq_small_and_medium: "(max-width: 1024px)";
   .single-post .content-area {
     font-size: 16px;
 
+    $shift: 5em;
+    padding: 0 $shift;
     .entry-content {
-      $shift: 15%;
       .alignleft {
-        //margin-left: -$shift;
+        margin-left: -$shift;
       }
       .alignright {
-        //margin-right: -$shift;
+        margin-right: -$shift;
       }
     }
   }
