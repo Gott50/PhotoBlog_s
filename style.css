@@ -1071,8 +1071,7 @@ object {
     font-size: 3.5vmin; } }
 @media screen and (min-width: 641px) and (max-width: 1024px) {
   .single-post .site-content {
-    font-size: 16px;
-    background: red; }
+    font-size: 16px; }
 
   .single-post .content-area {
     font-size: 16px; } }
