@@ -1062,8 +1062,10 @@ object {
   .single-post .site-content {
     font-size: 16px; }
 
-  .single-post .content-area .entry-content .alignleft, .single-post .content-area .entry-content .alignright {
-    margin: 0; }
+  .single-post .content-area {
+    padding: 0; }
+    .single-post .content-area .entry-content .alignleft, .single-post .content-area .entry-content .alignright {
+      margin: 0; }
 
   .post-navigation {
     display: none; }
