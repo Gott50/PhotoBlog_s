@@ -430,12 +430,12 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: rgba(255, 207, 108, 0.81);
+  color: #666;
   text-decoration: none; }
   a:visited {
-    color: #666; }
+    color: #888; }
   a:hover, a:focus, a:active {
-    color: #ffcf6c; }
+    color: #d4ad5d; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -730,7 +730,7 @@ ul.menu {
       position: absolute;
       top: 0; }
     .site-header a :hover {
-      color: #ffcf6c; }
+      color: #d4ad5d; }
   .site-header .custom-header {
     display: none;
     position: absolute;
@@ -854,7 +854,7 @@ ul.menu {
       line-height: 15px;
       text-decoration: none; }
       .content-home article h1:hover, .content-home article h2:hover, .content-home article a:hover {
-        color: #ffcf6c; }
+        color: #d4ad5d; }
     .content-home article .entry-header {
       width: 100%;
       background: #1d1e1f;
