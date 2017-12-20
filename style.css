@@ -893,7 +893,8 @@ ul.menu {
 .single-post .content-area {
   width: 52em;
   max-width: 100%;
-  flex-grow: 99999; }
+  flex-grow: 99999;
+  padding: 0 10em; }
 .single-post .site-content {
   font-size: 25px; }
 .single-post .site-main {

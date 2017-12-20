@@ -3,6 +3,7 @@
     width: $size__post-content-width + $size__post-content-image-shift*2;
     max-width: 100%;
     flex-grow: 99999;
+    padding: 0 $size__post-content-image-shift;
   }
 
   .site-content{
