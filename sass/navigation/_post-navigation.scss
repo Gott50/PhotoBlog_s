@@ -1,5 +1,6 @@
 .post-navigation {
-  $width-posts-preview: 344px;
+  $width-posts-preview-padding: 22px;
+  $width-posts-preview: 300px + 2 * $width-posts-preview-padding;
   position: fixed;
   width: 100%;
   top: 50%;
@@ -47,7 +48,7 @@
 
   .posts-preview {
     background: $color__background-post-preview-title;
-    padding: 22px;
+    padding: $width-posts-preview-padding;
     width: $width-posts-preview;
   }
 
