@@ -489,7 +489,7 @@ a {
   .menu a:not(:hover) {
     color: #a8abad; }
   .menu a:hover {
-    color: #ffcf6c; }
+    color: #d4ad5d; }
   .menu a {
     text-decoration: none; }
 
@@ -687,7 +687,7 @@ ul.menu {
       color: black;
       text-decoration: none; }
     .widget-area .widget a:hover {
-      color: #ffcf6c; }
+      color: #d4ad5d; }
     .widget-area .widget ul {
       margin-left: 0;
       list-style: none; }
