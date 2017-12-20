@@ -1,6 +1,6 @@
 .single-post {
   .content-area {
-    width: 32em + $content-image-shift*2;
+    width: $size__post-content-width + $size__post-content-image-shift*2;
     max-width: 100%;
     flex-grow: 99999;
   }
@@ -10,16 +10,16 @@
   }
 
   .site-main {
-    width: 32em;
+    width: $size__post-content-width;
     max-width: 100%;
     margin: 0 auto 0 auto;
 
     .entry-content {
       .alignleft {
-        margin-left: -$content-image-shift;
+        margin-left: -$size__post-content-image-shift;
       }
       .alignright {
-        margin-right: -$content-image-shift;
+        margin-right: -$size__post-content-image-shift;
       }
     }
   }
