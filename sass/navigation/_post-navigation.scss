@@ -34,11 +34,9 @@
 
   &.nav-previous {
     left: 0;
-
-    float: left;
-
     transition: margin-left 1s;
     margin-left: -$width-posts-preview;
+
     .icon-angle-down {
       transform: rotate(90deg);
     }
@@ -46,13 +44,10 @@
 
   &.nav-next {
     right: -20px;
-
-    float: right;
-    text-align: right;
-
     transition: margin-right 1s;
     margin-right: -$width-posts-preview;
 
+    text-align: right;
     .icon-angle-down {
       transform: rotate(270deg);
     }

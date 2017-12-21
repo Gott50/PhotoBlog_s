@@ -557,17 +557,15 @@ ul.menu {
     display: flex; }
   .post-navigation.nav-previous {
     left: 0;
-    float: left;
     transition: margin-left 1s;
     margin-left: -344px; }
     .post-navigation.nav-previous .icon-angle-down {
       transform: rotate(90deg); }
   .post-navigation.nav-next {
     right: -20px;
-    float: right;
-    text-align: right;
     transition: margin-right 1s;
-    margin-right: -344px; }
+    margin-right: -344px;
+    text-align: right; }
     .post-navigation.nav-next .icon-angle-down {
       transform: rotate(270deg); }
 
