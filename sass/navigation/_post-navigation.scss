@@ -23,6 +23,10 @@
 
   &.nav-previous,
   &.nav-next {
+    &:hover{
+      margin: 0;
+    }
+
     a {
       display: flex;
     }
@@ -52,10 +56,5 @@
     .icon-angle-down {
       transform: rotate(270deg);
     }
-  }
-
-  &.nav-previous:hover,
-  &.nav-next:hover {
-    margin: 0;
   }
 }

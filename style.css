@@ -551,6 +551,8 @@ ul.menu {
     background: #1d1e1f;
     padding: 22px;
     width: 344px; }
+  .post-navigation.nav-previous:hover, .post-navigation.nav-next:hover {
+    margin: 0; }
   .post-navigation.nav-previous a, .post-navigation.nav-next a {
     display: flex; }
   .post-navigation.nav-previous {
@@ -568,8 +570,6 @@ ul.menu {
     margin-right: -344px; }
     .post-navigation.nav-next .icon-angle-down {
       transform: rotate(270deg); }
-  .post-navigation.nav-previous:hover, .post-navigation.nav-next:hover {
-    margin: 0; }
 
 .site-main .comment-navigation,
 .site-main .posts-navigation {
