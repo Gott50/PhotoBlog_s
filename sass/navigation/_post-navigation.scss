@@ -23,7 +23,7 @@
 
   &.nav-previous,
   &.nav-next {
-    a{
+    a {
       display: flex;
     }
   }
@@ -33,9 +33,9 @@
 
     float: left;
 
-      transition: margin-left 1s;
-      margin-left: -$width-posts-preview;
-    .icon-angle-down{
+    transition: margin-left 1s;
+    margin-left: -$width-posts-preview;
+    .icon-angle-down {
       transform: rotate(90deg);
     }
   }
@@ -46,16 +46,16 @@
     float: right;
     text-align: right;
 
-      transition: margin-right 1s;
-      margin-right: -$width-posts-preview;
+    transition: margin-right 1s;
+    margin-right: -$width-posts-preview;
 
-    .icon-angle-down{
+    .icon-angle-down {
       transform: rotate(270deg);
     }
   }
 
   &.nav-previous:hover,
   &.nav-next:hover {
-      margin: 0 ;
+    margin: 0;
   }
 }
