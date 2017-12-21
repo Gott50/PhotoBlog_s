@@ -551,31 +551,25 @@ ul.menu {
     background: #1d1e1f;
     padding: 22px;
     width: 344px; }
-
-.nav-previous a,
-.nav-next a {
-  display: flex; }
-
-.nav-previous {
-  left: 0;
-  float: left;
-  transition: margin-left 1s;
-  margin-left: -344px; }
-  .nav-previous .icon-angle-down {
-    transform: rotate(90deg); }
-
-.nav-next {
-  right: -20px;
-  float: right;
-  text-align: right;
-  transition: margin-right 1s;
-  margin-right: -344px; }
-  .nav-next .icon-angle-down {
-    transform: rotate(270deg); }
-
-.nav-previous:hover,
-.nav-next:hover {
-  margin: 0; }
+  .post-navigation.nav-previous a, .post-navigation.nav-next a {
+    display: flex; }
+  .post-navigation.nav-previous {
+    left: 0;
+    float: left;
+    transition: margin-left 1s;
+    margin-left: -344px; }
+    .post-navigation.nav-previous .icon-angle-down {
+      transform: rotate(90deg); }
+  .post-navigation.nav-next {
+    right: -20px;
+    float: right;
+    text-align: right;
+    transition: margin-right 1s;
+    margin-right: -344px; }
+    .post-navigation.nav-next .icon-angle-down {
+      transform: rotate(270deg); }
+  .post-navigation.nav-previous:hover, .post-navigation.nav-next:hover {
+    margin: 0; }
 
 .site-main .comment-navigation,
 .site-main .posts-navigation {

@@ -1,6 +1,7 @@
+.post-navigation {
   $width-posts-preview-padding: 22px;
   $width-posts-preview: 300px + 2 * $width-posts-preview-padding;
-.post-navigation {
+
   position: fixed;
   width: $width-posts-preview + 100px;
   top: 50%;
@@ -19,16 +20,15 @@
     padding: $width-posts-preview-padding;
     width: $width-posts-preview;
   }
-}
 
-  .nav-previous,
-  .nav-next {
+  &.nav-previous,
+  &.nav-next {
     a{
       display: flex;
     }
   }
 
-  .nav-previous {
+  &.nav-previous {
     left: 0;
 
     float: left;
@@ -40,7 +40,7 @@
     }
   }
 
-  .nav-next {
+  &.nav-next {
     right: -20px;
 
     float: right;
@@ -54,7 +54,8 @@
     }
   }
 
-  .nav-previous:hover,
-  .nav-next:hover {
+  &.nav-previous:hover,
+  &.nav-next:hover {
       margin: 0 ;
   }
+}
