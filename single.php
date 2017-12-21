@@ -9,12 +9,11 @@
 
 get_header(); ?>
 
-    <div class="post-navigation">
         <h2 class="screen-reader-text">Beitrags-Navigation</h2>
 		<?php $in_same_term = false;
 		$prevPost           = get_previous_post( $in_same_term );
 		if ( $prevPost ): ?>
-            <div class="nav-previous">
+            <div class="post-navigation nav-previous">
 				<?php $angle_left =  photoblog_s_get_svg( array( 'icon' => 'angle-down' ) ); ?>
 				<?php $prevthumbnail = get_the_post_thumbnail( $prevPost->ID, array( 300, 300 ) ); ?>
 				<?php previous_post_link( '%link',
@@ -27,7 +26,7 @@ get_header(); ?>
 
 		<?php $nextPost = get_next_post( $in_same_term );
 		if ( $nextPost ): ?>
-            <div class="nav-next">
+            <div class="post-navigation nav-next">
 				<?php $angle_right =  photoblog_s_get_svg( array( 'icon' => 'angle-down' ) ); ?>
 				<?php $nextthumbnail = get_the_post_thumbnail( $nextPost->ID, array( 300, 300 ) ); ?>
 				<?php next_post_link( '%link',
@@ -37,7 +36,6 @@ get_header(); ?>
                 </div> ", $in_same_term ); ?>
             </div>
 		<?php endif ?>
-    </div>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">

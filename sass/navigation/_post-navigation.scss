@@ -1,45 +1,13 @@
-.post-navigation {
   $width-posts-preview-padding: 22px;
   $width-posts-preview: 300px + 2 * $width-posts-preview-padding;
+.post-navigation {
   position: fixed;
-  width: 100%;
+  width: $width-posts-preview + 100px;
   top: 50%;
 
   .site-main & {
     margin: 0 0 1.5em;
     overflow: hidden;
-  }
-
-  .nav-previous,
-  .nav-next {
-    a{
-      display: flex;
-    }
-  }
-
-  .nav-previous {
-    float: left;
-
-    .posts-preview{
-      transition: margin-left 1s;
-      margin-left: -$width-posts-preview;
-    }
-    .icon-angle-down{
-      transform: rotate(90deg);
-    }
-  }
-
-  .nav-next {
-    float: right;
-    text-align: right;
-
-    .posts-preview{
-      transition: margin-right 1s;
-      margin-right: -$width-posts-preview;
-    }
-    .icon-angle-down{
-      transform: rotate(270deg);
-    }
   }
 
   .icon {
@@ -51,11 +19,42 @@
     padding: $width-posts-preview-padding;
     width: $width-posts-preview;
   }
+}
+
+  .nav-previous,
+  .nav-next {
+    a{
+      display: flex;
+    }
+  }
+
+  .nav-previous {
+    left: 0;
+
+    float: left;
+
+      transition: margin-left 1s;
+      margin-left: -$width-posts-preview;
+    .icon-angle-down{
+      transform: rotate(90deg);
+    }
+  }
+
+  .nav-next {
+    right: -20px;
+
+    float: right;
+    text-align: right;
+
+      transition: margin-right 1s;
+      margin-right: -$width-posts-preview;
+
+    .icon-angle-down{
+      transform: rotate(270deg);
+    }
+  }
 
   .nav-previous:hover,
   .nav-next:hover {
-    .posts-preview {
       margin: 0 ;
-    }
   }
-}
