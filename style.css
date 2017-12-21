@@ -540,11 +540,7 @@ ul.menu {
 --------------------------------------------------------------*/
 .post-navigation {
   position: fixed;
-  width: 444px;
   top: 50%; }
-  .site-main .post-navigation {
-    margin: 0 0 1.5em;
-    overflow: hidden; }
   .post-navigation .icon {
     font-size: 4em; }
   .post-navigation .posts-preview {
@@ -562,7 +558,7 @@ ul.menu {
     .post-navigation.nav-previous .icon-angle-down {
       transform: rotate(90deg); }
   .post-navigation.nav-next {
-    right: -20px;
+    right: 0;
     transition: margin-right 1s;
     margin-right: -344px;
     text-align: right; }
