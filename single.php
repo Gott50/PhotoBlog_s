@@ -52,7 +52,7 @@ get_header(); ?>
 		            <?php
 		            $number =  get_comments_number();
                     echo sprintf( _n( '%s Comment', '%s Comments', $number ), number_format_i18n( $number ) )
-		            ?>
+		            ?> ...
                 </button>
                 <ul>
                     <?php comments_template(); ?>
