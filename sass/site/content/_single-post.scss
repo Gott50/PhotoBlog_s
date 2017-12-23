@@ -34,11 +34,17 @@
 
     .menu-toggle {
       display: block;
-      border: none;
       background: none;
       font-style: italic;
       font-size: inherit;
       margin: auto;
+
+      padding-left: 0;
+      padding-right: 0;
+
+      border: 0 $color__link-hover solid;
+      border-bottom-width: 3px;
+      border-radius: 0;
     }
 
     &.toggled {

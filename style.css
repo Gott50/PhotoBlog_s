@@ -906,11 +906,15 @@ ul.menu {
   padding: 0; }
 .single-post .single-post-comments .menu-toggle {
   display: block;
-  border: none;
   background: none;
   font-style: italic;
   font-size: inherit;
-  margin: auto; }
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0 #d4ad5d solid;
+  border-bottom-width: 3px;
+  border-radius: 0; }
 .single-post .single-post-comments.toggled ul {
   display: block; }
 
