@@ -904,6 +904,9 @@ ul.menu {
   display: block;
   font-style: italic;
   font-size: smaller; }
+.single-post .entry-meta span {
+  font-style: italic;
+  font-size: smaller; }
 .single-post .single-post-comments {
   min-height: 100px; }
   .single-post .single-post-comments ul {
