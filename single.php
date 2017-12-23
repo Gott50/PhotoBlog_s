@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-        <h2 class="screen-reader-text">Beitrags-Navigation</h2>
+        <h2 class="screen-reader-text"><?php echo __( 'Posts navigation' ) ?></h2>
 		<?php $in_same_term = false;
 		$prevPost           = get_previous_post( $in_same_term );
 		if ( $prevPost ): ?>
