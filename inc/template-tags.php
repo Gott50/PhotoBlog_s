@@ -55,7 +55,7 @@ if ( ! function_exists( 'photoblog_s_entry_footer' ) ) :
 			$tags_list = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'photoblog_s' ) );
 			if ( $tags_list ) {
 				/* translators: 1: list of tags. */
-				printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'photoblog_s' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+				printf( '<span class="tags-links">' . esc_html__( 'Tags' ).': %1$s'. '</span>', $tags_list ); // WPCS: XSS OK.
 			}
 		}
 
