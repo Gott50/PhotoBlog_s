@@ -48,6 +48,12 @@ $mq_small_and_medium: "(max-width: 1024px)";
   .main-navigation .nav-site-title {
     font-size: 3.5vmin;
   }
+
+  .widget-area .widget {
+    margin: 10px;
+    padding-left: 0;
+    border: 0;
+  }
 }
 
 @include mq("screen", $mq_medium_only) {

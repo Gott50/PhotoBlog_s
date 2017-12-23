@@ -671,7 +671,7 @@ ul.menu {
     border-left-width: 1px;
     margin: 30px;
     padding-left: 30px;
-    flex: 300px;
+    flex: 330px;
     /* Make sure select elements fit in widgets. */ }
     .widget-area .widget select {
       max-width: 100%; }
@@ -1085,7 +1085,12 @@ object {
     display: none; }
 
   .main-navigation .nav-site-title {
-    font-size: 3.5vmin; } }
+    font-size: 3.5vmin; }
+
+  .widget-area .widget {
+    margin: 10px;
+    padding-left: 0;
+    border: 0; } }
 @media screen and (min-width: 641px) and (max-width: 1024px) {
   .single-post .site-content {
     font-size: 16px; }
