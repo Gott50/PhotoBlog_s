@@ -34,6 +34,11 @@
 
     .menu-toggle {
       display: block;
+      border: none;
+      background: none;
+      font-style: italic;
+      font-size: inherit;
+      margin: auto;
     }
 
     &.toggled {

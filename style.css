@@ -905,7 +905,12 @@ ul.menu {
   margin: 0;
   padding: 0; }
 .single-post .single-post-comments .menu-toggle {
-  display: block; }
+  display: block;
+  border: none;
+  background: none;
+  font-style: italic;
+  font-size: inherit;
+  margin: auto; }
 .single-post .single-post-comments.toggled ul {
   display: block; }
 
