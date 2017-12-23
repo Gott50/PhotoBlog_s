@@ -900,23 +900,25 @@ ul.menu {
     margin-left: -10em; }
   .single-post .site-main .entry-content .alignright {
     margin-right: -10em; }
-.single-post .single-post-comments ul {
-  display: none;
-  margin: 0;
-  padding: 0; }
-.single-post .single-post-comments .menu-toggle {
-  display: block;
-  background: none;
-  font-style: italic;
-  font-size: inherit;
-  margin: auto;
-  padding-left: 0;
-  padding-right: 0;
-  border: 0 #d4ad5d solid;
-  border-bottom-width: 3px;
-  border-radius: 0; }
-.single-post .single-post-comments.toggled ul {
-  display: block; }
+.single-post .single-post-comments {
+  min-height: 100px; }
+  .single-post .single-post-comments ul {
+    display: none;
+    margin: 0;
+    padding: 0; }
+  .single-post .single-post-comments .menu-toggle {
+    display: block;
+    background: none;
+    font-style: italic;
+    font-size: inherit;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0 #d4ad5d solid;
+    border-bottom-width: 3px;
+    border-radius: 0; }
+  .single-post .single-post-comments.toggled ul {
+    display: block; }
 
 .site-content {
   background: white; }
