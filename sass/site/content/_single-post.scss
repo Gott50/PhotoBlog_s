@@ -24,4 +24,22 @@
       }
     }
   }
+
+  .single-post-comments{
+    ul {
+      display: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+
+    &.toggled {
+      ul {
+        display: block;
+      }
+    }
+  }
 }

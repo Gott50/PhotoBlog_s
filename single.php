@@ -46,8 +46,18 @@ get_header(); ?>
 			get_template_part( 'template-parts/content', get_post_type() );
 
 			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
+			if ( comments_open() || get_comments_number() ) :?>
+            <div id="site-comments" class="single-post-comments">
+                <button class="menu-toggle" aria-expanded="false">
+		            <?php
+		            echo get_comments_number()
+		            ?>
+                </button>
+                <ul>
+                    <?php comments_template(); ?>
+                </ul>
+            </div>
+            <?php
 			endif;
 
 		endwhile; // End of the loop.

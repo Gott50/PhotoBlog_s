@@ -900,6 +900,14 @@ ul.menu {
     margin-left: -10em; }
   .single-post .site-main .entry-content .alignright {
     margin-right: -10em; }
+.single-post .single-post-comments ul {
+  display: none;
+  margin: 0;
+  padding: 0; }
+.single-post .single-post-comments .menu-toggle {
+  display: block; }
+.single-post .single-post-comments.toggled ul {
+  display: block; }
 
 .site-content {
   background: white; }
