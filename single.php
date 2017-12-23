@@ -50,7 +50,8 @@ get_header(); ?>
             <div id="site-comments" class="single-post-comments">
                 <button class="menu-toggle" aria-expanded="false">
 		            <?php
-		            echo get_comments_number()
+		            $number =  get_comments_number();
+                    echo sprintf( _n( '%s Comment', '%s Comments', $number ), number_format_i18n( $number ) )
 		            ?>
                 </button>
                 <ul>
