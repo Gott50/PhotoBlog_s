@@ -48,7 +48,7 @@ get_header(); ?>
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :?>
             <div id="site-comments" class="single-post-comments">
-                <button class="menu-toggle" aria-expanded="false">
+                <button aria-expanded="false">
 		            <?php
 		            $number =  get_comments_number();
                     echo sprintf( _n( '%s Comment', '%s Comments', $number ), number_format_i18n( $number ) )

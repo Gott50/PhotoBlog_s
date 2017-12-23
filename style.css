@@ -906,7 +906,7 @@ ul.menu {
     display: none;
     margin: 0;
     padding: 0; }
-  .single-post .single-post-comments .menu-toggle {
+  .single-post .single-post-comments button {
     display: block;
     background: none;
     font-style: italic;
