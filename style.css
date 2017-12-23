@@ -900,6 +900,8 @@ ul.menu {
     margin-left: -10em; }
   .single-post .site-main .entry-content .alignright {
     margin-right: -10em; }
+.single-post .entry-title {
+  margin-bottom: 0; }
 .single-post .entry-footer span {
   display: block;
   font-style: italic;
