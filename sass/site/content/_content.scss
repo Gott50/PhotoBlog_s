@@ -12,5 +12,6 @@
 @import "single-post";
 
 .site-content {
+  min-height: 93vh;
   background: $color__background-site-content;
 }

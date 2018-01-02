@@ -63,7 +63,6 @@ html {
 
 body {
   margin: 0;
-  padding-bottom: 6rem;
   min-height: 100vh;
   position: relative; }
 
@@ -783,11 +782,7 @@ ul.menu {
 .site-footer {
   background: #1d1d1d;
   font-size: 14px;
-  text-align: center;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0; }
+  text-align: center; }
   .site-footer a {
     display: block;
     padding: 23px 10px;
@@ -930,6 +925,7 @@ ul.menu {
     display: block; }
 
 .site-content {
+  min-height: 93vh;
   background: white; }
 
 /*--------------------------------------------------------------
