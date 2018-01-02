@@ -864,17 +864,17 @@ ul.menu {
 /*--------------------------------------------------------------
 ### Archive
 --------------------------------------------------------------*/
-.content-archive .entry-content {
+.archive .entry-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-  .content-archive .entry-content div {
+  .archive .entry-content div {
     flex-basis: 300px; }
-.content-archive .thumbnail {
+.archive .thumbnail {
   flex-grow: 0; }
-.content-archive .excerpt {
+.archive .excerpt {
   flex-grow: 1; }
-  .content-archive .excerpt p {
+  .archive .excerpt p {
     margin: 0 10px; }
 
 /*--------------------------------------------------------------
