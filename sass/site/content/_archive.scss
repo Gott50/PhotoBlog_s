@@ -20,4 +20,30 @@
       margin: 0 10px;
     }
   }
+
+  .site-content{
+    font-size: 20px;
+  }
+
+  $size__archive-content-width: 5em + $size__post-content-width;
+  .content-area {
+    width: $size__archive-content-width + $size__post-content-image-shift*2;
+    max-width: 100%;
+    padding: 0 $size__post-content-image-shift;
+  }
+
+  .site-main {
+    width: $size__archive-content-width;
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+
+    .entry-content {
+      .alignleft {
+        margin-left: -$size__post-content-image-shift;
+      }
+      .alignright {
+        margin-right: -$size__post-content-image-shift;
+      }
+    }
+  }
 }

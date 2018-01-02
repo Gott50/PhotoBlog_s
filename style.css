@@ -876,6 +876,20 @@ ul.menu {
   flex-grow: 1; }
   .archive .excerpt p {
     margin: 0 10px; }
+.archive .site-content {
+  font-size: 20px; }
+.archive .content-area {
+  width: 57em;
+  max-width: 100%;
+  padding: 0 10em; }
+.archive .site-main {
+  width: 37em;
+  max-width: 100%;
+  margin: 0 auto 0 auto; }
+  .archive .site-main .entry-content .alignleft {
+    margin-left: -10em; }
+  .archive .site-main .entry-content .alignright {
+    margin-right: -10em; }
 
 /*--------------------------------------------------------------
 ### SinglePost
