@@ -29,6 +29,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  font-size: 13px;
+
   &.site-main {
     border: none;
   }
@@ -66,8 +69,8 @@
 
     h1, h2, a {
       color: $color__text-post-preview-title;
-      font-size: 13px;
-      line-height: 15px;
+      font-size: 1em;
+      line-height: (15/13) * 1em;
       text-decoration: none;
 
       &:hover {
@@ -92,7 +95,7 @@
     }
 
     .postmetadata {
-      font-size: 11px;
+      font-size: (11/13) * 1em;
 
       &,
       a:not(:hover) {
