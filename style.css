@@ -828,9 +828,9 @@ ul.menu {
     background-color: #1d1e1f;
     flex-flow: wrap; }
     .content-home article:hover .thumbnail {
-      margin-bottom: -150px; }
+      margin-bottom: -200px; }
     .content-home article:hover .entry-excerpt {
-      height: 150px; }
+      height: 200px; }
     .content-home article .entry-excerpt {
       transition: height 1s;
       height: 0;
@@ -1110,7 +1110,14 @@ object {
   .widget-area .widget {
     margin: 10px;
     padding-left: 0;
-    border: 0; } }
+    border: 0; }
+
+  .home .site-main {
+    border: none; }
+  .home article {
+    margin: 5px; }
+    .home article .entry-header {
+      padding: 5px; } }
 @media screen and (min-width: 641px) and (max-width: 1024px) {
   .single-post .site-content {
     font-size: 16px; }

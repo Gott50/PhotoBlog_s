@@ -54,6 +54,19 @@ $mq_small_and_medium: "(max-width: 1024px)";
     padding-left: 0;
     border: 0;
   }
+
+  .home {
+    .site-main {
+      border: none;
+    }
+    article{
+      margin: 5px;
+
+      .entry-header {
+        padding: 5px;
+      }
+    }
+  }
 }
 
 @include mq("screen", $mq_medium_only) {
