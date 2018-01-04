@@ -922,7 +922,9 @@ ul.menu {
 .single-post .single-post-comments {
   min-height: 100px; }
   .single-post .single-post-comments ul {
-    display: none;
+    max-height: 0;
+    overflow: scroll;
+    transition: max-height 1s;
     margin: 0;
     padding: 0; }
   .single-post .single-post-comments button {
@@ -937,7 +939,7 @@ ul.menu {
     border-bottom-width: 3px;
     border-radius: 0; }
   .single-post .single-post-comments.toggled ul {
-    display: block; }
+    max-height: 2000px; }
 
 .site-content {
   min-height: 93vh;

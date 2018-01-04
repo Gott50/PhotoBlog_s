@@ -48,7 +48,10 @@
     min-height: 100px;
 
     ul {
-      display: none;
+      max-height: 0;
+      overflow: scroll;
+      transition: max-height 1s;
+
       margin: 0;
       padding: 0;
     }
@@ -70,7 +73,7 @@
 
     &.toggled {
       ul {
-        display: block;
+        max-height: 2000px;
       }
     }
   }
