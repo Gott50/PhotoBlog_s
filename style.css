@@ -233,11 +233,6 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-@font-face {
-  font-family: 'Westfalia';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Westfalia"), url(https://raw.githubusercontent.com/Gott50/PhotoBlog_s/master/assets/fonts/Westfalia-Regular.otf) format("opentype"); }
 /* cyrillic-ext */
 @font-face {
   font-family: 'Tahoma';
@@ -816,7 +811,7 @@ ul.menu {
     .site-header a :hover {
       color: #d4ad5d; }
   .site-header .site-title {
-    font-family: Westfalia, Tahoma, sans-serif; }
+    font-family: Tahoma, sans-serif; }
   .site-header .custom-header {
     display: none;
     position: absolute;
