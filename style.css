@@ -1197,8 +1197,8 @@ object {
     font-size: 3.5vmin; }
 
   .widget-area .widget {
-    margin: 10px;
-    padding-left: 0;
+    margin: auto;
+    padding: 10px;
     border: 0; }
 
   .home .site-main {
