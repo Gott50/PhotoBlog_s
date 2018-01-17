@@ -3,15 +3,17 @@
   $width-posts-preview: 300px + 2 * $width-posts-preview-padding;
 
   position: fixed;
-  top: 50%;
+  top: 0;
 
   .icon {
+    top: 50%;
     font-size: 4em;
   }
 
   .posts-preview {
     background: $color__background-post-preview-title;
     padding: $width-posts-preview-padding;
+    padding-top: 90px;
     width: $width-posts-preview;
   }
 
@@ -23,6 +25,7 @@
 
     a {
       display: flex;
+      height: 100vh;
     }
   }
 

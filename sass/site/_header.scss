@@ -1,5 +1,6 @@
 .site-header {
   position: relative;
+  z-index: 1000;
 
   &:hover {
     box-shadow: $box-shadow__site-header;

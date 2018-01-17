@@ -624,17 +624,20 @@ ul.menu {
 --------------------------------------------------------------*/
 .post-navigation {
   position: fixed;
-  top: 50%; }
+  top: 0; }
   .post-navigation .icon {
+    top: 50%;
     font-size: 4em; }
   .post-navigation .posts-preview {
     background: #1d1e1f;
     padding: 22px;
+    padding-top: 90px;
     width: 344px; }
   .post-navigation.nav-previous:hover, .post-navigation.nav-next:hover {
     margin: 0; }
   .post-navigation.nav-previous a, .post-navigation.nav-next a {
-    display: flex; }
+    display: flex;
+    height: 100vh; }
   .post-navigation.nav-previous {
     left: 0;
     transition: margin-left 1s;
@@ -796,7 +799,8 @@ ul.menu {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-  position: relative; }
+  position: relative;
+  z-index: 1000; }
   .site-header:hover {
     box-shadow: inset 0 0 150px 0 black; }
   .site-header a {
