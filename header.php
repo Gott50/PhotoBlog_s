@@ -30,57 +30,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-    <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'photoblog_s' ); ?></a>
-
     <header id="masthead" class="site-header">
-        <div class="custom-header">
-            <?php
-            // Check if this is a post or page, if it has a thumbnail
-            if (is_singular() && current_theme_supports('post-thumbnails') &&
-                has_post_thumbnail($post->ID)):
-                echo get_the_post_thumbnail($post->ID);
-
-            else :
-                the_custom_header_markup();
-            endif; ?>
-        </div>
-            <div class="site-branding-wrapper">
-                <div class="site-branding">
-                    <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-                        <?php
-                        $custom_logo_id = get_theme_mod( 'custom_logo' );
-                        $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-                        if ( has_custom_logo() ):?>
-                            <img class="custom-logo" src="<?php echo esc_url( $logo[0] ) ?>">
-                        <?php else : ?>
-                            <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-                            <?php
-                        endif;
-
-                        $description = get_bloginfo( 'description', 'display' );
-                        if ( $description || is_customize_preview() ) : ?>
-                            <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-                            <?php
-                        endif; ?>
-                    </a>
-
-                    <?php
-                        if ( has_nav_menu( 'social' ) ) : ?>
-                            <nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'photoblog_s' ); ?>">
-                                <?php
-                                wp_nav_menu( array(
-                                    'theme_location' => 'social',
-                                    'menu_class' => 'menu social-links-menu',
-                                    'link_before'    => '<span class="screen-reader-text">',
-                                    'link_after'     => '</span>' . photoblog_s_get_svg( array( 'icon' => 'chain' ) ),
-                                ) );
-                                ?>
-                            </nav><!-- .social-navigation -->
-                        <?php endif;?>
-                </div><!-- .site-branding -->
-            </div><!-- .site-branding-wrapper -->
-        <a class="overlay" href="<?php echo esc_url(home_url('/')); ?>" rel="home"></a>
-
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
 
             <nav id="site-navigation" class="main-navigation">
