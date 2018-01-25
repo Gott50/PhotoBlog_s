@@ -541,7 +541,7 @@ a {
     flex-grow: 1; }
   .main-navigation a {
     display: block;
-    padding: 23px 10px;
+    padding: 10px;
     font-size: 1rem;
     width: 200px; }
   .main-navigation .menu > li {
@@ -561,6 +561,8 @@ a {
       top: calc(50% - 1em); }
   .main-navigation .menu-primary-container {
     display: inline-block; }
+    .main-navigation .menu-primary-container .menu {
+      padding: 23px; }
 
 .menu-toggle,
 .menu-scroll-down {
