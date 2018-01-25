@@ -629,9 +629,12 @@ ul.menu {
     top: 50%;
     font-size: 4em; }
   .post-navigation .posts-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: #1d1e1f;
     padding: 22px;
-    padding-top: 90px;
+    padding-top: 140px;
     width: 344px; }
   .post-navigation.nav-previous:hover, .post-navigation.nav-next:hover {
     margin: 0; }
@@ -753,6 +756,9 @@ ul.menu {
   color: black;
   display: flex;
   flex-wrap: wrap; }
+  @media (min-width: 1440px) {
+    .widget-area {
+      display: block; } }
   .widget-area .widget {
     border: 0 solid #e4e7e9;
     border-left-width: 1px;
