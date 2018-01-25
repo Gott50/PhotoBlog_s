@@ -534,7 +534,8 @@ a {
   font-size: 14px;
   text-align: center;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   .main-navigation .nav-site-title,
   .main-navigation .menu-primary-container,
   .main-navigation .social-navigation {
@@ -556,9 +557,6 @@ a {
       height: 41px; }
   .main-navigation .social-navigation {
     float: right; }
-    .main-navigation .social-navigation .menu-social-links-container {
-      position: relative;
-      top: calc(50% - 1em); }
   .main-navigation .menu-primary-container {
     display: inline-block; }
     .main-navigation .menu-primary-container .menu {
