@@ -38,6 +38,11 @@
   }
   .social-navigation {
     float: right;
+
+    .menu-social-links-container {
+      position: relative;
+      top: calc(50% - 1em);
+    }
   }
 
   .menu-primary-container {
