@@ -519,7 +519,7 @@ a {
   a:visited {
     color: #888; }
   a:hover, a:focus, a:active {
-    color: #d4ad5d;
+    color: #ff8f00;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted; }
@@ -576,7 +576,7 @@ a {
   .menu a:not(:hover) {
     color: #a8abad; }
   .menu a:hover {
-    color: #d4ad5d; }
+    color: #ff8f00; }
   .menu a {
     text-decoration: none; }
 
@@ -775,7 +775,7 @@ ul.menu {
       color: black;
       text-decoration: none; }
     .widget-area .widget a:hover {
-      color: #d4ad5d; }
+      color: #ff8f00; }
     .widget-area .widget ul {
       margin-left: 0;
       list-style: none; }
@@ -816,13 +816,13 @@ ul.menu {
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color: #ffcf6c; }
+    color: #ff8f00; }
     .site-header a.overlay {
       display: none;
       position: absolute;
       top: 0; }
     .site-header a :hover {
-      color: #d4ad5d; }
+      color: #ff8f00; }
   .site-header .site-title {
     font-family: Tahoma, sans-serif; }
   .site-header .custom-header {
@@ -945,7 +945,7 @@ ul.menu {
       line-height: 1.1538461538em;
       text-decoration: none; }
       .content-home article h1:hover, .content-home article h2:hover, .content-home article a:hover {
-        color: #d4ad5d; }
+        color: #ff8f00; }
     .content-home article .entry-header {
       width: 100%;
       background: #1d1e1f;
@@ -1035,7 +1035,7 @@ ul.menu {
     margin: auto;
     padding-left: 0;
     padding-right: 0;
-    border: 0 #d4ad5d solid;
+    border: 0 #ff8f00 solid;
     border-bottom-width: 3px;
     border-radius: 0; }
   .single-post .single-post-comments.toggled ul {
