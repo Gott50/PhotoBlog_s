@@ -385,7 +385,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: black;
+  background: #b9bac0;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -519,7 +519,7 @@ a {
   a:visited {
     color: #888; }
   a:hover, a:focus, a:active {
-    color: #ff8f00;
+    color: #053d7e;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted; }
@@ -530,7 +530,7 @@ a {
 ## Main-navigation
 --------------------------------------------------------------*/
 .main-navigation {
-  background: #1d1d1d;
+  background: #f6f6ff;
   font-size: 14px;
   text-align: center;
   display: flex;
@@ -576,7 +576,7 @@ a {
   .menu a:not(:hover) {
     color: #a8abad; }
   .menu a:hover {
-    color: #ff8f00; }
+    color: #053d7e; }
   .menu a {
     text-decoration: none; }
 
@@ -618,7 +618,7 @@ ul.menu {
   #menu-social-links li a {
     margin: 0 10px;
     padding: 10px;
-    background: #1d1d1d;
+    background: #f6f6ff;
     border-radius: 100%;
     line-height: 0; }
 
@@ -635,7 +635,7 @@ ul.menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #1d1e1f;
+    background: #FAFAFA;
     padding: 22px;
     padding-top: 140px;
     width: 344px; }
@@ -775,7 +775,7 @@ ul.menu {
       color: black;
       text-decoration: none; }
     .widget-area .widget a:hover {
-      color: #ff8f00; }
+      color: #053d7e; }
     .widget-area .widget ul {
       margin-left: 0;
       list-style: none; }
@@ -816,13 +816,13 @@ ul.menu {
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color: #ff8f00; }
+    color: #053d7e; }
     .site-header a.overlay {
       display: none;
       position: absolute;
       top: 0; }
     .site-header a :hover {
-      color: #ff8f00; }
+      color: #053d7e; }
   .site-header .site-title {
     font-family: Tahoma, sans-serif; }
   .site-header .custom-header {
@@ -880,7 +880,7 @@ ul.menu {
 ## Footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: #1d1d1d;
+  background: #f6f6ff;
   font-size: 14px;
   text-align: center; }
   .site-footer a {
@@ -925,7 +925,7 @@ ul.menu {
     flex: 450px;
     margin: 10px;
     display: flex;
-    background-color: #1d1e1f;
+    background-color: #FAFAFA;
     flex-flow: wrap; }
     .content-home article:hover .thumbnail {
       margin-bottom: -200px; }
@@ -945,10 +945,10 @@ ul.menu {
       line-height: 1.1538461538em;
       text-decoration: none; }
       .content-home article h1:hover, .content-home article h2:hover, .content-home article a:hover {
-        color: #ff8f00; }
+        color: #053d7e; }
     .content-home article .entry-header {
       width: 100%;
-      background: #1d1e1f;
+      background: #FAFAFA;
       display: block;
       min-height: 81px;
       position: relative;
@@ -1035,7 +1035,7 @@ ul.menu {
     margin: auto;
     padding-left: 0;
     padding-right: 0;
-    border: 0 #ff8f00 solid;
+    border: 0 #053d7e solid;
     border-bottom-width: 3px;
     border-radius: 0; }
   .single-post .single-post-comments.toggled ul {
@@ -1246,7 +1246,7 @@ object {
     .main-navigation .nav-menu li {
       width: 100%; }
     .main-navigation.toggled {
-      background-color: #1d1d1d; }
+      background-color: #f6f6ff; }
     .main-navigation .widget-area {
       display: none;
       margin-top: 4em; }
