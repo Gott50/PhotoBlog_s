@@ -757,6 +757,7 @@ ul.menu {
 --------------------------------------------------------------*/
 .widget-area {
   color: black;
+  font-size: 16px;
   display: flex;
   flex-wrap: wrap; }
   @media (min-width: 1440px) {
