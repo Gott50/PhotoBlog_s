@@ -514,10 +514,10 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #666;
+  color: #053d7e;
   text-decoration: none; }
   a:visited {
-    color: #888; }
+    color: #053d7e; }
   a:hover, a:focus, a:active {
     color: #053d7e;
     text-decoration: underline; }
