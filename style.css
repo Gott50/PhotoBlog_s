@@ -1039,6 +1039,10 @@ ul.menu {
     border: 0 #053d7e solid;
     border-bottom-width: 3px;
     border-radius: 0; }
+  .single-post .single-post-comments .comments-area {
+    display: none; }
+  .single-post .single-post-comments.toggled .comments-area {
+    display: block; }
   .single-post .single-post-comments.toggled ul {
     max-height: 2000px; }
 
