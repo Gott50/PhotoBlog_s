@@ -8,16 +8,21 @@
  */
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html ⚡ <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>">
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <link rel="canonical" href="$SOME_URL">
+        <meta name="viewport" content="width=device-width,minimum-scale=1">
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+
         <title><?php bloginfo( 'name' ); ?><?php wp_title( '-' ); ?></title>
         <meta name="description" content="<?php bloginfo( 'description' ); ?>">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
-		<?php wp_head(); ?>
     </head>
 
 <body <?php body_class(); ?>>
@@ -39,7 +44,7 @@
 					$custom_logo_id = get_theme_mod( 'custom_logo' );
 					$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 					if ( has_custom_logo() ):?>
-                        <img class="custom-logo" src="<?php echo esc_url( $logo[0] ) ?>">
+                        <amp-img class="custom-logo" height="400" width="400" src="<?php echo esc_url( $logo[0] ) ?>"></amp-img>
 					<?php else : ?>
                         <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 					<?php
