@@ -1346,7 +1346,7 @@
         <main id="main" class="site-main">
 
 			<?php
-            $query = new WP_Query("posts_per_page=-1");
+            $query = new WP_Query("posts_per_page=0");
 			if ( $query->have_posts() ) :
 				?>
 
