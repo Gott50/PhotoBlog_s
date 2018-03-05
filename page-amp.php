@@ -15,6 +15,7 @@
         <link rel="canonical" href="<?php echo esc_url(home_url('/')); ?>">
         <meta name="viewport" content="width=device-width,minimum-scale=1">
         <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 
         <style amp-custom>
             <?php
@@ -31,12 +32,25 @@
     </head>
 
 <body <?php body_class(); ?>>
+
+<amp-sidebar class="main-navigation toggled" id="sidebar1" layout="nodisplay" side="right">
+	<?php
+	wp_nav_menu( array(
+		'theme_location' => 'primary',
+		'menu_id'        => 'primary-menu',
+	) );
+	?>
+</amp-sidebar>
+
+<div id="target-element">
+</div>
+
 <div id="page" class="site">
     <header id="masthead" class="site-header">
 		<?php if ( has_nav_menu( 'primary' ) ) : ?>
 
             <nav id="site-navigation" class="main-navigation">
-                <button class="menu-toggle" aria-controls="primary-menu"
+                <button on='tap:sidebar1.toggle' class="menu-toggle" aria-controls="primary-menu"
                         aria-expanded="false">
 					<?php
 					echo photoblog_s_get_svg(array('icon' => 'bars'));
