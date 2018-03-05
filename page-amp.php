@@ -16,6 +16,9 @@
         <meta name="viewport" content="width=device-width,minimum-scale=1">
         <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
+        <style amp-custom>
+            <?php echo file_get_contents(get_stylesheet_uri()) ?>
+        </style>
 
         <title><?php bloginfo( 'name' ); ?></title>
         <meta name="description" content="<?php bloginfo( 'description' ); ?>">
@@ -85,14 +88,6 @@
 
 			<?php
 			if ( have_posts() ) :
-
-				if ( is_home() && ! is_front_page() ) : ?>
-                    <header>
-                        <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-                    </header>
-
-				<?php
-				endif;
 				?>
 
                 <div class="content-home">
@@ -115,8 +110,10 @@
 				the_posts_navigation();
 
 			else :
-
-				get_template_part( 'template-parts/content', 'none' );
+                ?>
+                <h1> FUCK </h1>
+			<?php
+					get_template_part( 'template-parts/content', 'none' );
 
 			endif; ?>
 
