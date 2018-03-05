@@ -17,7 +17,10 @@
         <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
         <style amp-custom>
-            <?php echo file_get_contents(get_stylesheet_uri()) ?>
+            <?php
+            $style = file_get_contents(get_stylesheet_uri());
+            echo str_replace("!important","",$style);
+            ?>
         </style>
 
         <title><?php bloginfo( 'name' ); ?></title>
@@ -87,20 +90,21 @@
         <main id="main" class="site-main">
 
 			<?php
-			if ( have_posts() ) :
+            $query = new WP_Query("posts_per_page=-1");
+			if ( $query->have_posts() ) :
 				?>
 
                 <div class="content-home">
 					<?php
 					/* Start the Loop */
-					while ( have_posts() ) : the_post();
+					while ( $query->have_posts() ) : $query->the_post();
 
 						/*
 						 * Include the Post-Format-specific template for the content.
 						 * If you want to override this in a child theme, then include a file
 						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 						 */
-						get_template_part( 'template-parts/content', 'home' );
+                            get_template_part( 'template-parts/content', 'amp' );
 
 					endwhile;
 					?>
@@ -110,12 +114,12 @@
 				the_posts_navigation();
 
 			else :
-                ?>
-                <h1> FUCK </h1>
-			<?php
-					get_template_part( 'template-parts/content', 'none' );
 
-			endif; ?>
+                get_template_part( 'template-parts/content', 'none' );
+
+			endif;
+            wp_reset_postdata();
+			?>
 
         </main><!-- #main -->
     </div><!-- #primary -->
