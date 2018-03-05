@@ -1,8 +1,13 @@
 .widget-area {
   color: $color__text-widget;
+  font-size: $font__size-widget-area;
 
   display: flex;
   flex-wrap: wrap;
+
+  @media (min-width: 1440px) {
+    display: block;
+  }
 
   .widget {
     border: 0 solid $color__widget-area-border;

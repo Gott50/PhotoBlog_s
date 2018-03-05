@@ -11,9 +11,13 @@
   }
 
   .posts-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     background: $color__background-post-preview-title;
     padding: $width-posts-preview-padding;
-    padding-top: 90px;
+    padding-top: 140px;
     width: $width-posts-preview;
   }
 

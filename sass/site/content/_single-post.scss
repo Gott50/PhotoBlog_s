@@ -6,8 +6,8 @@
     padding: 0 $size__post-content-image-shift;
   }
 
-  .site-content{
-    font-size: 20px;
+  .site-content {
+    font-size: $font__size-site-content;
   }
 
   .site-main {
@@ -44,7 +44,7 @@
     }
   }
 
-  .single-post-comments{
+  .single-post-comments {
     min-height: 100px;
 
     ul {
@@ -71,7 +71,14 @@
       border-radius: 0;
     }
 
+    .comments-area {
+      display: none;
+    }
+
     &.toggled {
+      .comments-area {
+        display: block;
+      }
       ul {
         max-height: 2000px;
       }

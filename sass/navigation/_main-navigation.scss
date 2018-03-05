@@ -5,6 +5,7 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   .nav-site-title,
   .menu-primary-container,
@@ -12,10 +13,9 @@
     flex-grow: 1;
   }
 
-
   a {
     display: block;
-    padding: 23px 10px;
+    padding: 10px;
     font-size: 1rem;
     width: 200px;
   }
@@ -42,6 +42,10 @@
 
   .menu-primary-container {
     display: inline-block;
+
+    .menu {
+      padding: 23px;
+    }
   }
 }
 
