@@ -26,6 +26,15 @@
 
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
+
+<!--        SEO-->
+        <?php
+        ob_start();
+        wp_head();
+        $head = ob_get_contents();
+        ob_end_clean();
+        echo preg_replace("/^(\<script\>)(\s*)(\</script\>)$/", "", $head);
+        ?>
     </head>
 
 <body <?php body_class(); ?>>
