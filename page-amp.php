@@ -33,6 +33,8 @@
         wp_head();
         $head = ob_get_contents();
         ob_end_clean();
+        $head = preg_replace( '/(<script)(.*?)(javascript)(.*?)(script>)/is', "", "<script type=\"text/javascript\"></script>" . $head );
+        $head = preg_replace( '/<script>(.*?)(script>)/is', "", "<script></script>" . $head );
         $head = preg_replace( '/(<link rel=)(.*?)(stylesheet|canonical)(.*?)(>)/is', "", '<link rel="stylesheet">' . $head );
         $head = preg_replace( '/(<style)(.*?)(style>)/is', "", '<style></style>' . $head );
         echo $head;
