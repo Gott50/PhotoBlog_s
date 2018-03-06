@@ -33,7 +33,8 @@
         wp_head();
         $head = ob_get_contents();
         ob_end_clean();
-        echo preg_replace("/^(\<script\>)(\s*)(\</script\>)$/", "", $head);
+        $head = preg_replace( '/(<script)(.*)(script>)/is', "", "<script></script>" . $head );
+        echo $head;
         ?>
     </head>
 
