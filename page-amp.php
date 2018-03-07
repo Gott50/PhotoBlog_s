@@ -59,7 +59,7 @@
 
             <nav id="site-navigation" class="main-navigation">
                 <button on='tap:sidebar1.toggle' class="menu-toggle" aria-controls="primary-menu"
-                        aria-expanded="false">
+                        aria-label="menu-toggle" aria-expanded="false">
 					<?php
 					echo photoblog_s_get_svg(array('icon' => 'bars'));
 					echo photoblog_s_get_svg(array('icon' => 'close'));
