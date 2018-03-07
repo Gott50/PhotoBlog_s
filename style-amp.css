@@ -1,61 +1,3 @@
-/*!
-Theme Name: PhotoBlog_s
-Theme URI: http://underscores.me/
-Author: Gott50
-Author URI: https://Gott50.github.io
-Description: The theme for Blogging Photographers
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: photoblog_s
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-PhotoBlog_s is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
-*/
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Main-navigation
-	## Menus
-	    ### Social-Links-Menu
-	## Post-navigation
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Site
-    ## Header
-    ## Footer
-    ## Content
-        ### Home
-        ### Archive
-	## Posts and pages
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
-	## Icons
-# Mobile
-# Plugins
-  ## Jetpack
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -230,9 +172,6 @@ td,
 th {
   padding: 0; }
 
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
 /* cyrillic-ext */
 @font-face {
   font-family: 'Tahoma';
@@ -372,9 +311,6 @@ mark, ins {
 big {
   font-size: 125%; }
 
-/*--------------------------------------------------------------
-# Elements
---------------------------------------------------------------*/
 html {
   box-sizing: border-box; }
 
@@ -433,9 +369,6 @@ table {
   margin: 0 0 1.5em;
   width: 100%; }
 
-/*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
 button,
 input[type="button"],
 input[type="reset"],
@@ -507,9 +440,6 @@ select {
 textarea {
   width: 100%; }
 
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -670,45 +600,40 @@ ul.menu {
   text-align: right;
   width: 50%; }
 
-/*--------------------------------------------------------------
-# Accessibility
---------------------------------------------------------------*/
 /* Text meant only for screen readers. */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
+  position: absolute;
   height: 1px;
   width: 1px;
   overflow: hidden;
-  word-wrap: normal !important;
+  word-wrap: normal;
   /* Many screen reader and browser combinations announce broken words as they would appear visually. */ }
-  .screen-reader-text:focus {
-    background-color: #f1f1f1;
-    border-radius: 3px;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-    clip: auto !important;
-    color: #21759b;
-    display: block;
-    font-size: 14px;
-    font-size: 0.875rem;
-    font-weight: bold;
-    height: auto;
-    left: 5px;
-    line-height: normal;
-    padding: 15px 23px 14px;
-    text-decoration: none;
-    top: 5px;
-    width: auto;
-    z-index: 100000;
-    /* Above WP toolbar. */ }
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */ }
 
 /* Do not show the outline on the skip link target. */
 #content[tabindex="-1"]:focus {
   outline: 0; }
 
-/*--------------------------------------------------------------
-# Alignments
---------------------------------------------------------------*/
 .alignleft {
   display: inline;
   float: left;
@@ -725,9 +650,6 @@ ul.menu {
   margin-left: auto;
   margin-right: auto; }
 
-/*--------------------------------------------------------------
-# Clearings
---------------------------------------------------------------*/
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -752,9 +674,6 @@ ul.menu {
 .site-footer:after {
   clear: both; }
 
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
 .widget-area {
   color: black;
   font-size: 16px;
@@ -785,9 +704,6 @@ ul.menu {
   .widget-area .widget_media_image {
     flex-grow: 0; }
 
-/*--------------------------------------------------------------
-# Site
---------------------------------------------------------------*/
 .content-area {
   width: 1050px;
   max-width: 100%; }
@@ -1085,9 +1001,6 @@ ul.menu {
 .bypostauthor {
   display: block; }
 
-/*--------------------------------------------------------------
-# Infinite scroll
---------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
@@ -1098,9 +1011,6 @@ ul.menu {
 .infinity-end.neverending .site-footer {
   display: block; }
 
-/*--------------------------------------------------------------
-# Media
---------------------------------------------------------------*/
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -1178,9 +1088,6 @@ object {
   top: -0.0625em;
   vertical-align: middle; }
 
-/*--------------------------------------------------------------
-# Mobile
---------------------------------------------------------------*/
 @media screen and (max-width: 1024px) {
   /* Header */
   .site-branding-wrapper {
@@ -1287,17 +1194,7 @@ object {
       display: block; }
     .toggled .menu-toggle .icon-bars {
       display: none; } }
-/*--------------------------------------------------------------
-# Plugins
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-## Jetpack
---------------------------------------------------------------*/
-div.sharedaddy {
-  display: table-cell;
-  width: auto !important; }
-
 .none {
   display: none; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-amp.css.map */
