@@ -34,6 +34,29 @@
         wp_head();
         $head = ob_get_contents();
         ob_end_clean();
+
+        $test .= "<script type=\"application/ld+json\">{\"@context\":\"http:\/\/schema.org\",\"@type\":\"WebSite\",\"@id\":\"#website\",\"url\":\"https:\/\/www.fotografie-mal-anders.de\/\",\"name\":\"Fotografie, mal anders!\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https:\/\/www.fotografie-mal-anders.de\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}}</script>";
+        $test .= "<script type=\"application/ld+json\">{\"@context\":\"http:\/\/schema.org\",\"@type\":\"Person\",\"url\":\"https:\/\/www.fotografie-mal-anders.de\/\",\"sameAs\":[\"https:\/\/www.facebook.com\/FotografieJohannesLesser\/\",\"https:\/\/www.instagram.com\/jorizon\/\",\"https:\/\/plus.google.com\/101103951654038370586?hl=de\",\"https:\/\/twitter.com\/JorizonPhoto\"],\"@id\":\"#person\",\"name\":\"Johannes Lesser\"}</script>";
+        $test .= "<script type='text/javascript' src='https://www.fotografie-mal-anders.de/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.fotografie-mal-anders.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gadwpUAEventsData = {\"options\":{\"event_tracking\":\"1\",\"event_downloads\":\"zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*\",\"event_bouncerate\":0,\"aff_tracking\":1,\"event_affiliates\":\"\/out\/\",\"hash_tracking\":\"1\",\"root_domain\":\"fotografie-mal-anders.de\",\"event_timeout\":100,\"event_precision\":1,\"event_formsubmit\":1,\"ga_pagescrolldepth_tracking\":1,\"ga_with_gtag\":0}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.fotografie-mal-anders.de/wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-analytics-events.js?ver=5.3.1.1'></script>
+<script type='text/javascript' src='https://www.fotografie-mal-anders.de/wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-scrolldepth.js?ver=5.3.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {\"ajaxurl\":\"https:\/\/www.fotografie-mal-anders.de\/wp-admin\/admin-ajax.php\",\"hideEffect\":\"fade\",\"onScroll\":\"no\",\"onScrollOffset\":\"100\",\"cookieName\":\"cookie_notice_accepted\",\"cookieValue\":\"TRUE\",\"cookieTime\":\"2592000\",\"cookiePath\":\"\/\",\"cookieDomain\":\"\",\"redirection\":\"\",\"cache\":\"\"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.fotografie-mal-anders.de/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.41'></script>";
+        $test .= "<!--      TEST        -->";
+        $head = $test . $head;
+
+//        $head = preg_replace( "/<script type=\"text\/javascript\"></script>/is", "", "<script type=\"text/javascript\"></script>" . $head );
+//        $head = preg_replace( "/(<script(.*?)([javascript])(.*?)>)(.*?)(<\/script>)/is", "", "<script type=\"text/javascript\"></script>" . $head );
         $head = preg_replace( '/(<script)(.*?)(javascript)(.*?)(script>)/is', "", "<script type=\"text/javascript\"></script>" . $head );
         $head = preg_replace( '/<script>(.*?)(script>)/is', "", "<script></script>" . $head );
         $head = preg_replace( '/(<link rel=)(.*?)(stylesheet|canonical)(.*?)(>)/is', "", '<link rel="stylesheet">' . $head );
