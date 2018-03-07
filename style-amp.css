@@ -1105,15 +1105,12 @@ object {
 @media screen and (max-width: 640px) {
   .site-content {
     margin-left: 0;
-    margin-right: 0; }
-
-  .single-post .site-content {
+    margin-right: 0;
     font-size: 16px; }
-
-  .single-post .content-area {
-    padding: 0; }
-    .single-post .content-area .entry-content .alignleft, .single-post .content-area .entry-content .alignright {
-      margin: 0; }
+    .site-content .content-area {
+      padding: 0; }
+      .site-content .content-area .entry-content .alignleft, .site-content .content-area .entry-content .alignright {
+        margin: 0; }
 
   .post-navigation {
     display: none; }

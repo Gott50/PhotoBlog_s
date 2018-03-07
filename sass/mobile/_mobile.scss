@@ -30,16 +30,15 @@ $mq_small_and_medium: "(max-width: 1024px)";
   .site-content {
     margin-left: 0;
     margin-right: 0;
-  }
-  .single-post .site-content{
     font-size: 16px;
-  }
-  .single-post .content-area {
-    padding: 0;
-    .entry-content {
-    .alignleft, .alignright {
-      margin: 0;
-    }
+
+    .content-area {
+      padding: 0;
+      .entry-content {
+        .alignleft, .alignright {
+          margin: 0;
+        }
+      }
     }
   }
   .post-navigation {
@@ -59,7 +58,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
     .site-main {
       border: none;
     }
-    article{
+    article {
       margin: 5px;
 
       .entry-header {
@@ -70,8 +69,8 @@ $mq_small_and_medium: "(max-width: 1024px)";
 }
 
 @include mq("screen", $mq_medium_only) {
-  .single-post .site-content{
-      font-size: 16px;
+  .single-post .site-content {
+    font-size: 16px;
   }
 
   .single-post .content-area {
@@ -101,7 +100,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
 
     text-align: left;
 
-    .nav-site-title{
+    .nav-site-title {
       width: 100%;
       padding: 0 0 0 33px;
 
@@ -111,7 +110,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
     .nav-menu li {
       width: 100%;
     }
-    
+
     &.toggled {
       background-color: $color__nav-primary;
     }
@@ -168,6 +167,5 @@ $mq_small_and_medium: "(max-width: 1024px)";
       display: none;
     }
   }
-
 
 }
