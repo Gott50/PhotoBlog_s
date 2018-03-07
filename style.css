@@ -1271,7 +1271,7 @@ object {
   .menu-toggle {
     position: absolute;
     display: inline-block;
-    color: white;
+    color: #053d7e;
     font-size: 35px;
     padding: 0;
     background: none; }
@@ -1279,7 +1279,7 @@ object {
       display: none; }
 
   .toggled .menu-toggle {
-    color: white; }
+    color: #053d7e; }
     .toggled .menu-toggle .icon-close {
       display: block; }
     .toggled .menu-toggle .icon-bars {
