@@ -10,7 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <a href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">
+    <a aria-label="<?php the_title(); ?>" href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">
         <div class="thumbnail">
             <?php $thumbnail = get_the_post_thumbnail( null, [ 450 ] );
             $thumbnail       = str_replace( "<img", "<amp-img", $thumbnail );
