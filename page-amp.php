@@ -19,7 +19,7 @@
         <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
         <style amp-custom>
-            <?php require_once 'style-amp.css';?>
+            <?php require_once 'style-amp.scss';?>
         </style>
 
         <title><?php bloginfo( 'name' ); ?></title>
