@@ -1046,6 +1046,12 @@ ul.menu {
   .single-post .single-post-comments.toggled ul {
     max-height: 2000px; }
 
+/*--------------------------------------------------------------
+### Page
+--------------------------------------------------------------*/
+.page .entry-meta {
+  display: none; }
+
 .site-content {
   min-height: 93vh;
   background: white; }
