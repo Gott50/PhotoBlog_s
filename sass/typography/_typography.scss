@@ -13,6 +13,11 @@ textarea {
 	line-height: $font__line-height-body;
 }
 
+.entry-content,
+.entry-excerpt {
+	text-align: justify;
+}
+
 @import "headings";
 
 @import "copy";
