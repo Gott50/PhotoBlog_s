@@ -233,6 +233,11 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Besom';
+  src: url("assets/fonts/Besom-Handwritten-Brush-Font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 body,
 button,
 input,
@@ -745,7 +750,7 @@ ul.menu {
     .site-header a :hover {
       color: #053d7e; }
   .site-header .site-title {
-    font-family: Tahoma, sans-serif; }
+    font-family: Besom, Tahoma, sans-serif; }
   .site-header .custom-header {
     display: none;
     position: absolute;
