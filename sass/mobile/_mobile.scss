@@ -30,9 +30,9 @@ $mq_small_and_medium: "(max-width: 1024px)";
   .site-content {
     margin-left: 0;
     margin-right: 0;
-    font-size: 16px;
 
     .content-area {
+      font-size: 14px;
       padding: 0;
       .entry-content {
         .alignleft, .alignright {
@@ -88,7 +88,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
     }
     .entry-header .post-attachment {
       margin-left: calc(-#{$size__post-content-image-shift} - 10px);
-      width: calc(100% + (#{$size__post-content-image-shift} + 10px)*2);
+      width: calc(100% + (#{$size__post-content-image-shift} + 10px) * 2);
     }
   }
 }
