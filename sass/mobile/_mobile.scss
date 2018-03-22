@@ -75,7 +75,8 @@ $mq_small_and_medium: "(max-width: 1024px)";
 @include mq("screen", $mq_medium_only) {
   .content-area {
     font-size: 16px;
-
+  }
+  .single-post  .content-area {
     $size__post-content-image-shift: 5em;
     padding: 0 $size__post-content-image-shift;
     .entry-content {
