@@ -959,7 +959,7 @@ ul.menu {
 .single-post .entry-meta span {
   font-style: italic;
   font-size: smaller; }
-.single-post .attachment-post-thumbnail {
+.single-post .entry-header img {
   margin-left: calc(-10em - 10px);
   width: calc(100% + (10em + 10px)*2);
   max-width: 100vw; }
@@ -1155,7 +1155,7 @@ object {
       padding: 0; }
       .site-content .content-area .entry-content .alignleft, .site-content .content-area .entry-content .alignright {
         margin: 0; }
-    .site-content .attachment-post-thumbnail {
+    .site-content .entry-header img {
       margin-left: -10px; }
 
   .post-navigation {
@@ -1183,7 +1183,7 @@ object {
       margin-left: -5em; }
     .content-area .entry-content .alignright {
       margin-right: -5em; }
-    .content-area .attachment-post-thumbnail {
+    .content-area .entry-header img {
       margin-left: calc(-5em - 10px);
       width: calc(100% + (5em + 10px)*2); } }
 @media screen and (max-width: 1024px) {
