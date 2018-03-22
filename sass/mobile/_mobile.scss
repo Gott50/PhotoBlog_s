@@ -43,6 +43,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
 
     .entry-header .post-attachment {
       margin-left: -10px;
+      width: calc(100% + 20px);
     }
   }
   .post-navigation {

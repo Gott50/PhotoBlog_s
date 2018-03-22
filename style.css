@@ -1160,7 +1160,8 @@ object {
       .site-content .content-area .entry-content .alignleft, .site-content .content-area .entry-content .alignright {
         margin: 0; }
     .site-content .entry-header .post-attachment {
-      margin-left: -10px; }
+      margin-left: -10px;
+      width: calc(100% + 20px); }
 
   .post-navigation {
     display: none; }
