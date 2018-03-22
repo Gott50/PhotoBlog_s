@@ -24,14 +24,14 @@
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
-	</header><!-- .entry-header -->
 
-	<?php
-	// Check if this is a post or page, if it has a thumbnail
-	if (is_singular() && current_theme_supports('post-thumbnails') &&
-	    has_post_thumbnail($post->ID)):
-		echo get_the_post_thumbnail($post->ID);
-	endif; ?>
+        <?php
+        // Check if this is a post or page, if it has a thumbnail
+        if (is_singular() && current_theme_supports('post-thumbnails') &&
+            has_post_thumbnail($post->ID)):
+            echo get_the_post_thumbnail($post->ID);
+        endif; ?>
+	</header><!-- .entry-header -->
 
 
 	<div class="entry-content">
