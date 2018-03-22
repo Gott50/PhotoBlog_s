@@ -235,16 +235,19 @@ th {
 --------------------------------------------------------------*/
 @font-face {
   font-family: 'Besom';
+  font-display: auto;
   src: url("assets/fonts/Besom-Handwritten-Brush-Font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'Georgia';
+  font-display: auto;
   src: url("assets/fonts/Georgia.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'FontAwesome';
+  font-display: auto;
   src: url("assets/fonts/fontawesome-webfont.eot");
   src: url("assets/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/fontawesome-webfont.woff2") format("woff2"), url("assets/fonts/fontawesome-webfont.woff") format("woff"), url("assets/fonts/fontawesome-webfont.ttf") format("truetype"), url("assets/fonts/fontawesome-webfont.svg#fontawesomeregular") format("svg");
   font-weight: normal;
