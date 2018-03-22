@@ -40,6 +40,10 @@ $mq_small_and_medium: "(max-width: 1024px)";
         }
       }
     }
+
+    .attachment-post-thumbnail {
+      margin-left: -10px;
+    }
   }
   .post-navigation {
     display: none;
@@ -72,15 +76,19 @@ $mq_small_and_medium: "(max-width: 1024px)";
   .content-area {
     font-size: 16px;
 
-    $shift: 5em;
-    padding: 0 $shift;
+    $size__post-content-image-shift: 5em;
+    padding: 0 $size__post-content-image-shift;
     .entry-content {
       .alignleft {
-        margin-left: -$shift;
+        margin-left: -$size__post-content-image-shift;
       }
       .alignright {
-        margin-right: -$shift;
+        margin-right: -$size__post-content-image-shift;
       }
+    }
+    .attachment-post-thumbnail {
+      margin-left: calc(-#{$size__post-content-image-shift} - 10px);
+      width: calc(100% + (#{$size__post-content-image-shift} + 10px)*2);
     }
   }
 }
