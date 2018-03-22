@@ -959,10 +959,14 @@ ul.menu {
 .single-post .entry-meta span {
   font-style: italic;
   font-size: smaller; }
-.single-post .entry-header img {
+.single-post .entry-header .post-attachment {
   margin-left: calc(-10em - 10px);
   width: calc(100% + (10em + 10px)*2);
   max-width: 100vw; }
+  .single-post .entry-header .post-attachment img {
+    margin: auto;
+    display: block;
+    max-width: 100%; }
 .single-post .single-post-comments {
   min-height: 100px; }
   .single-post .single-post-comments ul {
@@ -1155,7 +1159,7 @@ object {
       padding: 0; }
       .site-content .content-area .entry-content .alignleft, .site-content .content-area .entry-content .alignright {
         margin: 0; }
-    .site-content .entry-header img {
+    .site-content .entry-header .post-attachment {
       margin-left: -10px; }
 
   .post-navigation {
@@ -1183,7 +1187,7 @@ object {
       margin-left: -5em; }
     .content-area .entry-content .alignright {
       margin-right: -5em; }
-    .content-area .entry-header img {
+    .content-area .entry-header .post-attachment {
       margin-left: calc(-5em - 10px);
       width: calc(100% + (5em + 10px)*2); } }
 @media screen and (max-width: 1024px) {

@@ -41,7 +41,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
       }
     }
 
-    .entry-header img {
+    .entry-header .post-attachment {
       margin-left: -10px;
     }
   }
@@ -86,7 +86,7 @@ $mq_small_and_medium: "(max-width: 1024px)";
         margin-right: -$size__post-content-image-shift;
       }
     }
-    .entry-header img {
+    .entry-header .post-attachment {
       margin-left: calc(-#{$size__post-content-image-shift} - 10px);
       width: calc(100% + (#{$size__post-content-image-shift} + 10px)*2);
     }
