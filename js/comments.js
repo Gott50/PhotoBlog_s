@@ -1,7 +1,7 @@
 /**
  * File navigation.js.
  *
- * Handles toggling the navigation menu for small screens and enables TAB key
+ * Handles toggling the comments and enables TAB key
  * navigation support for dropdown menus.
  */
 var setup_menu_toggle = function (elementId) {
