@@ -104,5 +104,4 @@ var setup_menu_toggle = function (elementId) {
         }
     }( container ) );
 };
-( setup_menu_toggle )('site-navigation');
 ( setup_menu_toggle )('site-comments');
