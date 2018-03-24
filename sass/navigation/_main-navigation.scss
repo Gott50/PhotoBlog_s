@@ -1,55 +1,187 @@
-.main-navigation {
-  background: $color__nav-primary;
-  font-size: 14px;
-  text-align: center;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@mixin fa-icon() {
+  display: inline-block;
+  font: normal normal normal 1em FontAwesome; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+}
 
-  .nav-site-title,
-  .menu-primary-container,
-  .social-navigation {
-    flex-grow: 1;
+@mixin fa-icon-rotate($degrees, $rotation) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
+  -webkit-transform: rotate($degrees);
+  -ms-transform: rotate($degrees);
+  transform: rotate($degrees);
+}
+
+@mixin fa-icon-flip($horiz, $vert, $rotation) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)";
+  -webkit-transform: scale($horiz, $vert);
+  -ms-transform: scale($horiz, $vert);
+  transform: scale($horiz, $vert);
+}
+
+
+
+button.menu-toggle {
+  cursor: pointer;
+  text-align: left;
+  float: right;
+  position: relative;
+  box-shadow: none;
+  background-image: none;
+  padding: ms(-2) ms(-1) ms(-2) ms(5);
+  font-size: ms(-1);
+
+  &:hover {
+    background-image: none;
   }
 
-  a {
+  span::before {
+    transition: all, ease, 0.2s;
+  }
+
+  &::before,
+  &::after,
+  span::before {
+    content: '';
     display: block;
-    padding: 10px;
-    font-size: 1rem;
-    width: 200px;
+    height: 2px;
+    width: 14px;
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    margin-top: -1px;
+    transition: all, ease, 0.2s;
+    border-radius: 3px;
   }
 
-  .menu > li {
-    display: inline-block;
+  &::before {
+    transform: translateY(-4px);
   }
 
-  .nav-site-title {
-    display: inline-block;
-    width: auto;
-    padding: 11px;
+  &::after {
+    transform: translateY(4px);
+  }
+}
 
-    .site-title {
-      margin: 0;
+.toggled {
+  button.menu-toggle {
+    &::before,
+    &::after {
+      transform: rotate(45deg);
     }
-    .custom-logo {
-      height: 41px;
+
+    &::after {
+      transform: rotate(-45deg);
     }
-  }
-  .social-navigation {
-    float: right;
-  }
 
-  .menu-primary-container {
-    display: inline-block;
-
-    .menu {
-      padding: 23px;
+    span::before {
+      opacity: 0;
     }
   }
 }
 
-.menu-toggle,
-.menu-scroll-down {
+.primary-navigation {
   display: none;
+}
+
+.main-navigation {
+  @include clearfix;
+
+  div.menu {
+    display: none; // Hide the default menu to stop both it and the handheld menu displaying, when no primary menu has been set...
+  }
+
+  div.menu:last-child {
+    display: block; // ... but display it if a handheld menu hasn't been set either.
+  }
+
+  .menu {
+    clear: both;
+  }
+}
+
+.handheld-navigation,
+.nav-menu,
+.main-navigation div.menu > ul:not( .nav-menu ) {
+  overflow: hidden;
+  max-height: 0; /* We have to use max-height because `height` isn't animatable */
+  transition: all, ease, 0.8s;
+}
+
+.handheld-navigation {
+  clear: both;
+
+  ul {
+    margin: 0;
+
+    &.menu {
+      li {
+        position: relative;
+
+        button {
+          &::after {
+            @include fa-icon();
+            content: '\f107';
+            transition: all, ease, 0.9s;
+          }
+
+          &.toggled-on::after {
+            transform: rotate(180deg);
+          }
+        }
+      }
+
+      .sub-menu {
+        visibility: hidden;
+        opacity: 0;
+        max-height: 0;
+        transition: all, ease, 0.9s;
+
+        &.toggled-on {
+          visibility: visible;
+          max-height: 1750px;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .dropdown-toggle {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+  }
+}
+
+.main-navigation.toggled {
+  .handheld-navigation,
+  .menu > ul:not( .nav-menu ),
+  ul[aria-expanded=true] {
+    max-height: 1750px;
+  }
+}
+
+.main-navigation ul {
+  margin-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+
+  ul {
+    display: block;
+    margin-left: ms(2);
+  }
+
+  li {
+    a {
+      padding: ms(-1) 0;
+      display: block;
+
+      &:hover {
+        color: #e6e6e6;
+      }
+    }
+  }
 }

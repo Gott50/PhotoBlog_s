@@ -468,42 +468,113 @@ a {
 /*--------------------------------------------------------------
 ## Main-navigation
 --------------------------------------------------------------*/
-.main-navigation {
-  background: #f6f6ff;
-  font-size: 14px;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .main-navigation .nav-site-title,
-  .main-navigation .menu-primary-container,
-  .main-navigation .social-navigation {
-    flex-grow: 1; }
-  .main-navigation a {
+button.menu-toggle {
+  cursor: pointer;
+  text-align: left;
+  float: right;
+  position: relative;
+  box-shadow: none;
+  background-image: none;
+  padding: ms(-2) ms(-1) ms(-2) ms(5);
+  font-size: ms(-1); }
+  button.menu-toggle:hover {
+    background-image: none; }
+  button.menu-toggle span::before {
+    transition: all, ease, 0.2s; }
+  button.menu-toggle::before, button.menu-toggle::after,
+  button.menu-toggle span::before {
+    content: '';
     display: block;
-    padding: 10px;
-    font-size: 1rem;
-    width: 200px; }
-  .main-navigation .menu > li {
-    display: inline-block; }
-  .main-navigation .nav-site-title {
-    display: inline-block;
-    width: auto;
-    padding: 11px; }
-    .main-navigation .nav-site-title .site-title {
-      margin: 0; }
-    .main-navigation .nav-site-title .custom-logo {
-      height: 41px; }
-  .main-navigation .social-navigation {
-    float: right; }
-  .main-navigation .menu-primary-container {
-    display: inline-block; }
-    .main-navigation .menu-primary-container .menu {
-      padding: 23px; }
+    height: 2px;
+    width: 14px;
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    margin-top: -1px;
+    transition: all, ease, 0.2s;
+    border-radius: 3px; }
+  button.menu-toggle::before {
+    transform: translateY(-4px); }
+  button.menu-toggle::after {
+    transform: translateY(4px); }
 
-.menu-toggle,
-.menu-scroll-down {
+.toggled button.menu-toggle::before, .toggled button.menu-toggle::after {
+  transform: rotate(45deg); }
+.toggled button.menu-toggle::after {
+  transform: rotate(-45deg); }
+.toggled button.menu-toggle span::before {
+  opacity: 0; }
+
+.primary-navigation {
   display: none; }
+
+.main-navigation {
+  content: "";
+  display: table;
+  table-layout: fixed; }
+  .main-navigation div.menu {
+    display: none; }
+  .main-navigation div.menu:last-child {
+    display: block; }
+  .main-navigation .menu {
+    clear: both; }
+
+.handheld-navigation,
+.nav-menu,
+.main-navigation div.menu > ul:not(.nav-menu) {
+  overflow: hidden;
+  max-height: 0;
+  /* We have to use max-height because `height` isn't animatable */
+  transition: all, ease, 0.8s; }
+
+.handheld-navigation {
+  clear: both; }
+  .handheld-navigation ul {
+    margin: 0; }
+    .handheld-navigation ul.menu li {
+      position: relative; }
+      .handheld-navigation ul.menu li button::after {
+        display: inline-block;
+        font: normal normal normal 1em FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        content: '\f107';
+        transition: all, ease, 0.9s; }
+      .handheld-navigation ul.menu li button.toggled-on::after {
+        transform: rotate(180deg); }
+    .handheld-navigation ul.menu .sub-menu {
+      visibility: hidden;
+      opacity: 0;
+      max-height: 0;
+      transition: all, ease, 0.9s; }
+      .handheld-navigation ul.menu .sub-menu.toggled-on {
+        visibility: visible;
+        max-height: 1750px;
+        opacity: 1; }
+  .handheld-navigation .dropdown-toggle {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block; }
+
+.main-navigation.toggled .handheld-navigation,
+.main-navigation.toggled .menu > ul:not(.nav-menu),
+.main-navigation.toggled ul[aria-expanded=true] {
+  max-height: 1750px; }
+
+.main-navigation ul {
+  margin-left: 0;
+  list-style: none;
+  margin-bottom: 0; }
+  .main-navigation ul ul {
+    display: block;
+    margin-left: ms(2); }
+  .main-navigation ul li a {
+    padding: ms(-1) 0;
+    display: block; }
+    .main-navigation ul li a:hover {
+      color: #e6e6e6; }
 
 /*--------------------------------------------------------------
 ## Menus
@@ -1216,34 +1287,7 @@ object {
       display: none; }
     .main-navigation .social-navigation {
       width: 100%;
-      text-align: center; }
-
-  /* Small menu. */
-  .menu-toggle,
-  .main-navigation.toggled {
-    border: none; }
-    .menu-toggle ul,
-    .menu-toggle .widget-area,
-    .main-navigation.toggled ul,
-    .main-navigation.toggled .widget-area {
-      display: block; }
-
-  .menu-toggle {
-    position: absolute;
-    display: inline-block;
-    color: #053d7e;
-    font-size: 35px;
-    padding: 0;
-    background: none; }
-    .menu-toggle .icon-close {
-      display: none; }
-
-  .toggled .menu-toggle {
-    color: #053d7e; }
-    .toggled .menu-toggle .icon-close {
-      display: block; }
-    .toggled .menu-toggle .icon-bars {
-      display: none; } }
+      text-align: center; } }
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/

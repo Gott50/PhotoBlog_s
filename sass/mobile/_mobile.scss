@@ -138,40 +138,4 @@ $mq_small_and_medium: "(max-width: 1024px)";
 
   }
 
-  /* Small menu. */
-  .menu-toggle,
-  .main-navigation.toggled {
-    border: none;
-
-    ul,
-    .widget-area {
-      display: block;
-    }
-  }
-
-  .menu-toggle {
-    position: absolute;
-    display: inline-block;
-    color: $color__icon-menu;
-    font-size: 35px;
-    padding: 0;
-
-    background: none;
-
-    .icon-close {
-      display: none;
-    }
-  }
-
-  .toggled .menu-toggle {
-    color: $color__icon-menu-toggled;
-
-    .icon-close {
-      display: block;
-    }
-    .icon-bars {
-      display: none;
-    }
-  }
-
 }

@@ -28,26 +28,9 @@
     <header id="masthead" class="site-header">
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
 
-            <nav id="site-navigation" class="main-navigation">
-                <button class="menu-toggle" aria-controls="primary-menu"
-                        aria-label="menu-toggle" aria-expanded="false">
-                    <?php
-                    echo photoblog_s_get_svg(array('icon' => 'bars'));
-                    echo photoblog_s_get_svg(array('icon' => 'close'));
-                    ?>
-                </button>
 
-            <a class="nav-site-title" href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-                <?php
-                $custom_logo_id = get_theme_mod( 'custom_logo' );
-                $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-                if ( has_custom_logo() ):?>
-                    <img class="custom-logo" src="<?php echo esc_url( $logo[0] ) ?>">
-                <?php else : ?>
-                    <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-                <?php
-                endif; ?>
-            </a>
+            <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Navigation">
+                <button class="menu-toggle" aria-controls="site-navigation" aria-expanded="false"><span></span></button>
                 <?php
                 wp_nav_menu( array(
                     'theme_location' => 'primary',
