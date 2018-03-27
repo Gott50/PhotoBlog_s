@@ -21,7 +21,8 @@
             the_title( '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark"><h2 class="entry-title">', '</h2> </a>' );
         ?>
         <p class="postmetadata">
-            <?php the_time('F jS, Y'); ?> | <?php the_category( ', ' ); ?>
+            <time class="updated" datetime="<?php the_time('Y-m-d'); ?>" itemprop="datePublished"><?php the_time('F jS, Y'); ?></time>
+            | <?php the_category( ', ' ); ?>
         </p>
 
         <a href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">
