@@ -53,11 +53,11 @@
         margin-bottom: -$height__home-excerpt;
       }
 
-      .entry-excerpt {
+      .entry-summary {
         height: $height__home-excerpt;
       }
     }
-    .entry-excerpt {
+    .entry-summary {
       transition: height 1s;
       height: 0;
       overflow: hidden;

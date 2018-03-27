@@ -554,10 +554,10 @@ ul.menu li {
 .content-home article:hover .thumbnail {
   margin-bottom: -200px; }
 
-.content-home article:hover .entry-excerpt {
+.content-home article:hover .entry-summary {
   height: 200px; }
 
-.content-home article .entry-excerpt {
+.content-home article .entry-summary {
   transition: height 1s;
   height: 0;
   overflow: hidden; }

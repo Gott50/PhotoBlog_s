@@ -24,10 +24,10 @@
             <?php the_time('F jS, Y'); ?> | <?php the_category( ', ' ); ?>
         </p>
 
-        <a href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">
-            <div class="entry-excerpt">
+        <a href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">r
+            <div class="entry-summary">
                 <?php the_excerpt(); ?>
-            </div><!-- .entry-excerpt -->
+            </div><!-- .entry-summary -->
         </a>
     </header><!-- .entry-header -->
 </article><!-- #post-<?php the_ID(); ?> -->

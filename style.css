@@ -266,7 +266,7 @@ textarea {
   line-height: 1.5; }
 
 .entry-content,
-.entry-excerpt {
+.entry-summary {
   text-align: justify; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -871,9 +871,9 @@ ul.menu {
     flex-flow: wrap; }
     .content-home article:hover .thumbnail {
       margin-bottom: -200px; }
-    .content-home article:hover .entry-excerpt {
+    .content-home article:hover .entry-summary {
       height: 200px; }
-    .content-home article .entry-excerpt {
+    .content-home article .entry-summary {
       transition: height 1s;
       height: 0;
       overflow: hidden; }
