@@ -44,7 +44,7 @@
     }
   }
 
-  .entry-header .post-attachment {
+  .post-attachment {
     margin-left: calc(-#{$size__post-content-image-shift} - 10px);
     width: calc(100% + (#{$size__post-content-image-shift} + 10px)*2);
     max-width: 100vw;
