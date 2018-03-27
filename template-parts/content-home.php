@@ -23,6 +23,7 @@
         <p class="postmetadata">
             <time class="updated" datetime="<?php the_time('Y-m-d'); ?>" itemprop="datePublished"><?php the_time('F jS, Y'); ?></time>
             | <?php the_category( ', ' ); ?>
+            <span itemprop="author" class="author" content="<?php the_author() ?>"><?php the_author() ?></span>
         </p>
 
         <a href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">

@@ -1014,6 +1014,9 @@ ul.menu {
 .hentry {
   margin: 0 0 1.5em; }
 
+.author {
+  display: none; }
+
 .page-content,
 .entry-content,
 .entry-summary {
