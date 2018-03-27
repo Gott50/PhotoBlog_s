@@ -1017,9 +1017,6 @@ ul.menu {
 .updated:not(.published) {
   display: none; }
 
-.author {
-  display: none; }
-
 .page-content,
 .entry-content,
 .entry-summary {
