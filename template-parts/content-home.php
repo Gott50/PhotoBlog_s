@@ -21,9 +21,8 @@
             the_title( '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark"><h2 class="entry-title">', '</h2> </a>' );
         ?>
         <p class="postmetadata">
-            <time class="updated published" datetime="<?php the_time('Y-m-d'); ?>" itemprop="datePublished"><?php the_time('F jS, Y'); ?></time>
+	        <?php photoblog_s_posted_on(); ?>
             | <?php the_category( ', ' ); ?>
-            <span itemprop="author" class="author" content="<?php the_author() ?>"><?php the_author() ?></span>
         </p>
 
         <a href="<?php esc_url( the_permalink() ) ?>" rel="bookmark">
