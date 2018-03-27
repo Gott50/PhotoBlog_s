@@ -23,6 +23,10 @@
   .menu-scroll-down {
     display: none;
   }
+
+  .nav-links a {
+    color: $color__nav-primary;
+  }
 }
 
 .content-home {
