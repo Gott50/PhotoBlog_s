@@ -27,7 +27,7 @@
 	$head = ob_get_contents();
 	ob_end_clean();
 	$head = str_replace( "ga('send', 'pageview');",
-		"ga('set', 'anonymizeIP', true); ga('send', 'pageview');", $head );
+		"ga('set', 'anonymizeIp', true); ga('send', 'pageview');", $head );
 	echo $head;
 	?>
 
