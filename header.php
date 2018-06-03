@@ -26,8 +26,8 @@
 	wp_head();
 	$head = ob_get_contents();
 	ob_end_clean();
-	$head = preg_replace( 'ga(’send‘, ‚pageview‘);',
-        "ga(’set‘, ‚anonymizeIP‘, true); ga(’send‘, ‚pageview‘);", $head );
+	$head = str_replace( "ga('send', 'pageview');",
+		"ga('set', 'anonymizeIP', true); ga('send', 'pageview');", $head );
 	echo $head;
 	?>
 
