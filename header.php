@@ -20,7 +20,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
-	<?php wp_head(); ?>
+
+	<?php
+	ob_start();
+	wp_head();
+	$head = ob_get_contents();
+	ob_end_clean();
+	$head = preg_replace( 'ga(’send‘, ‚pageview‘);',
+        "ga(’set‘, ‚anonymizeIP‘, true); ga(’send‘, ‚pageview‘);", $head );
+	echo $head;
+	?>
+
 </head>
 
 <body <?php body_class(); ?>>
